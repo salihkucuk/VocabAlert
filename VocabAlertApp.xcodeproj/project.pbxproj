@@ -14,6 +14,10 @@
 		662C553C2B07894700D30E70 /* quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = 662C553B2B07894700D30E70 /* quiz.json */; };
 		662C55402B0C90C200D30E70 /* TranslateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662C553F2B0C90C200D30E70 /* TranslateView.swift */; };
 		662C55422B0C912F00D30E70 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662C55412B0C912F00D30E70 /* SettingsView.swift */; };
+		662C55442B0C954C00D30E70 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662C55432B0C954C00D30E70 /* ScoreView.swift */; };
+		662C55462B0C95CB00D30E70 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662C55452B0C95CB00D30E70 /* CardView.swift */; };
+		662C55482B0C964700D30E70 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662C55472B0C964700D30E70 /* QuizView.swift */; };
+		662C554A2B0C96CD00D30E70 /* RandomWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662C55492B0C96CD00D30E70 /* RandomWordView.swift */; };
 		669A6EA32AEA913800CAFE9D /* VocabAlertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669A6EA22AEA913800CAFE9D /* VocabAlertApp.swift */; };
 		669A6EA52AEA913800CAFE9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669A6EA42AEA913800CAFE9D /* ContentView.swift */; };
 		669A6EA72AEA913800CAFE9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669A6EA62AEA913800CAFE9D /* Assets.xcassets */; };
@@ -62,6 +66,10 @@
 		662C553B2B07894700D30E70 /* quiz.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quiz.json; sourceTree = "<group>"; };
 		662C553F2B0C90C200D30E70 /* TranslateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateView.swift; sourceTree = "<group>"; };
 		662C55412B0C912F00D30E70 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		662C55432B0C954C00D30E70 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		662C55452B0C95CB00D30E70 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		662C55472B0C964700D30E70 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		662C55492B0C96CD00D30E70 /* RandomWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomWordView.swift; sourceTree = "<group>"; };
 		6657D2942AF397E30019961A /* OneSignalCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OneSignalCore.xcframework; path = Pods/OneSignal/iOS_SDK/OneSignalSDK/OneSignal_Core/OneSignalCore.xcframework; sourceTree = "<group>"; };
 		66611AE82AF11A690083EF1B /* VocabAlertApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VocabAlertApp.entitlements; sourceTree = "<group>"; };
 		66611AE92AF11A850083EF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -127,8 +135,12 @@
 				669A6EA42AEA913800CAFE9D /* ContentView.swift */,
 				6612507E2AED411900CAEC42 /* ContentViewModel.swift */,
 				6612507C2AED405800CAEC42 /* EnglishWordModel.swift */,
+				662C55492B0C96CD00D30E70 /* RandomWordView.swift */,
 				662C553F2B0C90C200D30E70 /* TranslateView.swift */,
 				662C55412B0C912F00D30E70 /* SettingsView.swift */,
+				662C55432B0C954C00D30E70 /* ScoreView.swift */,
+				662C55452B0C95CB00D30E70 /* CardView.swift */,
+				662C55472B0C964700D30E70 /* QuizView.swift */,
 				6612507A2AED3F0600CAEC42 /* tr.json */,
 				662C553B2B07894700D30E70 /* quiz.json */,
 				669A6EA62AEA913800CAFE9D /* Assets.xcassets */,
@@ -347,10 +359,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				662C55422B0C912F00D30E70 /* SettingsView.swift in Sources */,
+				662C55462B0C95CB00D30E70 /* CardView.swift in Sources */,
+				662C55442B0C954C00D30E70 /* ScoreView.swift in Sources */,
 				6612507D2AED405800CAEC42 /* EnglishWordModel.swift in Sources */,
 				662C55402B0C90C200D30E70 /* TranslateView.swift in Sources */,
+				662C554A2B0C96CD00D30E70 /* RandomWordView.swift in Sources */,
 				669A6EA52AEA913800CAFE9D /* ContentView.swift in Sources */,
 				669A6EA32AEA913800CAFE9D /* VocabAlertApp.swift in Sources */,
+				662C55482B0C964700D30E70 /* QuizView.swift in Sources */,
 				661250792AED1F8300CAEC42 /* LoginSignUpView.swift in Sources */,
 				6612507F2AED411900CAEC42 /* ContentViewModel.swift in Sources */,
 			);

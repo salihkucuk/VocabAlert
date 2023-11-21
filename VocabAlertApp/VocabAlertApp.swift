@@ -23,7 +23,7 @@ struct VocabAlertApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView{
-                LoginSignUpView()
+                ContentView()
                 
             }
         }

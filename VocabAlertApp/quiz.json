@@ -1,547 +1,876 @@
 {
     
-  "items": [
+    "items": [
         {
-              "id": 1,
-              "wordQ": "Book",
-              "wordA": "Kitap",
-              "options": ["Masa", "Sandalye", "Pencere"]
-          },
-          {
-              "id": 2,
-              "wordQ": "Cat",
-              "wordA": "Kedi",
-              "options": ["Köpek", "Balık", "Kuş"]
-          },
-          {
-              "id": 3,
-              "wordQ": "Sun",
-              "wordA": "Güneş",
-              "options": ["Ay", "Yıldız", "Bulut"]
-          },
-          {
-              "id": 4,
-              "wordQ": "Apple",
-              "wordA": "Elma",
-              "options": ["Muz", "Portakal", "Çilek"]
-          },
-          {
-              "id": 5,
-              "wordQ": "Tree",
-              "wordA": "Ağaç",
-              "options": ["Çiçek", "Ot", "Dağ"]
-          },
-          {
-              "id": 6,
-              "wordQ": "House",
-              "wordA": "Ev",
-              "options": ["Okul", "Ofis", "Hastane"]
-          },
-          {
-              "id": 7,
-              "wordQ": "Water",
-              "wordA": "Su",
-              "options": ["Süt", "Meyve Suyu", "Çay"]
-          },
-          {
-              "id": 8,
-              "wordQ": "Car",
-              "wordA": "Araba",
-              "options": ["Bisiklet", "Otobüs", "Tren"]
-          },
-          {
-              "id": 9,
-              "wordQ": "Flower",
-              "wordA": "Çiçek",
-              "options": ["Ağaç", "Yaprak", "Çimen"]
-          },
-          {
-              "id": 10,
-              "wordQ": "Bird",
-              "wordA": "Kuş",
-              "options": ["Kedi", "Balık", "Köpek"]
-          },
-          {
-                  "id": 11,
-                  "wordQ": "Teacher",
-                  "wordA": "Öğretmen",
-                  "options": ["Doktor", "Mühendis", "Pilot"]
-              },
-              {
-                  "id": 12,
-                  "wordQ": "Bicycle",
-                  "wordA": "Bisiklet",
-                  "options": ["Araba", "Motorsiklet", "Uçak"]
-              },
-              {
-                  "id": 13,
-                  "wordQ": "Banana",
-                  "wordA": "Muz",
-                  "options": ["Elma", "Armut", "Çilek"]
-              },
-              {
-                  "id": 14,
-                  "wordQ": "Computer",
-                  "wordA": "Bilgisayar",
-                  "options": ["Televizyon", "Radyo", "Telefon"]
-              },
-              {
-                  "id": 15,
-                  "wordQ": "Hospital",
-                  "wordA": "Hastane",
-                  "options": ["Okul", "Market", "Restoran"]
-              },
-              {
-                  "id": 16,
-                  "wordQ": "Fish",
-                  "wordA": "Balık",
-                  "options": ["Kuş", "Kedi", "Köpek"]
-              },
-              {
-                  "id": 17,
-                  "wordQ": "Shoe",
-                  "wordA": "Ayakkabı",
-                  "options": ["Gömlek", "Pantolon", "Şapka"]
-              },
-              {
-                  "id": 18,
-                  "wordQ": "Mountain",
-                  "wordA": "Dağ",
-                  "options": ["Nehir", "Göl", "Deniz"]
-              },
-              {
-                  "id": 19,
-                  "wordQ": "Rain",
-                  "wordA": "Yağmur",
-                  "options": ["Kar", "Güneş", "Rüzgar"]
-              },
-              {
-                  "id": 20,
-                  "wordQ": "Bread",
-                  "wordA": "Ekmek",
-                  "options": ["Peynir", "Yumurta", "Süt"]
-              },
-              {
-                  "id": 21,
-                  "wordQ": "City",
-                  "wordA": "Şehir",
-                  "options": ["Köy", "Ülke", "Mahalle"]
-              },
-              {
-                  "id": 22,
-                  "wordQ": "Coffee",
-                  "wordA": "Kahve",
-                  "options": ["Çay", "Süt", "Meyve Suyu"]
-              },
-              {
-                  "id": 23,
-                  "wordQ": "Garden",
-                  "wordA": "Bahçe",
-                  "options": ["Balkon", "Salon", "Mutfak"]
-              },
-              {
-                  "id": 24,
-                  "wordQ": "Music",
-                  "wordA": "Müzik",
-                  "options": ["Resim", "Dans", "Tiyatro"]
-              },
-              {
-                  "id": 25,
-                  "wordQ": "River",
-                  "wordA": "Nehir",
-                  "options": ["Göl", "Deniz", "Okyanus"]
-              },
-              {
-                  "id": 26,
-                  "wordQ": "School",
-                  "wordA": "Okul",
-                  "options": ["Hastane", "Market", "Kütüphane"]
-              },
-              {
-                  "id": 27,
-                  "wordQ": "Train",
-                  "wordA": "Tren",
-                  "options": ["Otobüs", "Uçak", "Araba"]
-              },
-              {
-                  "id": 28,
-                  "wordQ": "Weather",
-                  "wordA": "Hava Durumu",
-                  "options": ["Mevsim", "Sıcaklık", "Rüzgar"]
-              },
-              {
-                  "id": 29,
-                  "wordQ": "Milk",
-                  "wordA": "Süt",
-                  "options": ["Su", "Meyve Suyu", "Çay"]
-              },
-              {
-                  "id": 30,
-                  "wordQ": "Chicken",
-                  "wordA": "Tavuk",
-                  "options": ["Balık", "Kuzu", "Dana"]
-              },
-              {
-                      "id": 31,
-                      "wordQ": "Mountain",
-                      "wordA": "Dağ",
-                      "options": ["Vadi", "Ova", "Yarımada"]
-                  },
-                  {
-                      "id": 32,
-                      "wordQ": "Library",
-                      "wordA": "Kütüphane",
-                      "options": ["Sinema", "Tiyatro", "Müze"]
-                  },
-                  {
-                      "id": 33,
-                      "wordQ": "Ocean",
-                      "wordA": "Okyanus",
-                      "options": ["Göl", "Nehir", "Deniz"]
-                  },
-                  {
-                      "id": 34,
-                      "wordQ": "Artist",
-                      "wordA": "Sanatçı",
-                      "options": ["Mimar", "Mühendis", "Doktor"]
-                  },
-                  {
-                      "id": 35,
-                      "wordQ": "Bridge",
-                      "wordA": "Köprü",
-                      "options": ["Tünel", "Bina", "Yol"]
-                  },
-                  {
-                      "id": 36,
-                      "wordQ": "Island",
-                      "wordA": "Ada",
-                      "options": ["Yarımada", "Kıta", "Dağ"]
-                  },
-                  {
-                      "id": 37,
-                      "wordQ": "Language",
-                      "wordA": "Dil",
-                      "options": ["Alfabe", "Cümle", "Ses"]
-                  },
-                  {
-                      "id": 38,
-                      "wordQ": "Novel",
-                      "wordA": "Roman",
-                      "options": ["Şiir", "Makale", "Hikaye"]
-                  },
-                  {
-                      "id": 39,
-                      "wordQ": "Vegetable",
-                      "wordA": "Sebze",
-                      "options": ["Meyve", "Tahıl", "Et"]
-                  },
-                  {
-                      "id": 40,
-                      "wordQ": "Actor",
-                      "wordA": "Aktör",
-                      "options": ["Yönetmen", "Yazar", "Müzisyen"]
-                  },
-                  {
-                      "id": 41,
-                      "wordQ": "Environment",
-                      "wordA": "Çevre",
-                      "options": ["Ev", "Okul", "İş yeri"]
-                  },
-                  {
-                      "id": 42,
-                      "wordQ": "Fruit",
-                      "wordA": "Meyve",
-                      "options": ["Sebze", "Tahıl", "Süt Ürünü"]
-                  },
-                  {
-                      "id": 43,
-                      "wordQ": "Journalist",
-                      "wordA": "Gazeteci",
-                      "options": ["Avukat", "Doktor", "Mühendis"]
-                  },
-                  {
-                      "id": 44,
-                      "wordQ": "Poem",
-                      "wordA": "Şiir",
-                      "options": ["Roman", "Makale", "Öykü"]
-                  },
-                  {
-                      "id": 45,
-                      "wordQ": "President",
-                      "wordA": "Başkan",
-                      "options": ["Müdür", "Öğretmen", "Doktor"]
-                  },
-                  {
-                      "id": 46,
-                      "wordQ": "University",
-                      "wordA": "Üniversite",
-                      "options": ["Lise", "İlkokul", "Anaokulu"]
-                  },
-                  {
-                      "id": 47,
-                      "wordQ": "Village",
-                      "wordA": "Köy",
-                      "options": ["Şehir", "İlçe", "Bölge"]
-                  },
-                  {
-                      "id": 48,
-                      "wordQ": "Economy",
-                      "wordA": "Ekonomi",
-                      "options": ["Tarih", "Matematik", "Biyoloji"]
-                  },
-                  {
-                      "id": 49,
-                      "wordQ": "Holiday",
-                      "wordA": "Tatil",
-                      "options": ["İş günü", "Hafta sonu", "Mesai"]
-                  },
-                  {
-                      "id": 50,
-                      "wordQ": "Recipe",
-                      "wordA": "Tarif",
-                      "options": ["Menü", "Yemek", "İçecek"]
-                  },
-                  {
-                          "id": 51,
-                          "wordQ": "Nature",
-                          "wordA": "Doğa",
-                          "options": ["Bina", "Şehir", "Araç"]
-                      },
-                      {
-                          "id": 52,
-                          "wordQ": "Science",
-                          "wordA": "Bilim",
-                          "options": ["Sanat", "Edebiyat", "Tarih"]
-                      },
-                      {
-                          "id": 53,
-                          "wordQ": "Culture",
-                          "wordA": "Kültür",
-                          "options": ["Ekonomi", "Eğitim", "Sağlık"]
-                      },
-                      {
-                          "id": 54,
-                          "wordQ": "Health",
-                          "wordA": "Sağlık",
-                          "options": ["Hastalık", "Spor", "Diş"]
-                      },
-                      {
-                          "id": 55,
-                          "wordQ": "Energy",
-                          "wordA": "Enerji",
-                          "options": ["Güç", "Madde", "Hareket"]
-                      },
-                      {
-                          "id": 56,
-                          "wordQ": "Society",
-                          "wordA": "Toplum",
-                          "options": ["Birey", "Grup", "Takım"]
-                      },
-                      {
-                          "id": 57,
-                          "wordQ": "Government",
-                          "wordA": "Hükümet",
-                          "options": ["Şirket", "Okul", "Hastane"]
-                      },
-                      {
-                          "id": 58,
-                          "wordQ": "History",
-                          "wordA": "Tarih",
-                          "options": ["Coğrafya", "Matematik", "Biyoloji"]
-                      },
-                      {
-                          "id": 59,
-                          "wordQ": "Election",
-                          "wordA": "Seçim",
-                          "options": ["Karar", "Oylama", "Tartışma"]
-                      },
-                      {
-                          "id": 60,
-                          "wordQ": "Technology",
-                          "wordA": "Teknoloji",
-                          "options": ["Bilim", "Sanat", "Edebiyat"]
-                      },
-                      {
-                          "id": 61,
-                          "wordQ": "Transportation",
-                          "wordA": "Ulaşım",
-                          "options": ["Konaklama", "Eğlence", "Yemek"]
-                      },
-                      {
-                          "id": 62,
-                          "wordQ": "Adventure",
-                          "wordA": "Macera",
-                          "options": ["Rahatlama", "Çalışma", "Dinlenme"]
-                      },
-                      {
-                          "id": 63,
-                          "wordQ": "Economy",
-                          "wordA": "Ekonomi",
-                          "options": ["Kültür", "Eğitim", "Bilim"]
-                      },
-                      {
-                          "id": 64,
-                          "wordQ": "Democracy",
-                          "wordA": "Demokrasi",
-                          "options": ["Otoriterlik", "Monarşi", "Diktatörlük"]
-                      },
-                      {
-                          "id": 65,
-                          "wordQ": "Population",
-                          "wordA": "Nüfus",
-                          "options": ["Azınlık", "Grup", "Kalabalık"]
-                      },
-                      {
-                          "id": 66,
-                          "wordQ": "Pollution",
-                          "wordA": "Kirlilik",
-                          "options": ["Temizlik", "Saflık", "Doğallık"]
-                      },
-                      {
-                          "id": 67,
-                          "wordQ": "Agriculture",
-                          "wordA": "Tarım",
-                          "options": ["Sanayi", "Ticaret", "Eğitim"]
-                      },
-                      {
-                          "id": 68,
-                          "wordQ": "Innovation",
-                          "wordA": "Yenilik",
-                          "options": ["Taklit", "Gelenek", "Eski"]
-                      },
-                      {
-                          "id": 69,
-                          "wordQ": "Art",
-                          "wordA": "Sanat",
-                          "options": ["Bilim", "Teknoloji", "Matematik"]
-                      },
-                      {
-                          "id": 70,
-                          "wordQ": "Music",
-                          "wordA": "Müzik",
-                          "options": ["Resim", "Dans", "Heykel"]
-                      },
-                      {
-                          "id": 71,
-                          "wordQ": "Literature",
-                          "wordA": "Edebiyat",
-                          "options": ["Matematik", "Fizik", "Kimya"]
-                      },
-                      {
-                          "id": 72,
-                          "wordQ": "Cinema",
-                          "wordA": "Sinema",
-                          "options": ["Tiyatro", "Konser", "Sergi"]
-                      },
-                      {
-                          "id": 73,
-                          "wordQ": "Global",
-                          "wordA": "Küresel",
-                          "options": ["Yerel", "Ulusal", "Bölgesel"]
-                      },
-                      {
-                          "id": 74,
-                          "wordQ": "Climate",
-                          "wordA": "İklim",
-                          "options": ["Hava", "Mevsim", "Atmosfer"]
-                      },
-                      {
-                          "id": 75,
-                          "wordQ": "Resource",
-                          "wordA": "Kaynak",
-                          "options": ["Ürün", "Maliyet", "Talep"]
-                      },
-                      {
-                          "id": 76,
-                          "wordQ": "Research",
-                          "wordA": "Araştırma",
-                          "options": ["Eğitim", "Öğretim", "Bilgi"]
-                      },
-                      {
-                          "id": 77,
-                          "wordQ": "Species",
-                          "wordA": "Tür",
-                          "options": ["Grup", "Cins", "Aile"]
-                      },
-                      {
-                          "id": 78,
-                          "wordQ": "Wildlife",
-                          "wordA": "Vahşi Yaşam",
-                          "options": ["Kent Yaşamı", "Kırsal", "Sanayi"]
-                      },
-                      {
-                          "id": 79,
-                          "wordQ": "Heritage",
-                          "wordA": "Miras",
-                          "options": ["Gelecek", "Hediye", "Ödül"]
-                      },
-                      {
-                          "id": 80,
-                          "wordQ": "Tradition",
-                          "wordA": "Gelenek",
-                          "options": ["Modern", "Yenilik", "Değişiklik"]
-                      },
-                      {
-                          "id": 81,
-                          "wordQ": "Community",
-                          "wordA": "Topluluk",
-                          "options": ["Birey", "Grup", "Organizasyon"]
-                      },
-                      {
-                          "id": 82,
-                          "wordQ": "Network",
-                          "wordA": "Ağ",
-                          "options": ["Sistem", "Birey", "Grup"]
-                      },
-                      {
-                          "id": 83,
-                          "wordQ": "Media",
-                          "wordA": "Medya",
-                          "options": ["Haber", "Reklam", "Eğlence"]
-                      },
-                      {
-                          "id": 84,
-                          "wordQ": "Campaign",
-                          "wordA": "Kampanya",
-                          "options": ["Yarışma", "Anket", "Gösteri"]
-                      },
-                      {
-                          "id": 85,
-                          "wordQ": "Conflict",
-                          "wordA": "Çatışma",
-                          "options": ["Barış", "Anlaşma", "Dostluk"]
-                      },
-                      {
-                          "id": 86,
-                          "wordQ": "Diversity",
-                          "wordA": "Çeşitlilik",
-                          "options": ["Benzerlik", "Tekdüzelik", "Eşitlik"]
-                      },
-                      {
-                          "id": 87,
-                          "wordQ": "Equality",
-                          "wordA": "Eşitlik",
-                          "options": ["Adaletsizlik", "Ayrımcılık", "Üstünlük"]
-                      },
-                      {
-                          "id": 88,
-                          "wordQ": "Freedom",
-                          "wordA": "Özgürlük",
-                          "options": ["Kısıtlama", "Yasak", "Kontrol"]
-                      },
-                      {
-                          "id": 89,
-                          "wordQ": "Humanity",
-                          "wordA": "İnsanlık",
-                          "options": ["Teknoloji", "Doğa", "Makine"]
-                      },
-                      {
-                          "id": 90,
-                          "wordQ": "Influence",
-                          "wordA": "Etki",
-                          "options": ["Güç", "Zayıflık", "Bağımsızlık"]
-                      },
-                  
+            "id": 1,
+            "wordQ": "Book",
+            "wordA": "Kitap",
+            "options": ["Masa", "Sandalye", "Pencere"]
+        },
+        {
+            "id": 2,
+            "wordQ": "Cat",
+            "wordA": "Kedi",
+            "options": ["Köpek", "Balık", "Kuş"]
+        },
+        {
+            "id": 3,
+            "wordQ": "Sun",
+            "wordA": "Güneş",
+            "options": ["Ay", "Yıldız", "Bulut"]
+        },
+        {
+            "id": 4,
+            "wordQ": "Apple",
+            "wordA": "Elma",
+            "options": ["Muz", "Portakal", "Çilek"]
+        },
+        {
+            "id": 5,
+            "wordQ": "Tree",
+            "wordA": "Ağaç",
+            "options": ["Çiçek", "Ot", "Dağ"]
+        },
+        {
+            "id": 6,
+            "wordQ": "House",
+            "wordA": "Ev",
+            "options": ["Okul", "Ofis", "Hastane"]
+        },
+        {
+            "id": 7,
+            "wordQ": "Water",
+            "wordA": "Su",
+            "options": ["Süt", "Meyve Suyu", "Çay"]
+        },
+        {
+            "id": 8,
+            "wordQ": "Car",
+            "wordA": "Araba",
+            "options": ["Bisiklet", "Otobüs", "Tren"]
+        },
+        {
+            "id": 9,
+            "wordQ": "Flower",
+            "wordA": "Çiçek",
+            "options": ["Ağaç", "Yaprak", "Çimen"]
+        },
+        {
+            "id": 10,
+            "wordQ": "Bird",
+            "wordA": "Kuş",
+            "options": ["Kedi", "Balık", "Köpek"]
+        },
+        {
+            "id": 11,
+            "wordQ": "Teacher",
+            "wordA": "Öğretmen",
+            "options": ["Doktor", "Mühendis", "Pilot"]
+        },
+        {
+            "id": 12,
+            "wordQ": "Bicycle",
+            "wordA": "Bisiklet",
+            "options": ["Araba", "Motorsiklet", "Uçak"]
+        },
+        {
+            "id": 13,
+            "wordQ": "Banana",
+            "wordA": "Muz",
+            "options": ["Elma", "Armut", "Çilek"]
+        },
+        {
+            "id": 14,
+            "wordQ": "Computer",
+            "wordA": "Bilgisayar",
+            "options": ["Televizyon", "Radyo", "Telefon"]
+        },
+        {
+            "id": 15,
+            "wordQ": "Hospital",
+            "wordA": "Hastane",
+            "options": ["Okul", "Market", "Restoran"]
+        },
+        {
+            "id": 16,
+            "wordQ": "Fish",
+            "wordA": "Balık",
+            "options": ["Kuş", "Kedi", "Köpek"]
+        },
+        {
+            "id": 17,
+            "wordQ": "Shoe",
+            "wordA": "Ayakkabı",
+            "options": ["Gömlek", "Pantolon", "Şapka"]
+        },
+        {
+            "id": 18,
+            "wordQ": "Mountain",
+            "wordA": "Dağ",
+            "options": ["Nehir", "Göl", "Deniz"]
+        },
+        {
+            "id": 19,
+            "wordQ": "Rain",
+            "wordA": "Yağmur",
+            "options": ["Kar", "Güneş", "Rüzgar"]
+        },
+        {
+            "id": 20,
+            "wordQ": "Bread",
+            "wordA": "Ekmek",
+            "options": ["Peynir", "Yumurta", "Süt"]
+        },
+        {
+            "id": 21,
+            "wordQ": "City",
+            "wordA": "Şehir",
+            "options": ["Köy", "Ülke", "Mahalle"]
+        },
+        {
+            "id": 22,
+            "wordQ": "Coffee",
+            "wordA": "Kahve",
+            "options": ["Çay", "Süt", "Meyve Suyu"]
+        },
+        {
+            "id": 23,
+            "wordQ": "Garden",
+            "wordA": "Bahçe",
+            "options": ["Balkon", "Salon", "Mutfak"]
+        },
+        {
+            "id": 24,
+            "wordQ": "Music",
+            "wordA": "Müzik",
+            "options": ["Resim", "Dans", "Tiyatro"]
+        },
+        {
+            "id": 25,
+            "wordQ": "River",
+            "wordA": "Nehir",
+            "options": ["Göl", "Deniz", "Okyanus"]
+        },
+        {
+            "id": 26,
+            "wordQ": "School",
+            "wordA": "Okul",
+            "options": ["Hastane", "Market", "Kütüphane"]
+        },
+        {
+            "id": 27,
+            "wordQ": "Train",
+            "wordA": "Tren",
+            "options": ["Otobüs", "Uçak", "Araba"]
+        },
+        {
+            "id": 28,
+            "wordQ": "Weather",
+            "wordA": "Hava Durumu",
+            "options": ["Mevsim", "Sıcaklık", "Rüzgar"]
+        },
+        {
+            "id": 29,
+            "wordQ": "Milk",
+            "wordA": "Süt",
+            "options": ["Su", "Meyve Suyu", "Çay"]
+        },
+        {
+            "id": 30,
+            "wordQ": "Chicken",
+            "wordA": "Tavuk",
+            "options": ["Balık", "Kuzu", "Dana"]
+        },
+        {
+            "id": 31,
+            "wordQ": "Mountain",
+            "wordA": "Dağ",
+            "options": ["Vadi", "Ova", "Yarımada"]
+        },
+        {
+            "id": 32,
+            "wordQ": "Library",
+            "wordA": "Kütüphane",
+            "options": ["Sinema", "Tiyatro", "Müze"]
+        },
+        {
+            "id": 33,
+            "wordQ": "Ocean",
+            "wordA": "Okyanus",
+            "options": ["Göl", "Nehir", "Deniz"]
+        },
+        {
+            "id": 34,
+            "wordQ": "Artist",
+            "wordA": "Sanatçı",
+            "options": ["Mimar", "Mühendis", "Doktor"]
+        },
+        {
+            "id": 35,
+            "wordQ": "Bridge",
+            "wordA": "Köprü",
+            "options": ["Tünel", "Bina", "Yol"]
+        },
+        {
+            "id": 36,
+            "wordQ": "Island",
+            "wordA": "Ada",
+            "options": ["Yarımada", "Kıta", "Dağ"]
+        },
+        {
+            "id": 37,
+            "wordQ": "Language",
+            "wordA": "Dil",
+            "options": ["Alfabe", "Cümle", "Ses"]
+        },
+        {
+            "id": 38,
+            "wordQ": "Novel",
+            "wordA": "Roman",
+            "options": ["Şiir", "Makale", "Hikaye"]
+        },
+        {
+            "id": 39,
+            "wordQ": "Vegetable",
+            "wordA": "Sebze",
+            "options": ["Meyve", "Tahıl", "Et"]
+        },
+        {
+            "id": 40,
+            "wordQ": "Actor",
+            "wordA": "Aktör",
+            "options": ["Yönetmen", "Yazar", "Müzisyen"]
+        },
+        {
+            "id": 41,
+            "wordQ": "Environment",
+            "wordA": "Çevre",
+            "options": ["Ev", "Okul", "İş yeri"]
+        },
+        {
+            "id": 42,
+            "wordQ": "Fruit",
+            "wordA": "Meyve",
+            "options": ["Sebze", "Tahıl", "Süt Ürünü"]
+        },
+        {
+            "id": 43,
+            "wordQ": "Journalist",
+            "wordA": "Gazeteci",
+            "options": ["Avukat", "Doktor", "Mühendis"]
+        },
+        {
+            "id": 44,
+            "wordQ": "Poem",
+            "wordA": "Şiir",
+            "options": ["Roman", "Makale", "Öykü"]
+        },
+        {
+            "id": 45,
+            "wordQ": "President",
+            "wordA": "Başkan",
+            "options": ["Müdür", "Öğretmen", "Doktor"]
+        },
+        {
+            "id": 46,
+            "wordQ": "University",
+            "wordA": "Üniversite",
+            "options": ["Lise", "İlkokul", "Anaokulu"]
+        },
+        {
+            "id": 47,
+            "wordQ": "Village",
+            "wordA": "Köy",
+            "options": ["Şehir", "İlçe", "Bölge"]
+        },
+        {
+            "id": 48,
+            "wordQ": "Economy",
+            "wordA": "Ekonomi",
+            "options": ["Tarih", "Matematik", "Biyoloji"]
+        },
+        {
+            "id": 49,
+            "wordQ": "Holiday",
+            "wordA": "Tatil",
+            "options": ["İş günü", "Hafta sonu", "Mesai"]
+        },
+        {
+            "id": 50,
+            "wordQ": "Recipe",
+            "wordA": "Tarif",
+            "options": ["Menü", "Yemek", "İçecek"]
+        },
+        {
+            "id": 51,
+            "wordQ": "Nature",
+            "wordA": "Doğa",
+            "options": ["Bina", "Şehir", "Araç"]
+        },
+        {
+            "id": 52,
+            "wordQ": "Science",
+            "wordA": "Bilim",
+            "options": ["Sanat", "Edebiyat", "Tarih"]
+        },
+        {
+            "id": 53,
+            "wordQ": "Culture",
+            "wordA": "Kültür",
+            "options": ["Ekonomi", "Eğitim", "Sağlık"]
+        },
+        {
+            "id": 54,
+            "wordQ": "Health",
+            "wordA": "Sağlık",
+            "options": ["Hastalık", "Spor", "Diş"]
+        },
+        {
+            "id": 55,
+            "wordQ": "Energy",
+            "wordA": "Enerji",
+            "options": ["Güç", "Madde", "Hareket"]
+        },
+        {
+            "id": 56,
+            "wordQ": "Society",
+            "wordA": "Toplum",
+            "options": ["Birey", "Grup", "Takım"]
+        },
+        {
+            "id": 57,
+            "wordQ": "Government",
+            "wordA": "Hükümet",
+            "options": ["Şirket", "Okul", "Hastane"]
+        },
+        {
+            "id": 58,
+            "wordQ": "History",
+            "wordA": "Tarih",
+            "options": ["Coğrafya", "Matematik", "Biyoloji"]
+        },
+        {
+            "id": 59,
+            "wordQ": "Election",
+            "wordA": "Seçim",
+            "options": ["Karar", "Oylama", "Tartışma"]
+        },
+        {
+            "id": 60,
+            "wordQ": "Technology",
+            "wordA": "Teknoloji",
+            "options": ["Bilim", "Sanat", "Edebiyat"]
+        },
+        {
+            "id": 61,
+            "wordQ": "Transportation",
+            "wordA": "Ulaşım",
+            "options": ["Konaklama", "Eğlence", "Yemek"]
+        },
+        {
+            "id": 62,
+            "wordQ": "Adventure",
+            "wordA": "Macera",
+            "options": ["Rahatlama", "Çalışma", "Dinlenme"]
+        },
+        {
+            "id": 63,
+            "wordQ": "Economy",
+            "wordA": "Ekonomi",
+            "options": ["Kültür", "Eğitim", "Bilim"]
+        },
+        {
+            "id": 64,
+            "wordQ": "Democracy",
+            "wordA": "Demokrasi",
+            "options": ["Otoriterlik", "Monarşi", "Diktatörlük"]
+        },
+        {
+            "id": 65,
+            "wordQ": "Population",
+            "wordA": "Nüfus",
+            "options": ["Azınlık", "Grup", "Kalabalık"]
+        },
+        {
+            "id": 66,
+            "wordQ": "Pollution",
+            "wordA": "Kirlilik",
+            "options": ["Temizlik", "Saflık", "Doğallık"]
+        },
+        {
+            "id": 67,
+            "wordQ": "Agriculture",
+            "wordA": "Tarım",
+            "options": ["Sanayi", "Ticaret", "Eğitim"]
+        },
+        {
+            "id": 68,
+            "wordQ": "Innovation",
+            "wordA": "Yenilik",
+            "options": ["Taklit", "Gelenek", "Eski"]
+        },
+        {
+            "id": 69,
+            "wordQ": "Art",
+            "wordA": "Sanat",
+            "options": ["Bilim", "Teknoloji", "Matematik"]
+        },
+        {
+            "id": 70,
+            "wordQ": "Music",
+            "wordA": "Müzik",
+            "options": ["Resim", "Dans", "Heykel"]
+        },
+        {
+            "id": 71,
+            "wordQ": "Literature",
+            "wordA": "Edebiyat",
+            "options": ["Matematik", "Fizik", "Kimya"]
+        },
+        {
+            "id": 72,
+            "wordQ": "Cinema",
+            "wordA": "Sinema",
+            "options": ["Tiyatro", "Konser", "Sergi"]
+        },
+        {
+            "id": 73,
+            "wordQ": "Global",
+            "wordA": "Küresel",
+            "options": ["Yerel", "Ulusal", "Bölgesel"]
+        },
+        {
+            "id": 74,
+            "wordQ": "Climate",
+            "wordA": "İklim",
+            "options": ["Hava", "Mevsim", "Atmosfer"]
+        },
+        {
+            "id": 75,
+            "wordQ": "Resource",
+            "wordA": "Kaynak",
+            "options": ["Ürün", "Maliyet", "Talep"]
+        },
+        {
+            "id": 76,
+            "wordQ": "Research",
+            "wordA": "Araştırma",
+            "options": ["Eğitim", "Öğretim", "Bilgi"]
+        },
+        {
+            "id": 77,
+            "wordQ": "Species",
+            "wordA": "Tür",
+            "options": ["Grup", "Cins", "Aile"]
+        },
+        {
+            "id": 78,
+            "wordQ": "Wildlife",
+            "wordA": "Vahşi Yaşam",
+            "options": ["Kent Yaşamı", "Kırsal", "Sanayi"]
+        },
+        {
+            "id": 79,
+            "wordQ": "Heritage",
+            "wordA": "Miras",
+            "options": ["Gelecek", "Hediye", "Ödül"]
+        },
+        {
+            "id": 80,
+            "wordQ": "Tradition",
+            "wordA": "Gelenek",
+            "options": ["Modern", "Yenilik", "Değişiklik"]
+        },
+        {
+            "id": 81,
+            "wordQ": "Community",
+            "wordA": "Topluluk",
+            "options": ["Birey", "Grup", "Organizasyon"]
+        },
+        {
+            "id": 82,
+            "wordQ": "Network",
+            "wordA": "Ağ",
+            "options": ["Sistem", "Birey", "Grup"]
+        },
+        {
+            "id": 83,
+            "wordQ": "Media",
+            "wordA": "Medya",
+            "options": ["Haber", "Reklam", "Eğlence"]
+        },
+        {
+            "id": 84,
+            "wordQ": "Campaign",
+            "wordA": "Kampanya",
+            "options": ["Yarışma", "Anket", "Gösteri"]
+        },
+        {
+            "id": 85,
+            "wordQ": "Conflict",
+            "wordA": "Çatışma",
+            "options": ["Barış", "Anlaşma", "Dostluk"]
+        },
+        {
+            "id": 86,
+            "wordQ": "Diversity",
+            "wordA": "Çeşitlilik",
+            "options": ["Benzerlik", "Tekdüzelik", "Eşitlik"]
+        },
+        {
+            "id": 87,
+            "wordQ": "Equality",
+            "wordA": "Eşitlik",
+            "options": ["Adaletsizlik", "Ayrımcılık", "Üstünlük"]
+        },
+        {
+            "id": 88,
+            "wordQ": "Freedom",
+            "wordA": "Özgürlük",
+            "options": ["Kısıtlama", "Yasak", "Kontrol"]
+        },
+        {
+            "id": 89,
+            "wordQ": "Humanity",
+            "wordA": "İnsanlık",
+            "options": ["Teknoloji", "Doğa", "Makine"]
+        },
+        {
+            "id": 90,
+            "wordQ": "Influence",
+            "wordA": "Etki",
+            "options": ["Güç", "Zayıflık", "Bağımsızlık"]
+        },
+        {
+            "id": 91,
+            "wordQ": "Achievement",
+            "wordA": "Başarı",
+            "options": ["Başarısızlık", "Hedef", "Çaba"]
+        },
+        {
+            "id": 92,
+            "wordQ": "Commitment",
+            "wordA": "Taahhüt",
+            "options": ["İhmal", "Red", "Vazgeçme"]
+        },
+        {
+            "id": 93,
+            "wordQ": "Consequence",
+            "wordA": "Sonuç",
+            "options": ["Neden", "Başlangıç", "Süreç"]
+        },
+        {
+            "id": 94,
+            "wordQ": "Dedication",
+            "wordA": "Adanmışlık",
+            "options": ["İlgisizlik", "Ayrılma", "Bölünme"]
+        },
+        {
+            "id": 95,
+            "wordQ": "Diverse",
+            "wordA": "Çeşitli",
+            "options": ["Benzer", "Aynı", "Tek tip"]
+        },
+        {
+            "id": 96,
+            "wordQ": "Innovative",
+            "wordA": "Yenilikçi",
+            "options": ["Geleneksel", "Eski moda", "Demode"]
+        },
+        {
+            "id": 97,
+            "wordQ": "Perspective",
+            "wordA": "Perspektif",
+            "options": ["Bilgisizlik", "Dar görüşlülük", "Önyargı"]
+        },
+        {
+            "id": 98,
+            "wordQ": "Preliminary",
+            "wordA": "Ön",
+            "options": ["Son", "Ara", "Kesin"]
+        },
+        {
+            "id": 99,
+            "wordQ": "Sophisticated",
+            "wordA": "Karmaşık",
+            "options": ["Basit", "İlkel", "Anlaşılır"]
+        },
+        {
+            "id": 100,
+            "wordQ": "Sustainable",
+            "wordA": "Sürdürülebilir",
+            "options": ["Geçici", "Yıkıcı", "Kısa ömürlü"]
+        },
+        {
+            "id": 101,
+            "wordQ": "Agree",
+            "wordA": "Katılmak",
+            "options": ["Reddetmek", "Çıkmak", "Ayrılmak"]
+        },
+        {
+            "id": 102,
+            "wordQ": "Compare",
+            "wordA": "Karşılaştırmak",
+            "options": ["Birleştirmek", "Bozmak", "Koparmak"]
+        },
+        {
+            "id": 103,
+            "wordQ": "Judge",
+            "wordA": "Yargılamak",
+            "options": ["Övmek", "Göz ardı etmek", "Onaylamak"]
+        },
+        {
+            "id": 104,
+            "wordQ": "Offer",
+            "wordA": "Teklif etmek",
+            "options": ["Almak", "Kabul etmek", "Reddetmek"]
+        },
+        {
+            "id": 105,
+            "wordQ": "Prevent",
+            "wordA": "Önlemek",
+            "options": ["İzin vermek", "Teşvik etmek", "Desteklemek"]
+        },
+        {
+            "id": 106,
+            "wordQ": "Announce",
+            "wordA": "Duyurmak",
+            "options": ["Saklamak", "Susturmak", "Geçiştirmek"]
+        },
+        {
+            "id": 107,
+            "wordQ": "Consider",
+            "wordA": "Düşünmek",
+            "options": ["Unutmak", "Yok saymak", "İhmal etmek"]
+        },
+        {
+            "id": 108,
+            "wordQ": "Encourage",
+            "wordA": "Cesaretlendirmek",
+            "options": ["Caydırmak", "Korkutmak", "Vazgeçirmek"]
+        },
+        {
+            "id": 109,
+            "wordQ": "Improve",
+            "wordA": "Geliştirmek",
+            "options": ["Bozmak", "Kötüleştirmek", "Azaltmak"]
+        },
+        {
+            "id": 110,
+            "wordQ": "Maintain",
+            "wordA": "Sürdürmek",
+            "options": ["Bozmak", "Durmak", "Bırakmak"]
+        },
+        {
+            "id": 111,
+            "wordQ": "Argue",
+            "wordA": "Tartışmak",
+            "options": ["Anlaşmak", "Kabul etmek", "Razı olmak"]
+        },
+        {
+            "id": 112,
+            "wordQ": "Decide",
+            "wordA": "Karar vermek",
+            "options": ["Kararsız kalmak", "Tercih etmek", "Seçmek"]
+        },
+        {
+            "id": 113,
+            "wordQ": "Expect",
+            "wordA": "Beklemek",
+            "options": ["Şaşırmak", "Önlemek", "İhmal etmek"]
+        },
+        {
+            "id": 114,
+            "wordQ": "Include",
+            "wordA": "İçermek",
+            "options": ["Hariç tutmak", "Atmak", "Çıkarmak"]
+        },
+        {
+            "id": 115,
+            "wordQ": "Succeed",
+            "wordA": "Başarmak",
+            "options": ["Başarısız olmak", "Vazgeçmek", "Kaybetmek"]
+        },
+        {
+            "id": 116,
+            "wordQ": "Admit",
+            "wordA": "İtiraf etmek",
+            "options": ["Reddetmek", "Yalanlamak", "Saklamak"]
+        },
+        {
+            "id": 117,
+            "wordQ": "Discuss",
+            "wordA": "Tartışmak",
+            "options": ["Dinlemek", "Konuşmak", "Anlatmak"]
+        },
+        {
+            "id": 118,
+            "wordQ": "Express",
+            "wordA": "İfade etmek",
+            "options": ["Bastırmak", "Saklamak", "Gizlemek"]
+        },
+        {
+            "id": 119,
+            "wordQ": "Influence",
+            "wordA": "Etkilemek",
+            "options": ["İzlemek", "Dinlemek", "Gözlemek"]
+        },
+        {
+            "id": 120,
+            "wordQ": "Require",
+            "wordA": "Gerektirmek",
+            "options": ["Yasaklamak", "Engellemek", "Serbest bırakmak"]
+        },
+        {
+            "id": 121,
+            "wordQ": "Arrive",
+            "wordA": "Varmak",
+            "options": ["Ayrılmak", "Kaybolmak", "Dolaşmak"]
+        },
+        {
+            "id": 122,
+            "wordQ": "Bake",
+            "wordA": "Pişirmek",
+            "options": ["Kaynatmak", "Kızartmak", "Soğutmak"]
+        },
+        {
+            "id": 123,
+            "wordQ": "Collect",
+            "wordA": "Toplamak",
+            "options": ["Dağıtmak", "Atmak", "Yıkmak"]
+        },
+        {
+            "id": 124,
+            "wordQ": "Deliver",
+            "wordA": "Teslim etmek",
+            "options": ["Almak", "Reddetmek", "Tutmak"]
+        },
+        {
+            "id": 125,
+            "wordQ": "Enjoy",
+            "wordA": "Zevk almak",
+            "options": ["Nefret etmek", "Şikayet etmek", "Üzülmek"]
+        },
+        {
+            "id": 126,
+            "wordQ": "Follow",
+            "wordA": "Takip etmek",
+            "options": ["Öncülük etmek", "Kaçmak", "Yanıltmak"]
+        },
+        {
+            "id": 127,
+            "wordQ": "Guess",
+            "wordA": "Tahmin etmek",
+            "options": ["Bilmek", "Anlamak", "Öğrenmek"]
+        },
+        {
+            "id": 128,
+            "wordQ": "Hang",
+            "wordA": "Asmak",
+            "options": ["Düşürmek", "Yapıştırmak", "Koymak"]
+        },
+        {
+            "id": 129,
+            "wordQ": "Introduce",
+            "wordA": "Tanıtmak",
+            "options": ["Gizlemek", "Unutmak", "Engellemek"]
+        },
+        {
+            "id": 130,
+            "wordQ": "Join",
+            "wordA": "Katılmak",
+            "options": ["Ayrılmak", "Reddetmek", "Bozulmak"]
+        },
+        {
+            "id": 131,
+            "wordQ": "Kick",
+            "wordA": "Tekmelemek",
+            "options": ["Öpmek", "Sarhoş olmak", "Okşamak"]
+        },
+        {
+            "id": 132,
+            "wordQ": "Lift",
+            "wordA": "Kaldırmak",
+            "options": ["İndirmek", "Düşmek", "Yatıştırmak"]
+        },
+        {
+            "id": 133,
+            "wordQ": "Move",
+            "wordA": "Hareket etmek",
+            "options": ["Durmak", "Sakinleşmek", "Dondurmak"]
+        },
+        {
+            "id": 134,
+            "wordQ": "Notice",
+            "wordA": "Fark etmek",
+            "options": ["Göz ardı etmek", "Yok saymak", "İhmal etmek"]
+        },
+        {
+            "id": 135,
+            "wordQ": "Paint",
+            "wordA": "Boya yapmak",
+            "options": ["Yıkamak", "Yırtmak", "Bırakmak"]
+        },
+        {
+            "id": 136,
+            "wordQ": "Question",
+            "wordA": "Soru sormak",
+            "options": ["Cevaplamak", "Komut vermek", "Reddetmek"]
+        },
+        {
+            "id": 137,
+            "wordQ": "Repair",
+            "wordA": "Tamir etmek",
+            "options": ["Kırmak", "Bozmak", "Kirletmek"]
+        },
+        {
+            "id": 138,
+            "wordQ": "Shout",
+            "wordA": "Bağırmak",
+            "options": ["Fısıldamak", "Söylemek", "Şarkı söylemek"]
+        },
+        {
+            "id": 139,
+            "wordQ": "Travel",
+            "wordA": "Seyahat etmek",
+            "options": ["Dinlenmek", "Çalışmak", "Durmak"]
+        },
+        {
+            "id": 140,
+            "wordQ": "Use",
+            "wordA": "Kullanmak",
+            "options": ["Atmak", "Kaybetmek", "Saklamak"]
+        },
+        {
+            "id": 141,
+            "wordQ": "Visit",
+            "wordA": "Ziyaret etmek",
+            "options": ["Terketmek", "Kaçmak", "İzlemek"]
+        },
+        {
+            "id": 142,
+            "wordQ": "Wash",
+            "wordA": "Yıkamak",
+            "options": ["Kirletmek", "Boyamak", "Kesmek"]
+        },
+        {
+            "id": 143,
+            "wordQ": "X-ray",
+            "wordA": "Röntgen çekmek",
+            "options": ["Tedavi etmek", "Muayene etmek", "Dinlemek"]
+        },
+        {
+            "id": 144,
+            "wordQ": "Yell",
+            "wordA": "Çığlık atmak",
+            "options": ["Fısıldamak", "Konuşmak", "Şarkı söylemek"]
+        },
+        {
+            "id": 145,
+            "wordQ": "Zip",
+            "wordA": "Fermuarını çekmek",
+            "options": ["Açmak", "Koparmak", "Yırtmak"]
+        }
         
     ]
-    }
+}
