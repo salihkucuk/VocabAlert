@@ -1,0 +1,963 @@
+{
+    "languageCode": "tr",
+    "languageName": "Turkish",
+    "languageNativeName": "Türkçe",
+    "words": [
+        {"rank": 2, "targetWord": "Ağustos", "englishWord": ["August", "August is a hot month.", "We went on vacation in August.", "My birthday is in August, and we always celebrate with a barbecue."]},
+        {"rank": 3, "targetWord": "CD", "englishWord": ["CD", "I bought a new CD.", "The CD is in the living room.", "I love listening to CDs while relaxing."]},
+        {"rank": 4, "targetWord": "Aralık", "englishWord": ["December", "My birthday is in December.", "It snows a lot in December.", "We decorate the house for Christmas in December."]},
+        {"rank": 5, "targetWord": "Şubat", "englishWord": ["February", "February is a short month.", "We celebrate Valentine's Day in February.", "My anniversary is in February."]},
+        {"rank": 6, "targetWord": "Cuma", "englishWord": ["Friday", "I love Fridays.", "We have a meeting every Friday.", "Friday nights are movie nights in our house."]},
+        {"rank": 7, "targetWord": "Ben", "englishWord": ["I", "I am a student.", "Can I help you?", "I like to read books in my free time."]},
+        {"rank": 8, "targetWord": "İnternet", "englishWord": ["Internet", "I use the internet every day.", "The internet connection is fast.", "I often watch online videos on the internet."]},
+        {"rank": 9, "targetWord": "Ocak", "englishWord": ["January", "January is the first month.", "It's usually cold in January.", "We make New Year's resolutions in January."]},
+        {"rank": 10, "targetWord": "Temmuz", "englishWord": ["July", "July is a summer month.", "We have a picnic in July.", "I love swimming in July."]},
+        {"rank": 11, "targetWord": "Haziran", "englishWord": ["June", "June is the sixth month.", "My birthday is in June.", "June is the start of the summer season."]},
+        {"rank": 12, "targetWord": "K", "englishWord": ["K", "The answer is K.", "Please write it with a K.", "My favorite color starts with the letter K."]},
+        {"rank": 13, "targetWord": "Mart", "englishWord": ["March", "March comes after February.", "It's spring in March.", "I enjoy the blooming flowers in March."]},
+        {"rank": 14, "targetWord": "Mayıs", "englishWord": ["May", "May is a beautiful month.", "We have a holiday in May.", "May is the month of flowers."]},
+        {"rank": 15, "targetWord": "Pazartesi", "englishWord": ["Monday", "Monday is the first day of the week.", "I have a meeting on Monday.", "Monday mornings are always busy."]},
+        {"rank": 16, "targetWord": "Bay", "englishWord": ["Mr.", "We call him Mr. Smith.", "Mr. Johnson is our boss.", "Mr. Brown is a reliable colleague."]},
+        {"rank": 17, "targetWord": "Bayan", "englishWord": ["Mrs.", "Mrs. Smith is a teacher.", "I spoke with Mrs. Johnson.", "Mrs. Davis is our neighbor."]},
+        {"rank": 18, "targetWord": "Bayan", "englishWord": ["Ms.", "Ms. Davis is in the meeting.", "I received an email from Ms. White.", "Ms. Taylor is the project manager."]},
+        {"rank": 19, "targetWord": "Kasım", "englishWord": ["November", "November is the eleventh month.", "It gets colder in November.", "We celebrate Thanksgiving in November."]},
+        {"rank": 20, "targetWord": "Tamam", "englishWord": ["OK", "OK, I understand.", "You can say OK.", "Is it OK if I come over later?"]},
+        
+        {"rank": 21, "targetWord": "Ekim", "englishWord": ["October", "October is a colorful month.", "Halloween is in October.", "We love to visit pumpkin patches in October."]},
+        {"rank": 22, "targetWord": "Cumartesi", "englishWord": ["Saturday", "Saturday is a weekend day.", "We go out on Saturday.", "Saturday mornings are perfect for a leisurely breakfast."]},
+        {"rank": 23, "targetWord": "Eylül", "englishWord": ["September", "September is the ninth month.", "School starts in September.", "September is a transitional month from summer to fall."]},
+        {"rank": 24, "targetWord": "Pazar", "englishWord": ["Sunday", "Sunday is a relaxing day.", "We have a family dinner on Sunday.", "Sunday afternoons are reserved for family time."]},
+        {"rank": 25, "targetWord": "TV", "englishWord": ["TV", "I watch TV every evening.", "There's a good show on TV.", "I enjoy watching documentaries on TV."]},
+        {"rank": 26, "targetWord": "Perşembe", "englishWord": ["Thursday", "Thursday comes after Wednesday.", "We have a meeting on Thursday.", "Thursday evenings are busy with club activities."]},
+        {"rank": 27, "targetWord": "Salı", "englishWord": ["Tuesday", "Tuesday is the second day of the week.", "I have a class on Tuesday.", "Tuesday nights are reserved for movie nights."]},
+        {"rank": 28, "targetWord": "Web sitesi", "englishWord": ["Web site", "I visited their web site.", "The company has a new web site.", "The web site has a user-friendly interface."]},
+        {"rank": 29, "targetWord": "Çarşamba", "englishWord": ["Wednesday", "Wednesday is the middle of the week.", "We have a project due on Wednesday.", "Wednesday mornings are dedicated to team meetings."]},
+        {"rank": 30, "targetWord": "bir", "englishWord": ["a", "I have a book.", "He bought a new car.", "I saw a movie last night."]},
+        {"rank": 31, "targetWord": "öö.", "englishWord": ["a.m.", "Meet at 10 a.m.", "The event starts at 9 a.m.", "I prefer scheduling meetings in the late a.m."]},
+        {"rank": 32, "targetWord": "terketmek", "englishWord": ["abandon", "Don't abandon your dreams.", "He abandoned the project.", "It's important not to abandon hope during challenging times."]},
+        {"rank": 33, "targetWord": "terkedilmiş", "englishWord": ["abandoned", "The house looks abandoned.", "They left the city, leaving the building abandoned.", "Abandoned places often have an eerie atmosphere."]},
+        {"rank": 34, "targetWord": "yetenek", "englishWord": ["ability", "She has a special ability.", "Improving your abilities is important.", "Everyone has a unique set of abilities."]},
+        {"rank": 35, "targetWord": "muktedir", "englishWord": ["able", "He is able to solve problems.", "We are able to finish the project on time.", "Being able to adapt is a valuable skill."]},
+        {"rank": 36, "targetWord": "hakkında", "englishWord": ["about", "Tell me more about it.", "I heard a story about that place.", "I'd like to learn more about the project you're working on."]},
+        {"rank": 37, "targetWord": "yukarıda", "englishWord": ["above", "The stars are above us.", "The picture is hanging above the fireplace.", "The item you're looking for is above the shelf."]},
+        {"rank": 38, "targetWord": "yurtdışı", "englishWord": ["abroad", "She studied abroad.", "I have never been abroad.", "Traveling abroad broadens one's perspective."]},
+        {"rank": 39, "targetWord": "yokluk", "englishWord": ["absence", "His absence was noticed.", "The school had no absences today.", "The absence of evidence does not prove anything."]},
+        {"rank": 40, "targetWord": "yok", "englishWord": ["absent", "She was absent from school.", "Several seats were absent from the conference room.", "The absent-minded professor often forgets where he left his keys."]},
+        {"rank": 41, "targetWord": "mutlak", "englishWord": ["absolute", "The truth is absolute.", "There is no absolute certainty in science.", "The concept of time is considered absolute in physics."]},
+        {"rank": 42, "targetWord": "kesinlikle", "englishWord": ["absolutely", "I absolutely agree.", "She is absolutely right.", "The view from the top of the mountain is absolutely breathtaking."]},
+        {"rank": 43, "targetWord": "emmek", "englishWord": ["absorb", "Plants absorb water.", "The sponge will absorb the spill.", "The paper towel is designed to absorb excess moisture."]},
+        {"rank": 44, "targetWord": "istismar", "englishWord": ["abuse", "Child abuse is a serious issue.", "They reported the abuse to the authorities.", "Animal abuse is a crime that should be taken seriously."]},
+        {"rank": 45, "targetWord": "akademik", "englishWord": ["academic", "He is an academic scholar.", "The book has both popular and academic appeal.", "The university offers various academic programs."]},
+        {"rank": 46, "targetWord": "ağırlık", "englishWord": ["accent", "She has a French accent.", "The actor practiced the regional accent for the role.", "Learning a new language often involves mastering its accent."]},
+        {"rank": 47, "targetWord": "kabul etmek", "englishWord": ["accept", "I accept your apology.", "The company decided to accept the proposal.", "It's important to accept feedback for personal growth."]},
+        {"rank": 48, "targetWord": "kabul edilebilir", "englishWord": ["acceptable", "The terms are acceptable.", "The price was within an acceptable range.", "The team found a compromise that was acceptable to everyone."]},
+        {"rank": 49, "targetWord": "erişim", "englishWord": ["access", "You have access to the database.", "The website requires a password for access.", "Limited access to information can hinder decision-making."]},
+        {"rank": 50, "targetWord": "kaza", "englishWord": ["accident", "There was a car accident.", "The accident happened on the highway.", "An accident can happen when you least expect it."]},
+        {"rank": 51, "targetWord": "kazara", "englishWord": ["accidental", "It was an accidental discovery.", "The damage was purely accidental.", "The meeting was canceled due to an accidental double booking."]},
+        {"rank": 52, "targetWord": "eşlik etmek", "englishWord": ["accompany", "I will accompany you.", "She accompanied him to the event.", "Music can accompany various moods and settings."]},
+        {"rank": 53, "targetWord": "e göre", "englishWord": ["according to", "According to the report...", "The plan was executed according to the instructions.", "The success of the project will be evaluated according to predetermined criteria."]},
+        {"rank": 54, "targetWord": "hesap", "englishWord": ["account", "Open a bank account.", "Your actions will be taken into account.", "It's crucial to keep a detailed account of your expenses."]},
+        {"rank": 55, "targetWord": "doğru", "englishWord": ["accurate", "The information is accurate.", "The measurements are accurate.", "Accurate data is essential for making informed decisions."]},
+        {"rank": 56, "targetWord": "suçlamak", "englishWord": ["accuse", "Don't accuse without evidence.", "He was accused of stealing.", "It's unfair to accuse someone without proper evidence."]},
+        {"rank": 57, "targetWord": "başarmak", "englishWord": ["achieve", "You can achieve your goals.", "The team achieved victory.", "Personal growth can be achieved through continuous learning."]},
+        {"rank": 58, "targetWord": "başarı", "englishWord": ["achievement", "Receiving the award is an achievement.", "The project was recognized as a great achievement.", "Consistency is key to achieving long-term success and achievements."]},
+        {"rank": 59, "targetWord": "asit", "englishWord": ["acid", "Battery acid is dangerous.", "The scientist studied the properties of the acid.", "Some fruits, like lemons, contain citric acid."]},
+        {"rank": 60, "targetWord": "kabul etmek", "englishWord": ["acknowledge", "Please acknowledge receipt of this email.", "It's important to acknowledge your mistakes.", "Acknowledging others' contributions fosters a positive work environment."]},
+        {"rank": 61, "targetWord": "edinmek", "englishWord": ["acquire", "The company plans to acquire new equipment.", "She acquired valuable skills during her training.", "Acquiring new customers is essential for business growth."]},
+        {"rank": 62, "targetWord": "karşı", "englishWord": ["across", "The store is across the street.", "They live across from each other.", "We'll meet you across the main entrance."]},
+        {"rank": 63, "targetWord": "hareket etmek", "englishWord": ["act", "You must act quickly.", "He has the ability to act.", "In times of crisis, it's crucial to act decisively."]},
+        {"rank": 64, "targetWord": "hareket", "englishWord": ["action", "Take action now.", "The movie is full of exciting actions.", "Taking proactive actions can prevent potential issues."]},
+        {"rank": 65, "targetWord": "etkin", "englishWord": ["active", "Be more physically active.", "She leads an active lifestyle.", "Participating in active hobbies promotes overall well-being."]},
+        {"rank": 66, "targetWord": "aktivist", "englishWord": ["activist", "He is an environmental activist.", "Activists organized a protest.", "Many social changes are initiated by passionate activists."]},
+        {"rank": 67, "targetWord": "etkinlik", "englishWord": ["activity", "Outdoor activities are good for health.", "The school organized a special activity day.", "Team-building activities enhance collaboration within the workplace."]},
+        {"rank": 68, "targetWord": "erkek oyuncu", "englishWord": ["actor", "The actor delivered a powerful performance.", "The famous actor is attending the premiere.", "Every aspiring actor faces challenges in the competitive industry."]},
+        {"rank": 69, "targetWord": "kadın oyuncu", "englishWord": ["actress", "She is a talented actress.", "The actress won an award for her role.", "The actress received acclaim for her portrayal of the character."]},
+        {"rank": 70, "targetWord": "gerçek", "englishWord": ["actual", "The actual cost is higher.", "What are the actual benefits of the project?", "The actual duration of the project exceeded the initial estimates."]},
+        {"rank": 71, "targetWord": "aslında", "englishWord": ["actually", "I'm not sick. Actually, I feel great.", "Actually, I have some good news.", "The weather forecast was wrong, and it's actually a sunny day."]},
+        {"rank": 72, "targetWord": "reklam", "englishWord": ["ad", "The ad promotes a new product.", "I saw the ad on TV.", "Creating a compelling ad requires a deep understanding of the target audience."]},
+        {"rank": 73, "targetWord": "uyarlamak", "englishWord": ["adapt", "We need to adapt to the changing climate.", "The novel was adapted into a movie.", "Businesses must constantly adapt to market trends for survival."]},
+        {"rank": 74, "targetWord": "eklemek", "englishWord": ["add", "Add sugar to taste.", "Can you add my name to the list?", "Adding a personal touch to your work can make it more memorable."]},
+        {"rank": 75, "targetWord": "toplamak", "englishWord": ["add up", "The numbers don't add up.", "Let's add up the expenses.", "It's essential to add up all the costs before making a budget."]},
+        {"rank": 76, "targetWord": "ek", "englishWord": ["addition", "In addition to the main course, we have dessert.", "The garden is a great addition to the property.", "The new feature is a valuable addition to the software."]},
+        {"rank": 77, "targetWord": "ek", "englishWord": ["additional", "We need additional information.", "The cost includes additional fees.", "The team requested additional time to complete the project."]},
+        {"rank": 78, "targetWord": "adres", "englishWord": ["address", "Write your address on the form.", "The president will address the nation tonight.", "The address of the event venue is printed on the invitation."]},
+        {"rank": 79, "targetWord": "yeterli", "englishWord": ["adequate", "The facilities are not adequate.", "We have adequate supplies for the project.", "Ensuring adequate resources is crucial for project success."]},
+        {"rank": 80, "targetWord": "ayarlamak", "englishWord": ["adjust", "You can adjust the settings.", "It's important to adjust to new circumstances.", "Adjusting your mindset can positively impact your well-being."]},
+        {"rank": 81, "targetWord": "yönetim", "englishWord": ["administration", "The administration is responsible for policy.", "She works in the school administration.", "Efficient administration is vital for organizational success."]},
+        {"rank": 82, "targetWord": "hayranlık", "englishWord": ["admiration", "I have admiration for his talent.", "Her art has gained admiration.", "Expressing admiration for others fosters a positive environment."]},
+        {"rank": 83, "targetWord": "hayranlıkla bakmak", "englishWord": ["admire", "Many people admire his courage.", "I admire your dedication.", "Admiring nature's beauty can bring a sense of peace."]},
+        {"rank": 84, "targetWord": "itiraf etmek", "englishWord": ["admit", "He will admit his mistake.", "It's not easy to admit when you're wrong.", "Courage is required to admit one's mistakes and learn from them."]},
+        {"rank": 85, "targetWord": "benimsemek", "englishWord": ["adopt", "The family decided to adopt a child.", "She adopted a healthier lifestyle.", "Societal norms often influence the values people adopt."]},
+        {"rank": 86, "targetWord": "yetişkin", "englishWord": ["adult", "An adult needs 7-9 hours of sleep.", "The movie is not suitable for children, only for adults.", "Becoming an adult comes with both responsibilities and freedoms."]},
+        {"rank": 87, "targetWord": "ilerlemek", "englishWord": ["advance", "Technology continues to advance.", "The team made a significant advance in research.", "Continuous learning is essential to advance in your career."]},
+        {"rank": 88, "targetWord": "ileri", "englishWord": ["advanced", "He has an advanced knowledge of physics.", "The course covers both basic and advanced topics.", "Advanced technology has revolutionized various industries."]},
+        {"rank": 89, "targetWord": "avantaj", "englishWord": ["advantage", "Having a plan gives you an advantage.", "The team had the advantage of home-field advantage.", "Being adaptable is a significant advantage in today's fast-paced world."]},
+        {"rank": 90, "targetWord": "macera", "englishWord": ["adventure", "Life is an adventure.", "They went on an exciting adventure.", "Embracing new challenges can turn life into a thrilling adventure."]},
+        {"rank": 91, "targetWord": "reklam yapmak", "englishWord": ["advertise", "The company will advertise the new product.", "We need to advertise the event to attract more attendees.", "Successful businesses consistently invest in advertising to maintain brand visibility."]},
+        {"rank": 92, "targetWord": "ilan", "englishWord": ["advertisement", "The advertisement is on TV.", "The magazine is full of colorful advertisements.", "Creating compelling advertisements requires creativity and strategic thinking."]},
+        {"rank": 93, "targetWord": "reklamcılık", "englishWord": ["advertising", "He works in advertising.", "The company invests heavily in advertising.", "The field of advertising constantly evolves with technological advancements."]},
+        {"rank": 94, "targetWord": "tavsiye", "englishWord": ["advice", "I need your advice.", "Her advice was helpful.", "Seeking advice from experienced individuals can provide valuable insights."]},
+        {"rank": 95, "targetWord": "tavsiye etmek", "englishWord": ["advise", "I advise you to take the job.", "She advises against investing in risky stocks.", "It's crucial to carefully consider the advice provided by mentors."]},
+        {"rank": 96, "targetWord": "mesele", "englishWord": ["affair", "It's a personal affair.", "The company's financial affair is under investigation.", "Resolving personal affairs is important for maintaining work-life balance."]},
+        {"rank": 97, "targetWord": "etkilemek", "englishWord": ["affect", "The weather can affect your mood.", "The news deeply affected everyone.", "Positive relationships can positively affect mental well-being."]},
+        {"rank": 98, "targetWord": "sevgi", "englishWord": ["affection", "Express your affection to loved ones.", "The dog shows affection by wagging its tail.", "Cultivating affectionate relationships contributes to a happy and fulfilling life."]},{"rank": 101, "targetWord": "ardından", "englishWord": ["after", "I'll call you after the meeting.", "After finishing the meal, we went for a walk.", "I'll meet you at the cafe right after the class."]},
+        {"rank": 99, "targetWord": "mali gücü yetmek", "englishWord": ["afford", "I can't afford to buy a new car right now.", "Can you afford to take a day off work?", "She wants a luxury car, but she can't afford it."]},
+        {"rank": 100, "targetWord": "korkmuş", "englishWord": ["afraid", "He's afraid of heights.", "Don't be afraid to ask for help.", "The child looked afraid of the dark."]},
+        {"rank": 101, "targetWord": "ardından", "englishWord": ["after", "We went for ice cream after the movie.", "After the rain stopped, we went outside.", "The ceremony will take place after the opening speech."]},
+        {"rank": 102, "targetWord": "öğleden sonra", "englishWord": ["afternoon", "Let's meet in the afternoon.", "I like to take a nap in the afternoon.", "The sunsets in the afternoon are beautiful."]},
+        {"rank": 103, "targetWord": "sonradan", "englishWord": ["afterward", "We went to dinner, and afterward, we watched a movie.", "She apologized afterward for the misunderstanding.", "He realized his mistake afterward."]},
+        {"rank": 104, "targetWord": "tekrar", "englishWord": ["again", "I want to see that movie again.", "Can you say that again, please?", "I lost the game, but I'll play again."]},
+        {"rank": 105, "targetWord": "karşı", "englishWord": ["against", "He is against the proposed changes.", "The team played against a strong opponent.", "I'll vote against the new policy."]},
+        {"rank": 106, "targetWord": "yaş", "englishWord": ["age", "Age is just a number.", "With age comes wisdom.", "She doesn't look her age."]},
+        {"rank": 107, "targetWord": "yaşlı", "englishWord": ["aged", "The wine is aged to perfection.", "She cares for aged patients with compassion.", "The aged oak tree stood tall."]},
+        {"rank": 108, "targetWord": "ajans", "englishWord": ["agency", "The advertising agency created a compelling campaign.", "The government agency is responsible for environmental protection.", "He works for a talent agency."]},
+        {"rank": 109, "targetWord": "gündem", "englishWord": ["agenda", "The meeting agenda includes important topics.", "What's on the agenda for today's discussion?", "The political agenda is a topic of debate."]},
+        {"rank": 110, "targetWord": "ajan", "englishWord": ["agent", "The secret agent completed the mission.", "Real estate agent helped us find a suitable house.", "The agent negotiated a better deal."]},
+        {"rank": 111, "targetWord": "saldırgan", "englishWord": ["aggressive", "The dog became aggressive when approached.", "An aggressive marketing strategy can boost sales.", "He has an aggressive playing style."]},
+        {"rank": 112, "targetWord": "önce", "englishWord": ["ago", "I visited Paris a year ago.", "The incident happened long ago.", "She left the company three years ago."]},
+        {"rank": 113, "targetWord": "katılmak", "englishWord": ["agree", "I agree with your proposal.", "Can we all agree on the next steps?", "They finally agreed to the terms."]},
+        {"rank": 114, "targetWord": "anlaşma", "englishWord": ["agreement", "The parties reached an agreement.", "Having a clear agreement is essential in business.", "The agreement was signed by both parties."]},
+        {"rank": 115, "targetWord": "ileri", "englishWord": ["ahead", "The car moved ahead in traffic.", "Plan your work ahead for better efficiency.", "He always thinks ahead."]},
+        {"rank": 116, "targetWord": "yardım", "englishWord": ["aid", "Humanitarian aid is sent to the disaster-stricken area.", "The organization provides aid to those in need.", "She offered her aid in completing the project."]},
+        {"rank": 117, "targetWord": "amaç", "englishWord": ["aim", "Her aim is to become a successful entrepreneur.", "Setting a clear aim helps in achieving goals.", "The project's aim is to promote sustainability."]},
+        {"rank": 118, "targetWord": "hava", "englishWord": ["air", "The mountain air is refreshing.", "Open the windows to let in fresh air.", "There's a change in the air."]},
+        {"rank": 119, "targetWord": "hava aracı", "englishWord": ["aircraft", "The airport has various types of aircraft.", "Modern aircraft are equipped with advanced technology.", "The military uses advanced aircraft for missions."]},
+        {"rank": 120, "targetWord": "havaalanı", "englishWord": ["airport", "We arrived at the airport early.", "The airport has multiple terminals for domestic and international flights.", "The airport security is strict."]},
+        {"rank": 121, "targetWord": "alarm", "englishWord": ["alarm", "Set the alarm for 7 AM.", "The alarm went off, waking everyone up.", "The security system includes a loud alarm."]},
+        {"rank": 122, "targetWord": "endişeli", "englishWord": ["alarmed", "She looked alarmed when she heard the news.", "His alarmed expression caught my attention.", "People became alarmed by the sudden noise."]},
+        {"rank": 123, "targetWord": "endişe verici", "englishWord": ["alarming", "The increase in crime rates is alarming.", "The doctor delivered alarming news about the test results.", "The alarming sound made everyone evacuate."]},
+        {"rank": 124, "targetWord": "alkol", "englishWord": ["alcohol", "Consuming alcohol is not allowed on the premises.", "The store sells a variety of alcoholic beverages.", "He decided to quit drinking alcohol."]},
+        {"rank": 125, "targetWord": "alkolik", "englishWord": ["alcoholic", "She has a family history of alcoholic tendencies.", "The treatment center helps individuals recover from alcoholic addiction.", "He sought professional help for his alcoholic issues."]},
+        {"rank": 126, "targetWord": "canlı", "englishWord": ["alive", "The plant came back to life after watering.", "She felt alive and full of energy.", "The search team found the missing hiker alive."]},
+        {"rank": 127, "targetWord": "tüm", "englishWord": ["all", "All students must attend the orientation.", "She ate all the cookies.", "The park is open to all visitors."]},
+        {"rank": 128, "targetWord": "müttefik", "englishWord": ["allied", "The allied forces fought together in the war.", "They formed an allied coalition for the peace talks.", "The countries became allied against a common enemy."]},
+        {"rank": 129, "targetWord": "dayanmak", "englishWord": ["allow of", "The structure doesn't allow of any modifications.", "The rules don't allow of any exceptions.", "The system doesn't allow of unauthorized access."]},
+        {"rank": 130, "targetWord": "müttefik olmak", "englishWord": ["ally", "The two nations decided to ally against the threat.", "Countries often ally for mutual defense.", "The companies allied to create a stronger market presence."]},
+        {"rank": 131, "targetWord": "neredeyse", "englishWord": ["almost", "I almost missed the bus.", "She's almost finished with her book.", "The project is almost complete."]},
+        {"rank": 132, "targetWord": "tek başına", "englishWord": ["alone", "I prefer to be alone sometimes.", "She felt alone in the crowded room.", "Being alone allows for introspection."]},
+        {"rank": 133, "targetWord": "yanında", "englishWord": ["along", "Bring your friend along.", "The riverbank is a nice place to walk along.", "I'll come along for the ride."]},
+        {"rank": 134, "targetWord": "yanında", "englishWord": ["alongside", "The new model will be sold alongside the existing one.", "She worked alongside her colleagues on the project.", "The old building stands alongside the modern skyscrapers."]},
+        {"rank": 135, "targetWord": "yüksek sesle", "englishWord": ["aloud", "Read the passage aloud.", "She spoke aloud to ensure everyone heard.", "He thought aloud about the problem."]},
+        {"rank": 136, "targetWord": "alfabe", "englishWord": ["alphabet", "The English alphabet has 26 letters.", "Teaching children the alphabet is a fundamental step.", "The book is organized alphabetically."]},
+        {"rank": 137, "targetWord": "alfabetik", "englishWord": ["alphabetical", "The list is arranged in alphabetical order.", "The files are stored in alphabetical folders.", "The index is organized alphabetically."]},
+        {"rank": 138, "targetWord": "zaten", "englishWord": ["already", "I've already seen that movie.", "Is the report finished already?", "She already knows about the party."]},
+        {"rank": 139, "targetWord": "ayrıca", "englishWord": ["also", "I would also like a cup of coffee.", "She is an excellent singer, also a talented dancer.", "He not only works hard but also helps others."]},
+        {"rank": 140, "targetWord": "değiştirmek", "englishWord": ["alter", "We need to alter our plans due to the weather.", "The tailor will alter the dress to fit perfectly.", "Small changes can alter the outcome."]},
+        {"rank": 141, "targetWord": "alternatif", "englishWord": ["alternative", "We need to find an alternative solution.", "There is always an alternative to consider.", "She suggested an alternative approach to the problem."]},
+        {"rank": 142, "targetWord": "bunun yerine", "englishWord": ["alternatively", "You can use olive oil as an alternative to butter.", "Alternatively, you can take the bus instead of the train.", "Try this method, or alternatively, you can choose another one."]},
+        {"rank": 143, "targetWord": "rağmen", "englishWord": ["although", "Although it was raining, we went for a walk.", "I like him, although he can be a bit annoying sometimes.", "Although the movie was long, it was very interesting."]},
+        {"rank": 144, "targetWord": "tamamen", "englishWord": ["altogether", "I'm not altogether sure about the details.", "The changes were altogether unexpected.", "He decided to quit the project altogether."]},
+        {"rank": 145, "targetWord": "her zaman", "englishWord": ["always", "I always take my umbrella in case it rains.", "He always arrives on time.", "She's always smiling, no matter what."]},
+        {"rank": 146, "targetWord": "şaşırtmak", "englishWord": ["amaze", "His talent never fails to amaze me.", "The magician's tricks amazed the audience.", "The beauty of nature never ceases to amaze."]},
+        {"rank": 147, "targetWord": "şaşırmış", "englishWord": ["amazed", "She looked amazed at the surprise party.", "I was amazed by the breathtaking view.", "The team was amazed by their own success."]},
+        {"rank": 148, "targetWord": "şaşırtıcı", "englishWord": ["amazing", "The view from the top of the mountain is amazing.", "Her performance was amazing.", "Technology has brought about amazing changes."]},
+        {"rank": 149, "targetWord": "hırs", "englishWord": ["ambition", "His ambition is to become a successful entrepreneur.", "Ambition is the driving force behind many achievements.", "She pursued her ambition relentlessly."]},
+        {"rank": 150, "targetWord": "ambulans", "englishWord": ["ambulance", "Call an ambulance, there's been an accident.", "The ambulance arrived quickly at the scene.", "The sound of the ambulance siren echoed through the city."]},
+        {"rank": 151, "targetWord": "arasında", "englishWord": ["among", "He was among the first to arrive.", "The book is among the bestsellers.", "They found themselves among strangers."]},
+        {"rank": 152, "targetWord": "miktar", "englishWord": ["amount", "The amount of work is overwhelming.", "The total amount is not yet known.", "The amount of rainfall this month is above average."]},
+        {"rank": 153, "targetWord": "eğlendirmek", "englishWord": ["amuse", "The clown's antics never fail to amuse the children.", "The comedian's jokes were meant to amuse the audience.", "She tried to amuse herself with a funny movie."]},
+        {"rank": 154, "targetWord": "eğlenmiş", "englishWord": ["amused", "The kids looked amused by the magician's tricks.", "I was amused by the clever wordplay.", "She was amused by the unexpected turn of events."]},
+        {"rank": 155, "targetWord": "eğlenceli", "englishWord": ["amusing", "The movie had an amusing plot.", "His amusing anecdotes kept everyone entertained.", "The cartoon was amusing and made people laugh."]},
+        {"rank": 156, "targetWord": "bir", "englishWord": ["an", "I'll meet you at an hour convenient for you.", "It's just an idea.", "She has an interesting book."]},
+        {"rank": 157, "targetWord": "analiz", "englishWord": ["analysis", "The analysis of the data revealed interesting patterns.", "Her job involves a lot of data analysis.", "The scientific analysis was published in a reputable journal."]},
+        {"rank": 158, "targetWord": "analiz etmek", "englishWord": ["analyze", "Let's analyze the results of the experiment.", "The detective began to analyze the clues.", "It's important to analyze the market before launching a new product."]},
+        {"rank": 159, "targetWord": "eski", "englishWord": ["ancient", "The city is known for its ancient ruins.", "The book contains stories from ancient times.", "Many ancient civilizations have left their mark on history."]},
+        {"rank": 160, "targetWord": "ve", "englishWord": ["and", "She likes tea and coffee.", "I went to the store and bought some groceries.", "He is creative and hardworking."]},
+        {"rank": 161, "targetWord": "öfke", "englishWord": ["anger", "His sudden outburst of anger surprised everyone.", "The feeling of anger overwhelmed her.", "Expressing anger in a healthy way is important."]},
+        {"rank": 162, "targetWord": "açı", "englishWord": ["angle", "The photographer found the perfect angle for the shot.", "Adjust the angle of the mirror for better visibility.", "Consider the issue from a different angle."]},
+        {"rank": 163, "targetWord": "kızgın", "englishWord": ["angry", "She gets angry when things don't go as planned.", "He looked angry at the unfair decision.", "Don't make her angry; she's had a tough day."]},
+        {"rank": 164, "targetWord": "hayvan", "englishWord": ["animal", "The zoo has a variety of animal species.", "It's important to protect endangered animals.", "The movie tells the story of a talking animal."]},
+        {"rank": 165, "targetWord": "ayak bileği", "englishWord": ["ankle", "He twisted his ankle during the game.", "She has a tattoo on her ankle.", "The doctor examined the swollen ankle."]},
+        {"rank": 166, "targetWord": "yıl dönümü", "englishWord": ["anniversary", "They celebrated their 10th wedding anniversary.", "The company marked its anniversary with a special event.", "The anniversary of the historic event is celebrated annually."]},
+        {"rank": 167, "targetWord": "duyurmak", "englishWord": ["announce", "The company will announce the new product next week.", "They announced the winner of the competition.", "I have an important announcement to make."]},
+        {"rank": 168, "targetWord": "duyuru", "englishWord": ["announcement", "The public announcement was made through social media.", "The professor made an announcement about the upcoming exam.", "The announcement of the results created excitement."]},
+        {"rank": 169, "targetWord": "rahatsız etmek", "englishWord": ["annoy", "The constant noise began to annoy him.", "Don't intentionally annoy your siblings.", "Her comments were starting to annoy the team."]},
+        {"rank": 170, "targetWord": "rahatsız", "englishWord": ["annoyed", "He seemed annoyed by the interruption.", "She was visibly annoyed with the delay.", "I could tell he was annoyed by the situation."]},
+        {"rank": 171, "targetWord": "rahatsız edici", "englishWord": ["annoying", "The persistent noise was annoying.", "His annoying habits irritated his colleagues.", "Dealing with an annoying neighbor can be challenging."]},
+        {"rank": 172, "targetWord": "yıllık", "englishWord": ["annual", "The company holds its annual meeting in December.", "The report provides an annual overview of the industry.", "The annual salary review is scheduled for next month."]},
+        {"rank": 173, "targetWord": "yıllık", "englishWord": ["annually", "The conference is held annually.", "They conduct the survey annually to track changes.", "The festival takes place annually in the spring."]},
+        {"rank": 174, "targetWord": "başka", "englishWord": ["another", "I need another cup of coffee.", "She suggested trying another approach.", "Can we meet at another time?"]},
+        {"rank": 175, "targetWord": "cevap", "englishWord": ["answer", "What's the answer to this question?", "I'm waiting for an answer from the customer.", "She couldn't provide a clear answer."]},
+        {"rank": 176, "targetWord": "karşı", "englishWord": ["anti-", "The product claims to be anti-aging.", "They organized an anti-war protest.", "The medicine is known for its anti-inflammatory properties."]},
+        {"rank": 177, "targetWord": "beklemek", "englishWord": ["anticipate", "I anticipate a positive outcome from the negotiations.", "Anticipating potential problems can help with planning.", "She anxiously anticipated the results of the competition."]},
+        {"rank": 178, "targetWord": "endişe", "englishWord": ["anxiety", "The uncertainty caused her a lot of anxiety.", "He struggles with anxiety before public speaking.", "Managing anxiety is important for mental well-being."]},
+        {"rank": 179, "targetWord": "endişeli", "englishWord": ["anxious", "She felt anxious about the upcoming exam.", "The waiting room made him more anxious.", "He was anxious to meet the deadline."]},
+        {"rank": 180, "targetWord": "herhangi", "englishWord": ["any", "Is there any water left?", "You can choose any color you like.", "I don't have any specific plans for the weekend."]},
+        {"rank": 181, "targetWord": "artık", "englishWord": ["anymore", "I don't want to work with him anymore.", "She doesn't live here anymore.", "We don't have that product in stock anymore."]},
+        {"rank": 182, "targetWord": "herhangi biri", "englishWord": ["anyone", "Has anyone seen my keys?", "You can ask anyone for help.", "Is anyone coming to the party tonight?"]},
+        {"rank": 183, "targetWord": "herhangi bir şey", "englishWord": ["anything", "You can choose anything from the menu.", "I'm not allergic to anything.", "She can fix anything; she's very skilled."]},
+        {"rank": 184, "targetWord": "neyse", "englishWord": ["anyway", "I don't like him anyway.", "It's too expensive, and anyway, I don't need it.", "Anyway, let's change the topic."]},
+        {"rank": 185, "targetWord": "herhangi bir yerde", "englishWord": ["anywhere", "You can sit anywhere you like.", "I can't find my keys anywhere.", "I don't want to go anywhere today."]},
+        {"rank": 186, "targetWord": "ayrı", "englishWord": ["apart", "They live apart now.", "The two events are worlds apart.", "She keeps her personal and professional life apart."]},
+        {"rank": 187, "targetWord": "dışında", "englishWord": ["apart from", "Everyone came, apart from Tom.", "I like all the colors apart from yellow.", "The project was successful, apart from a few minor issues."]},
+        {"rank": 188, "targetWord": "daire", "englishWord": ["apartment", "They live in a small apartment.", "The apartment has a great view.", "I'm looking for a furnished apartment."]},
+        {"rank": 189, "targetWord": "özür dilemek", "englishWord": ["apologize", "I want to apologize for my behavior.", "She apologized for the mistake.", "You should apologize to him for what you said."]},
+        {"rank": 190, "targetWord": "görünüşe göre", "englishWord": ["apparently", "Apparently, he's not coming to the party.", "It's, apparently, the best restaurant in town.", "Apparently, there's a problem with the shipment."]},
+        {"rank": 191, "targetWord": "cezbetmek", "englishWord": ["appeal", "The idea of the project appealed to everyone.", "The movie has a universal appeal.", "The charity appeal raised a significant amount of money."]},
+        {"rank": 192, "targetWord": "görünmek", "englishWord": ["appear", "He appeared suddenly from behind the door.", "The sun appeared from behind the clouds.", "The magician made a rabbit appear out of nowhere."]},
+        {"rank": 193, "targetWord": "görünüş", "englishWord": ["appearance", "Her appearance at the event was a surprise.", "The animal's strange appearance puzzled scientists.", "The company is working on improving the appearance of the product."]},
+        {"rank": 194, "targetWord": "elma", "englishWord": ["apple", "I like to eat an apple every day.", "She baked a delicious apple pie.", "The teacher gave each student an apple."]},
+        {"rank": 195, "targetWord": "uygulama", "englishWord": ["application", "You need to fill out the application form.", "The software is a popular application for editing photos.", "The new job requires a strong application of your skills."]},
+        {"rank": 196, "targetWord": "uygulamak", "englishWord": ["apply", "You can apply the cream to your skin.", "I'm going to apply for that job.", "It's important to apply the principles you learn in practice."]},
+        {"rank": 197, "targetWord": "atanmak", "englishWord": ["appoint", "She was appointed as the new manager.", "The committee will appoint a spokesperson.", "The president will appoint a new ambassador."]},
+        {"rank": 198, "targetWord": "randevu", "englishWord": ["appointment", "I have a doctor's appointment tomorrow.", "She scheduled an appointment with the dentist.", "The manager is in a meeting, but you can schedule an appointment with her."]},
+        {"rank": 199, "targetWord": "takdir etmek", "englishWord": ["appreciate", "I really appreciate your help.", "She appreciates the beauty of nature.", "It's important to appreciate the value of hard work."]},
+        {"rank": 200, "targetWord": "yaklaşım", "englishWord": ["approach", "They are taking a different approach to the problem.", "The best approach is to start with small steps.", "The teacher's approach to teaching is innovative."]},
+        {"rank": 201, "targetWord": "uygun", "englishWord": ["appropriate", "Wearing jeans might not be appropriate for the event.", "His comments were not appropriate for the situation.", "The manager approved the appropriate budget for the project."]},
+        {"rank": 202, "targetWord": "onay", "englishWord": ["approval", "The proposal received approval from the board.", "She eagerly waited for his approval.", "The design got the client's approval."]},
+        {"rank": 203, "targetWord": "onaylamak", "englishWord": ["approve", "The committee needs to approve the budget.", "I don't think they will approve the plan.", "The manager will approve the final draft."]},
+        {"rank": 204, "targetWord": "onaylayıcı", "englishWord": ["approving", "She gave an approving nod to the proposal.", "The teacher's approving smile encouraged the students.", "The audience responded with an approving applause."]},
+        {"rank": 205, "targetWord": "yaklaşık", "englishWord": ["approximate", "Can you give me an approximate time of arrival?", "The cost is approximate and may vary.", "The test provides an approximate measure of intelligence."]},
+        {"rank": 206, "targetWord": "yaklaşık olarak", "englishWord": ["approximately", "The journey will take approximately two hours.", "The project is approximately 70% complete.", "The population of the city is approximately one million."]},
+        {"rank": 207, "targetWord": "alan", "englishWord": ["area", "This park covers a large area.", "The dining area is separate from the kitchen.", "The beach is a popular area for tourists."]},
+        {"rank": 208, "targetWord": "tartışmak", "englishWord": ["argue", "They often argue about politics.", "It's not worth arguing over small things.", "The couple argued but later reconciled."]},
+        {"rank": 209, "targetWord": "tartışma", "englishWord": ["argument", "They had a heated argument over money.", "The article presents a compelling argument.", "It's important to avoid arguments in the workplace."]},
+        {"rank": 210, "targetWord": "ortaya çıkmak", "englishWord": ["arise", "Unexpected issues can arise during the project.", "A conflict may arise if communication is unclear.", "The opportunity for improvement arose from the feedback."]},
+        {"rank": 211, "targetWord": "kol", "englishWord": ["arm", "He has a tattoo on his left arm.", "She linked her arm with his as they walked.", "The robot has a flexible robotic arm."]},
+        {"rank": 212, "targetWord": "silahlanmış", "englishWord": ["armed", "The police officer was armed with a gun.", "The soldiers were armed and ready for battle.", "The security guard is always armed."]},
+        {"rank": 213, "targetWord": "silah", "englishWord": ["arms", "They agreed to lay down their arms.", "The country invested heavily in modernizing its arms.", "The arms race was a significant aspect of the Cold War."]},
+        {"rank": 214, "targetWord": "ordu", "englishWord": ["army", "The army conducted a military exercise.", "He served in the army for ten years.", "The country has a powerful and well-trained army."]},
+        {"rank": 215, "targetWord": "etrafında", "englishWord": ["around", "There are shops and cafes around the square.", "The dog is running around the yard.", "We sat around the campfire and told stories."]},
+        {"rank": 216, "targetWord": "düzenlemek", "englishWord": ["arrange", "They arranged the furniture in the living room.", "I can arrange a meeting with the manager.", "The event planner will arrange the details of the conference."]},
+        {"rank": 217, "targetWord": "düzenleme", "englishWord": ["arrangement", "The flower arrangement looked beautiful.", "They made special arrangements for the guests.", "The committee is in charge of the seating arrangement."]},
+        {"rank": 218, "targetWord": "tutuklama", "englishWord": ["arrest", "The police made an arrest in the case.", "He avoided arrest by fleeing the country.", "The suspect was taken into custody after the arrest."]},
+        {"rank": 219, "targetWord": "varış", "englishWord": ["arrival", "The arrival of spring brings warmer weather.", "The train's arrival was delayed by an hour.", "We celebrated the arrival of the new year."]},
+        {"rank": 220, "targetWord": "gelmek", "englishWord": ["arrive", "What time does your flight arrive?", "They will arrive at the destination tomorrow.", "The package is scheduled to arrive on Monday."]},
+        {"rank": 221, "targetWord": "ok", "englishWord": ["arrow", "The archer aimed the arrow at the target.", "The arrow flew straight and hit the bullseye.", "The quiver holds a dozen arrows."]},
+        {"rank": 222, "targetWord": "sanat", "englishWord": ["art", "She studied art at the university.", "The museum has a collection of modern art.", "Art has the power to evoke strong emotions."]},
+        {"rank": 223, "targetWord": "makale", "englishWord": ["article", "The journalist wrote an article about the event.", "I found an interesting article in the magazine.", "The article provides a detailed analysis of the issue."]},
+        {"rank": 224, "targetWord": "yapay", "englishWord": ["artificial", "The flowers are artificial but look real.", "Artificial intelligence is advancing rapidly.", "The lake was created by an artificial dam."]},
+        {"rank": 225, "targetWord": "sanatçı", "englishWord": ["artist", "The artist painted a beautiful landscape.", "She's a talented artist who works with various mediums.", "The art gallery features works by local artists."]},
+        {"rank": 226, "targetWord": "sanatsal", "englishWord": ["artistic", "Her approach to photography is highly artistic.", "The film has received praise for its artistic direction.", "The exhibition showcases the artistic achievements of the students."]},
+        {"rank": 227, "targetWord": "olarak", "englishWord": ["as", "He works as a software engineer.", "She dressed as a pirate for the costume party.", "The project serves as a model for future initiatives."]},
+        {"rank": 228, "targetWord": "utanmış", "englishWord": ["ashamed", "He felt ashamed of his behavior.", "She was ashamed to admit her mistake.", "They were ashamed of their actions."]},
+        {"rank": 229, "targetWord": "bir yana", "englishWord": ["aside", "Set your personal feelings aside and focus on the task.", "She put money aside for future expenses.", "He stepped aside to let others pass."]},
+        {"rank": 230, "targetWord": "dışında", "englishWord": ["aside from", "Aside from the cost, there are no drawbacks to the plan.", "She's a great student, aside from occasional tardiness.", "Everything is going well, aside from a few minor issues."]},
+        {"rank": 231, "targetWord": "sormak", "englishWord": ["ask", "Can I ask you a question?", "She asked him about his travel experiences.", "The teacher encouraged students to ask for help when needed."]},
+        {"rank": 232, "targetWord": "uykuda", "englishWord": ["asleep", "The baby is asleep in the crib.", "I fell asleep while reading the book.", "He was still asleep when the alarm went off."]},
+        {"rank": 233, "targetWord": "bakış açısı", "englishWord": ["aspect", "The project explores every aspect of the issue.", "They considered the environmental aspect of the decision.", "Different cultures may have different aspects of beauty."]},
+        {"rank": 234, "targetWord": "yardım etmek", "englishWord": ["assist", "I'll assist you with the heavy lifting.", "The technology is designed to assist humans.", "Volunteers are needed to assist with the event."]},
+        {"rank": 235, "targetWord": "yardım", "englishWord": ["assistance", "She provided valuable assistance during the project.", "The organization offers financial assistance to those in need.", "The government has programs to provide assistance to small businesses."]},
+        {"rank": 236, "targetWord": "asistan", "englishWord": ["assistant", "The executive assistant manages the CEO's schedule.", "He hired an assistant to help with administrative tasks.", "The professor and his assistant conducted the research together."]},
+        {"rank": 237, "englishWord": ["associate", "She is an associate professor at the university.", "He decided to associate himself with the research project.", "I have an associate who works in the same industry."], "targetWord": "ilişkilendirmek"},
+        {"rank": 238, "englishWord": ["association", "The association promotes environmental awareness.", "She joined the local association for community development.", "Being part of the association has its perks."], "targetWord": "dernek"},
+        {"rank": 239, "englishWord": ["assume", "Never assume things without proper information.", "He tends to assume the worst in every situation.", "Assuming can lead to misunderstandings."], "targetWord": "varsaymak"},
+        {"rank": 240, "englishWord": ["assure", "I can assure you that the job will be completed on time.", "He assured her of his commitment to the project.", "Assuring quality is essential for customer satisfaction."], "targetWord": "emin olmak"},
+        {"rank": 241, "englishWord": ["at", "We'll meet at the cafe at 3 PM.", "She looked at the painting with admiration.", "He's good at playing the guitar."], "targetWord": "de"},
+        {"rank": 242, "englishWord": ["atmosphere", "The atmosphere in the room was tense.", "The Earth's atmosphere consists of various gases.", "The party had a lively atmosphere."], "targetWord": "hava"},
+        {"rank": 243, "englishWord": ["atom", "An atom is the basic unit of a chemical element.", "Scientists study the behavior of atoms in different conditions.", "The concept of the atom dates back to ancient Greece."], "targetWord": "atom"},
+        {"rank": 244, "englishWord": ["attach", "Please attach the file to your email.", "He likes to attach sentimental value to objects.", "Make sure to attach the relevant documents."], "targetWord": "eklemek"},
+        {"rank": 245, "englishWord": ["attached", "The document is attached for your reference.", "She feels emotionally attached to her childhood home.", "I am attached to this old book."], "targetWord": "ekli"},
+        {"rank": 246, "englishWord": ["attack", "The army launched a surprise attack on the enemy.", "She defended herself against the sudden attack.", "The cyber attack affected many businesses."], "targetWord": "saldırmak"},
+        {"rank": 247, "englishWord": ["attempt", "I will attempt to solve the problem before asking for help.", "The athlete made an attempt to break the world record.", "Attempting new challenges is part of personal growth."], "targetWord": "denemek"},
+        {"rank": 248, "englishWord": ["attempted", "The attempted robbery was caught on camera.", "The police thwarted the attempted kidnapping.", "The attempted solution proved unsuccessful."], "targetWord": "denenmiş"},
+        {"rank": 249, "englishWord": ["attend", "Will you attend the meeting tomorrow?", "She likes to attend cultural events in the city.", "It's important to attend to your responsibilities."], "targetWord": "katılmak"},
+        {"rank": 250, "englishWord": ["attention", "Pay attention to the details.", "The teacher praised the student for their attention in class.", "The news captured the public's attention."], "targetWord": "ilgi"},
+        {"rank": 251, "englishWord": ["attitude", "Having a positive attitude can make a difference.", "His attitude towards the project changed after the meeting.", "A positive attitude attracts success."], "targetWord": "tutum"},
+        {"rank": 252, "englishWord": ["attorney", "The attorney presented a strong case in court.", "He hired an experienced attorney to handle the legal matters.", "The attorney-client privilege is crucial for legal proceedings."], "targetWord": "avukat"},
+        {"rank": 253, "englishWord": ["attract", "Bright colors can attract attention.", "The new marketing campaign aims to attract a younger audience.", "The unique design is sure to attract customers."], "targetWord": "çekmek"},
+        {"rank": 254, "englishWord": ["attraction", "The theme park has many attractions for visitors.", "Their shared interests became the main attraction in their relationship.", "The natural beauty of the area is a major attraction."], "targetWord": "çekicilik"},
+        {"rank": 255, "englishWord": ["attractive", "She is known for her attractive personality.", "The product packaging is designed to be visually attractive.", "An attractive offer can boost sales."], "targetWord": "çekici"},
+        {"rank": 256, "englishWord": ["audience", "The audience applauded at the end of the performance.", "The speaker engaged the audience with interactive discussions.", "The audience reaction was overwhelmingly positive."], "targetWord": "seyirci"},
+        {"rank": 257, "englishWord": ["aunt", "My aunt lives in a small town.", "He visited his aunt during the holidays.", "I have an aunt who is a talented artist."], "targetWord": "teyze"},
+        {"rank": 258, "englishWord": ["author", "The author of the book is a renowned scholar.", "Many students admire the author for her contributions to literature.", "The author's perspective adds depth to the narrative."], "targetWord": "yazar"},
+        {"rank": 259, "englishWord": ["authority", "The government has the authority to enforce laws.", "The committee was granted the authority to make decisions.", "The authority figures were consulted for guidance."], "targetWord": "otorite"},
+        {"rank": 260, "englishWord": ["automatic", "The doors open automatically when you approach.", "The car has automatic transmission for ease of driving.", "The automatic system improves efficiency."], "targetWord": "otomatik"},
+        {"rank": 261, "englishWord": ["available", "Is the product available in different colors?", "She made herself available for the team meeting.", "The information is available online."], "targetWord": "mevcut"},
+        {"rank": 262, "englishWord": ["average", "The average temperature in summer is around 30 degrees.", "His grades are above average in most subjects.", "The company's performance is below average this quarter."], "targetWord": "ortalama"},
+        {"rank": 263, "englishWord": ["avoid", "Try to avoid conflicts in the workplace.", "She decided to avoid the busy traffic by taking a different route.", "Avoiding procrastination is key to productivity."], "targetWord": "kaçınmak"},
+        {"rank": 264, "englishWord": ["awake", "I am usually awake by 6 AM.", "The noise from the construction site kept him awake all night.", "Being awake early allows for more productivity."], "targetWord": "uyanık"},
+        {"rank": 265, "englishWord": ["award", "The actor received an award for his outstanding performance.", "The company won an award for innovation.", "The prestigious award ceremony is held annually."], "targetWord": "ödül"},
+        {"rank": 266, "englishWord": ["aware", "Are you aware of the new policy?", "She became aware of the importance of time management.", "Being socially aware is essential for effective communication."], "targetWord": "farkında"},
+        {"rank": 267, "englishWord": ["away", "The store is just a short walk away.", "He went away for the weekend.", "The noise from the construction site can be heard from far away."], "targetWord": "uzak"},
+        {"rank": 268, "englishWord": ["awful", "The food tasted awful.", "The weather was awful, with heavy rain and strong winds.", "The situation was simply awful."], "targetWord": "korkunç"},
+        {"rank": 269, "englishWord": ["awkward", "He felt awkward in social situations.", "The conversation became awkward after the misunderstanding.", "Awkward moments happen to everyone."], "targetWord": "utangaç"},
+        {"rank": 270, "englishWord": ["baby", "The baby slept peacefully in the crib.", "They are expecting a baby in the coming months.", "Choosing a name for the baby is an exciting process."], "targetWord": "bebek"},
+        {"rank": 271, "englishWord": ["back", "He injured his back while lifting heavy boxes.", "The car reversed and backed into the parking space.", "I'll be back in a moment."], "targetWord": "geri"},
+        {"rank": 272, "englishWord": ["background", "Her background in science helped her excel in the research project.", "The photo has a beautiful mountain background.", "The background music added to the overall atmosphere."], "targetWord": "arka plan"},
+        {"rank": 273, "englishWord": ["backward", "The country is still economically backward.", "The teacher explained the concept in a backward manner to ensure understanding.", "The backward regions need special attention for development."], "targetWord": "geriye"},
+        {"rank": 274, "englishWord": ["bacteria", "Bacteria can be both harmful and beneficial.", "Scientists study the effects of bacteria on human health.", "The role of bacteria in digestion is well understood."], "targetWord": "bakteri"},
+        {"rank": 275, "englishWord": ["bad", "The weather was so bad that they had to cancel the event.", "She had a bad experience with the service at the restaurant.", "Sometimes, bad things happen for a reason."], "targetWord": "kötü"},
+        {"rank": 276, "englishWord": ["badly", "The car was badly damaged in the accident.", "She wanted the job badly and prepared thoroughly for the interview.", "The situation affected him badly."], "targetWord": "kötü"},
+        {"rank": 277, "englishWord": ["bag", "She bought a new bag for her upcoming trip.", "He carried his laptop in a stylish leather bag.", "The bag was filled with essentials for the journey."], "targetWord": "çanta"},
+        {"rank": 278, "englishWord": ["baggage", "Make sure to check your baggage before leaving the airport.", "The airline lost my baggage during the connecting flight.", "He struggled to carry all his baggage by himself."], "targetWord": "bagaj"},
+        {"rank": 279, "englishWord": ["bake", "She loves to bake cookies on the weekends.", "He decided to bake a cake for the special occasion.", "The aroma of freshly baked bread filled the kitchen."], "targetWord": "pişirmek"},
+        {"rank": 280, "englishWord": ["balance", "Finding a balance between work and personal life is important.", "The gymnast demonstrated incredible balance on the beam.", "A balanced diet contributes to overall health."], "targetWord": "denge"},
+        {"rank": 281, "englishWord": ["ball", "The children played with a ball in the park.", "The soccer player kicked the ball into the goal.", "She caught the ball with one hand."], "targetWord": "top"},
+        {"rank": 282, "englishWord": ["ban", "The government decided to ban smoking in public places.", "The school implemented a ban on using mobile phones during classes.", "The ban on plastic bags helped reduce environmental pollution."], "targetWord": "yasaklamak"},
+        {"rank": 283, "englishWord": ["band", "The music band performed at the concert.", "She wore a wristband with a motivational message.", "The rubber band snapped when stretched too far."], "targetWord": "grup"},
+        {"rank": 284, "englishWord": ["bandage", "He applied a bandage to the wound to stop the bleeding.", "The doctor used a sterile bandage to cover the surgical site.", "She had a bandage wrapped around her injured arm."], "targetWord": "bandaj"},
+        {"rank": 285, "englishWord": ["bank", "I need to visit the bank to withdraw some money.", "The riverbank was a peaceful place for a picnic.", "The bank is closed on weekends."], "targetWord": "banka"},
+        {"rank": 286, "englishWord": ["bar", "They met at a bar for a drink.", "The chocolate bar melted in the sun.", "He installed a security bar on the windows."], "targetWord": "bar"},
+        {"rank": 287, "englishWord": ["barely", "She barely managed to finish the race.", "I barely heard what he said over the noise.", "He ate so quickly that he barely tasted the food."], "targetWord": "ancak"},
+        {"rank": 288, "englishWord": ["bargain", "They struck a bargain for the antique furniture.", "She loves to bargain at the flea market.", "The sale was a great bargain for shoppers."], "targetWord": "pazarlık"},
+        {"rank": 289, "englishWord": ["barrier", "The barrier prevented access to the construction site.", "Language barriers can be challenging in international communication.", "Overcoming personal barriers is essential for growth."], "targetWord": "engel"},
+        {"rank": 290, "englishWord": ["base", "The company's success is built on a solid base of loyal customers.", "They established a military base in the remote area.", "The argument is based on scientific evidence."], "targetWord": "temel"},
+        {"rank": 291, "englishWord": ["baseball", "Baseball is a popular sport in the United States.", "He played baseball throughout high school.", "The baseball game was rescheduled due to rain."], "targetWord": "beyzbol"},
+        {"rank": 292, "englishWord": ["basic", "The course covers the basic principles of physics.", "She has a basic understanding of computer programming.", "A healthy diet is based on basic food groups."], "targetWord": "temel"},
+        {"rank": 293, "englishWord": ["basically", "The problem is basically a lack of communication.", "He explained the concept, and basically, it's about efficiency.", "Basically, they agreed on the terms of the contract."], "targetWord": "esasen"},
+        {"rank": 294, "englishWord": ["basis", "The decision was made on the basis of available information.", "The study was conducted on a weekly basis.", "They negotiated the contract on a mutually agreed basis."], "targetWord": "temel"},
+        {"rank": 295, "englishWord": ["basketball", "She enjoys playing basketball in her free time.", "Basketball requires teamwork and coordination.", "The basketball court was newly renovated."], "targetWord": "basketbol"},
+        {"rank": 296, "englishWord": ["bath", "I like to take a warm bath after a long day.", "The bathroom has a bathtub for a relaxing bath.", "The baby giggled during her bath."], "targetWord": "banyo"},
+        {"rank": 297, "englishWord": ["bathroom", "The bathroom is equipped with modern amenities.", "She locked herself in the bathroom to have some privacy.", "The hotel has a spacious bathroom with a jacuzzi."], "targetWord": "banyo"},
+        {"rank": 298, "englishWord": ["battery", "The flashlight needs a new battery.", "The electric car uses a rechargeable battery.", "The smartphone battery was running low."], "targetWord": "pil"},
+        {"rank": 299, "englishWord": ["battle", "The soldiers fought bravely in the battle.", "The battle for equality continues.", "The political battle resulted in a change of leadership."], "targetWord": "savaş"},
+        {"rank": 300, "englishWord": ["bay", "The bay is known for its picturesque views.", "The ship anchored in the bay for the night.", "They enjoyed a seafood dinner by the bay."], "targetWord": "erkek"},
+        {"rank": 301, "englishWord": ["be", "To be or not to be, that is the question.", "I want to be a doctor when I grow up.", "She will be at the party tonight."], "targetWord": "ol"},
+        {"rank": 302, "englishWord": ["beach", "The beach was crowded with sunbathers.", "They built a sandcastle on the beach.", "The beach stretches for miles along the coastline."], "targetWord": "plaj"},
+        {"rank": 303, "englishWord": ["beak", "The bird's beak is adapted for cracking nuts.", "The beak of the toucan is brightly colored.", "The eagle used its sharp beak to catch fish."], "targetWord": "gaga"},
+        {"rank": 304, "englishWord": ["bear", "The brown bear is a symbol of strength.", "Polar bears are well-adapted to cold climates.", "The teddy bear was her favorite childhood toy."], "targetWord": "ayı"},
+        {"rank": 305, "englishWord": ["beard", "He decided to grow a beard for the winter.", "The man with the long beard looked wise.", "She stroked her husband's beard affectionately."], "targetWord": "sakal"},
+        {"rank": 306, "englishWord": ["beat", "The drummer kept the beat during the performance.", "His heart began to beat faster with excitement.", "They managed to beat the opposing team in the final match."], "targetWord": "vurmak"},
+        {"rank": 307, "englishWord": ["beautiful", "The sunset was incredibly beautiful.", "She wore a beautiful gown to the ball.", "The garden is full of beautiful flowers."], "targetWord": "güzel"},
+        {"rank": 308, "englishWord": ["beautifully", "The music played beautifully in the background.", "She expressed herself beautifully through art.", "The landscape was beautifully illuminated by the setting sun."], "targetWord": "güzel bir şekilde"},
+        {"rank": 309, "englishWord": ["beauty", "There is beauty in simplicity.", "She admired the beauty of the natural landscape.", "The beauty of the painting captivated everyone."], "targetWord": "güzellik"},
+        {"rank": 310, "englishWord": ["because", "They canceled the event because of bad weather.", "He couldn't attend the meeting because of a prior commitment.", "She was late because of traffic."], "targetWord": "çünkü"},
+        {"rank": 311, "englishWord": ["become", "With hard work, you can become anything you want.", "The caterpillar will become a butterfly.", "He aspired to become a successful entrepreneur."], "targetWord": "olmak"},
+        {"rank": 312, "englishWord": ["bed", "I like to read a book before going to bed.", "The bed was adorned with fluffy pillows.", "They bought a new bed for the guest room."], "targetWord": "yatak"},
+        {"rank": 313, "englishWord": ["bedroom", "The bedroom is decorated in soothing colors.", "She rearranged the furniture in the bedroom.", "The bedroom has a cozy atmosphere."], "targetWord": "yatak odası"},
+        {"rank": 314, "englishWord": ["beef", "The chef recommended the grilled beef for dinner.", "She prefers to cook with lean beef.", "Beef stew is a hearty winter dish."], "targetWord": "sığır eti"},
+        {"rank": 315, "englishWord": ["beer", "They enjoyed a cold beer on the patio.", "The pub offers a variety of craft beers.", "He ordered a pint of beer at the bar."], "targetWord": "bira"},
+        {"rank": 316, "englishWord": ["before", "Please arrive at least 15 minutes before the meeting.", "He had never seen snow before.", "Think twice before making a decision."], "targetWord": "önce"},
+        {"rank": 317, "englishWord": ["begin", "Let's begin the meeting with a brief introduction.", "She decided to begin her journey early in the morning.", "The concert will begin at 7 PM."], "targetWord": "başlamak"},
+        {"rank": 318, "englishWord": ["beginning", "The beginning of the movie was captivating.", "She felt nervous at the beginning of the presentation.", "Every journey starts with a beginning."], "targetWord": "başlangıç"},
+        {"rank": 319, "englishWord": ["behalf", "I am writing on behalf of the entire team.", "She spoke on behalf of the community at the meeting.", "He accepted the award on behalf of his colleagues."], "targetWord": "adına"},
+        {"rank": 320, "englishWord": ["behave", "It's important to behave respectfully in public.", "Children are expected to behave in the classroom.", "He didn't behave well at the party."], "targetWord": "davranmak"},
+        {"rank": 321, "englishWord": ["behavior", "The dog's behavior was unpredictable.", "The teacher praised good behavior in the classroom.", "Cultural differences can influence behavior."], "targetWord": "davranış"},
+        {"rank": 322, "englishWord": ["behind", "The treasure was hidden behind the waterfall.", "He sat behind his desk, deep in thought.", "They walked behind the parade procession."], "targetWord": "arkasında"},
+        {"rank": 323, "englishWord": ["belief", "Respecting others' belief systems is important.", "Her strong belief in justice motivated her actions.", "Cultural beliefs shape the identity of a community."], "targetWord": "inanç"},
+        {"rank": 324, "englishWord": ["believe", "I believe in the power of positive thinking.", "She finds it hard to believe in supernatural phenomena.", "It's important to believe in oneself."], "targetWord": "inanmak"},
+        {"rank": 325, "englishWord": ["bell", "The ringing bell signaled the end of the school day.", "She tied a bell around the cat's collar to prevent surprises.", "The church bell echoed through the village."], "targetWord": "çan"},
+        {"rank": 326, "englishWord": ["belong", "The antique vase doesn't belong to any specific era.", "He wanted to belong to a community of like-minded individuals.", "These books belong on the top shelf."], "targetWord": "ait olmak"},
+        {"rank": 327, "englishWord": ["below", "The temperature is expected to drop below freezing tonight.", "Please find the information in the paragraph below.", "The cave is located just below the mountain's summit."], "targetWord": "altında"},
+        {"rank": 328, "englishWord": ["belt", "She wore a stylish belt with her dress.", "The safety belt must be fastened during the flight.", "The martial artist earned a black belt in karate."], "targetWord": "kemer"},
+        {"rank": 329, "englishWord": ["bend", "The road took a sharp bend to the left.", "She tried to bend the wire into a heart shape.", "He could bend his fingers easily."], "targetWord": "eğmek"},
+        {"rank": 330, "englishWord": ["beneath", "The treasure was buried beneath the old tree.", "The lake sparkled with fish swimming beneath the surface.", "She hid the gift beneath the bed."], "targetWord": "altında"},
+        {"rank": 331, "englishWord": ["benefit", "Regular exercise has numerous health benefits.", "The new policy is designed to benefit all employees.", "The event raised funds for the benefit of local charities."], "targetWord": "fayda"},
+        {"rank": 332, "englishWord": ["bent", "The paper was slightly bent at the corner.", "His posture was slightly bent due to years of hard labor.", "The tree bent under the weight of the snow."], "targetWord": "eğik"},
+        {"rank": 333, "englishWord": ["beside", "He sat beside his best friend in the class.", "The house is located beside the river.", "She stood beside her sister during the ceremony."], "targetWord": "yanında"},
+            {
+                "rank": 334,
+                "englishWord": ["best", "She performed the best in her team.", "This is the best cake I've ever tasted.", "He always wears his best suit for interviews."],
+                "targetWord": "en iyi"
+            },
+            {
+                "rank": 335,
+                "englishWord": ["bet", "I bet you can't finish that whole pizza.", "They made a friendly bet on the game.", "Let's bet on the outcome of the match."],
+                "targetWord": "bahse girmek"
+            },
+            {
+                "rank": 336,
+                "englishWord": ["better", "She is feeling much better today.", "This phone has a better camera.", "He sings better than he dances."],
+                "targetWord": "daha iyi"
+            },
+            {
+                "rank": 337,
+                "englishWord": ["between", "The shop is located between the bank and the post office.", "We need to choose between these two options.", "The negotiations between the two countries were successful."],
+                "targetWord": "arasında"
+            },
+            {
+                "rank": 338,
+                "englishWord": ["beyond", "The village is just beyond those hills.", "Her kindness goes beyond mere politeness.", "The solution was beyond his understanding."],
+                "targetWord": "ötesinde"
+            },
+            {
+                    "rank": 339,
+                    "englishWord": ["bicycle", "She rides her bicycle to work every day.", "He bought a new bicycle for his son.", "Learning to ride a bicycle can be challenging."],
+                    "targetWord": "bisiklet"
+                },
+                {
+                    "rank": 340,
+                    "englishWord": ["bid", "They made a high bid at the auction.", "The company bid for the construction contract.", "He bid farewell to his family before leaving."],
+                    "targetWord": "teklif"
+                },
+                {
+                    "rank": 341,
+                    "englishWord": ["big", "They live in a big house.", "She has big dreams for her future.", "The big issue is how to tackle climate change."],
+                    "targetWord": "büyük"
+                },
+                {
+                    "rank": 342,
+                    "englishWord": ["bill", "He paid the bill at the restaurant.", "The electricity bill is due next week.", "She introduced a new bill in parliament."],
+                    "targetWord": "fatura"
+                },
+                {
+                    "rank": 343,
+                    "englishWord": ["biology", "He is studying biology at university.", "Biology was her favorite subject in school.", "Marine biology focuses on life in the oceans."],
+                    "targetWord": "biyoloji"
+                },
+                {
+                        "rank": 344,
+                        "englishWord": ["bird", "A small bird landed on the windowsill.", "He enjoys bird watching in his free time.", "The peacock is a bird with colorful feathers."],
+                        "targetWord": "kuş"
+                    },
+                    {
+                        "rank": 345,
+                        "englishWord": ["birth", "They celebrated the birth of their first child.", "The birth rate has been declining in recent years.", "She wrote a book on the birth of modern art."],
+                        "targetWord": "doğum"
+                    },
+                    {
+                        "rank": 346,
+                        "englishWord": ["birthday", "We're throwing a party for her birthday.", "He received many gifts on his birthday.", "Her birthday is on the same day as mine."],
+                        "targetWord": "doğum günü"
+                    },
+                    {
+                        "rank": 347,
+                        "englishWord": ["bit", "He ate a bit of the cake.", "I know a bit about computers.", "She was a bit tired after the journey."],
+                        "targetWord": "azıcık"
+                    },
+                    {
+                        "rank": 348,
+                        "englishWord": ["bite", "The dog might bite if you provoke it.", "She took a big bite of the sandwich.", "Mosquito bites can be very itchy."],
+                        "targetWord": "ısırmak"
+                    },
+                    {
+                        "rank": 349,
+                        "englishWord": ["bitter", "She doesn't like the bitter taste of coffee.", "The defeat was a bitter experience for the team.", "He felt bitter about the way things turned out."],
+                        "targetWord": "acı"
+                    },
+                    {
+                        "rank": 350,
+                        "englishWord": ["bitterly", "She cried bitterly after hearing the news.", "He complained bitterly about the cold weather.", "She tasted the bitter medicine with a frown."],
+                        "targetWord": "acı içinde"
+                      },
+                      {
+                        "rank": 351,
+                        "englishWord": ["black", "The cat is black and white.", "He wore a black suit to the funeral.", "The night sky was pitch black."],
+                        "targetWord": "siyah"
+                      },
+                      {
+                        "rank": 352,
+                        "englishWord": ["blade", "He sharpened the blade of his knife.", "The windmill's blades were spinning rapidly.", "She cut the paper with a sharp blade."],
+                        "targetWord": "bıçak"
+                      },
+                      {
+                        "rank": 353,
+                        "englishWord": ["blame", "Don't blame me for your mistakes.", "They tried to place the blame on someone else.", "She accepted the blame for the project's failure."],
+                        "targetWord": "suçlama"
+                      },
+                      {
+                        "rank": 354,
+                        "englishWord": ["blank", "The page was blank with no writing on it.", "His mind went blank during the exam.", "She stared at the blank canvas, unsure of what to paint."],
+                        "targetWord": "boş"
+                      },
+                      {
+                        "rank": 355,
+                        "englishWord": ["blind", "He was born blind and couldn't see anything.", "She closed her eyes and walked blindly in the dark.", "Blind people often rely on their other senses to navigate."],
+                        "targetWord": "kör"
+                      },
+                      {
+                        "rank": 356,
+                        "englishWord": ["block", "The building had a huge block of marble as decoration.", "They used wooden blocks to build the tower.", "She couldn't get past the block in the road due to construction."],
+                        "targetWord": "blok"
+                      },
+                      {
+                        "rank": 357,
+                        "englishWord": ["blond", "She had long, blond hair that shone in the sunlight.", "He preferred dating women with blond hair.", "Blond children often have light-colored eyes as well."],
+                        "targetWord": "sarışın"
+                      },
+                      {
+                        "rank": 358,
+                        "englishWord": ["blood", "Blood is vital for the body's functions.", "The vampire sucked her blood.", "He donated blood to help save lives."],
+                        "targetWord": "kan"
+                      },
+                      {
+                        "rank": 359,
+                        "englishWord": ["blow", "She gave a gentle blow to the birthday candles.", "The strong wind can blow away small objects.", "He dealt a powerful blow to his opponent in the boxing match."],
+                        "targetWord": "üflemek"
+                      },
+                      {
+                        "rank": 360,
+                        "englishWord": ["blue", "The sky was clear and blue.", "She wore a beautiful blue dress to the party.", "Blue is often associated with calmness and serenity."],
+                        "targetWord": "mavi"
+                      },
+                      {
+                        "rank": 361,
+                        "englishWord": ["board", "The students wrote their names on the board.", "He nailed the board to the wall.", "They discussed the agenda during the board meeting."],
+                        "targetWord": "tahta"
+                      },
+                      {
+                        "rank": 362,
+                        "englishWord": ["boat", "They sailed on a small boat across the lake.", "He rowed the boat to reach the island.", "The fishing boat returned with a catch of fresh fish."],
+                        "targetWord": "tekne"
+                      },
+                      {
+                        "rank": 363,
+                        "englishWord": ["body", "The human body is composed of many organs.", "She felt aches in her body after the workout.", "They found the body of a missing hiker in the woods."],
+                        "targetWord": "vücut"
+                      },
+                      {
+                        "rank": 364,
+                        "englishWord": ["boil", "The water started to boil on the stove.", "She had a painful boil on her finger.", "Boil the eggs for exactly 10 minutes."],
+                        "targetWord": "kaynamak"
+                      },
+                      {
+                        "rank": 365,
+                        "englishWord": ["bomb", "The bomb exploded with a loud bang.", "They defused the bomb before it could cause harm.", "The city was under threat of a terrorist bomb attack."],
+                        "targetWord": "bomba"
+                      },
+                      {
+                        "rank": 366,
+                        "englishWord": ["bond", "Their friendship formed a strong bond over the years.", "Investors purchased government bonds as a safe investment.", "The chemical bond between the atoms was very stable."],
+                        "targetWord": "bağ"
+                      },
+                      {
+                          "rank": 367,
+                          "englishWord": ["bone", "Dogs love to chew on bones.", "She fractured her leg bone in a skiing accident.", "The archaeologist discovered ancient animal bones in the excavation site."],
+                          "targetWord": "kemik"
+                        },
+                        {
+                          "rank": 368,
+                          "englishWord": ["book", "She always carries a book with her to read on the bus.", "He published his first book last year.", "The library has a vast collection of books."],
+                          "targetWord": "kitap"
+                        },
+                        {
+                          "rank": 369,
+                          "englishWord": ["boot", "He wore his hiking boots for the mountain climb.", "She put on her winter boots to keep her feet warm.", "The cowboy boots were covered in dust from the rodeo."],
+                          "targetWord": "bot"
+                        },
+                        {
+                          "rank": 370,
+                          "englishWord": ["border", "The border between the two countries is heavily guarded.", "The river forms a natural border between the states.", "They crossed the border without any issues."],
+                          "targetWord": "sınır"
+                        },
+                        {
+                          "rank": 371,
+                          "englishWord": ["bore", "The lecture was so boring that many students fell asleep.", "He can be a real bore at parties.", "She tried to hide her boredom during the long meeting."],
+                          "targetWord": "can sıkıcı"
+                        },
+                        {
+                          "rank": 372,
+                          "englishWord": ["bored", "He looked bored during the presentation.", "She was bored with her job and wanted a change.", "I'm never bored when I'm with my friends."],
+                          "targetWord": "can sıkıcı"
+                        },
+                        {
+                          "rank": 373,
+                          "englishWord": ["boring", "The movie was so boring that I left the theater.", "Studying for exams can be really boring.", "The long and boring speech put everyone to sleep."],
+                          "targetWord": "can sıkıcı"
+                        },
+                        {
+                          "rank": 374,
+                          "englishWord": ["born", "She was born in a small village.", "He was born on a sunny day in June.", "They are both born leaders."],
+                          "targetWord": "doğmuş"
+                        },
+                        {
+                          "rank": 375,
+                          "englishWord": ["borrow", "Can I borrow your pen for a moment?", "She had to borrow money from her friend.", "He borrowed a book from the library."],
+                          "targetWord": "ödünç almak"
+                        },
+                        {
+                          "rank": 376,
+                          "englishWord": ["boss", "Her boss is very demanding.", "He's the boss of his own company.", "The boss congratulated the team on their success."],
+                          "targetWord": "patron"
+                        },
+                        {
+                          "rank": 377,
+                          "englishWord": ["both", "They both love to travel.", "Both of them are excellent singers.", "We can go to the movie together; I like both options."],
+                          "targetWord": "her ikisi"
+                        },
+                        {
+                          "rank": 378,
+                          "englishWord": ["bother", "Please don't bother me right now.", "It doesn't bother me if you play music.", "He didn't want to bother his friend with his problems."],
+                          "targetWord": "rahatsız etmek"
+                        },
+                        {
+                          "rank": 379,
+                          "englishWord": ["bottle", "She filled the bottle with cold water.", "The baby was drinking milk from a bottle.", "He opened a bottle of champagne to celebrate."],
+                          "targetWord": "şişe"
+                        },
+                          {
+                            "rank": 380,
+                            "englishWord": ["bottom", "The treasure was hidden at the bottom of the sea.", "She found her keys at the bottom of her bag.", "The bottom of the canyon was shrouded in darkness."],
+                            "targetWord": "alt"
+                          },
+                          {
+                            "rank": 381,
+                            "englishWord": ["bound", "The two countries are bound by a strong alliance.", "She felt bound by her responsibilities.", "The pages of the book were bound together with leather."],
+                            "targetWord": "bağlı"
+                          },
+                          {
+                            "rank": 382,
+                            "englishWord": ["bowl", "He ate his soup from a large bowl.", "She placed the salad in a colorful bowl.", "They used a bowl to mix the ingredients."],
+                            "targetWord": "kase"
+                          },
+                          {
+                            "rank": 383,
+                            "englishWord": ["box", "He packed his belongings into a cardboard box.", "She received a gift in a beautifully wrapped box.", "The cat jumped into the empty box and played for hours."],
+                            "targetWord": "kutu"
+                          },
+                          {
+                            "rank": 384,
+                            "englishWord": ["boy", "The boy ran across the playground with his friends.", "She has a baby boy who just started walking.", "The boy was excited to open his birthday presents."],
+                            "targetWord": "çocuk"
+                          },
+                          {
+                            "rank": 385,
+                            "englishWord": ["boyfriend", "Her boyfriend surprised her with flowers.", "They've been dating for a year, and he's her boyfriend.", "She introduced her boyfriend to her parents."],
+                            "targetWord": "erkek arkadaş"
+                          },
+                          {
+                            "rank": 386,
+                            "englishWord": ["brain", "The brain is the most complex organ in the body.", "She used her brain to solve the challenging puzzle.", "The brain controls all bodily functions."],
+                            "targetWord": "beyin"
+                          },
+                          {
+                            "rank": 387,
+                            "englishWord": ["branch", "The tree had many branches with colorful leaves.", "He decided to open a new branch of his business.", "The company expanded its branch network."],
+                            "targetWord": "dal"
+                          },
+                          {
+                            "rank": 388,
+                            "englishWord": ["brand", "Nike is a well-known brand in sportswear.", "He started his own brand of clothing.", "The brand's logo is instantly recognizable."],
+                            "targetWord": "marka"
+                          },
+                          {
+                            "rank": 389,
+                            "englishWord": ["brave", "She showed great courage and was considered very brave.", "The firefighters were praised for their brave actions.", "He was determined to be a brave soldier."],
+                            "targetWord": "cesur"
+                          },
+                          {
+                            "rank": 390,
+                            "englishWord": ["bread", "She baked fresh bread for breakfast.", "He spread butter and jam on his toast.", "Bread is a staple food in many cultures."],
+                            "targetWord": "ekmek"
+                          },
+                          {
+                            "rank": 391,
+                            "englishWord": ["break", "He took a short break from work to grab a snack.", "She needed a break from her busy schedule.", "The teacher allowed a break during the long exam."],
+                            "targetWord": "mola"
+                          },
+                          {
+                            "rank": 392,
+                            "englishWord": ["break in", "Someone tried to break in through the back door.", "He didn't want to break in on their conversation.", "They discussed how to prevent break-ins."],
+                            "targetWord": "araya girmek"
+                          },
+                          {
+                            "rank": 393,
+                            "englishWord": ["breakfast", "She prepared a delicious breakfast with eggs and bacon.", "He skipped breakfast and had a late brunch instead.", "Breakfast is considered the most important meal of the day."],
+                            "targetWord": "kahvaltı"
+                          },
+                          {
+                            "rank": 394,
+                            "englishWord": ["breast", "She breastfed her newborn baby.", "He had a tattoo on his chest over his left breast.", "Breast cancer is a serious health concern for women."],
+                            "targetWord": "göğüs"
+                          },
+                          {
+                            "rank": 395,
+                            "englishWord": ["breath", "She took a deep breath and closed her eyes.", "His breath smelled like mint.", "Breathing exercises can help reduce stress."],
+                            "targetWord": "nefes"
+                          },
+                          {
+                            "rank": 396,
+                            "englishWord": ["breathe", "He couldn't breathe underwater without scuba gear.", "She taught him how to breathe properly during meditation.", "Breathe in slowly and exhale deeply."],
+                            "targetWord": "nefes almak"
+                          },
+                          {
+                            "rank": 397,
+                            "englishWord": ["breathing", "Her breathing became shallow as she fell asleep.", "Proper breathing techniques are essential for singers.", "Breathing problems can be caused by allergies."],
+                            "targetWord": "nefes alma"
+                          },
+                          {
+                            "rank": 398,
+                            "englishWord": ["breed", "She decided to breed rare orchids in her garden.", "He's been breeding horses for many years.", "The dog breed was known for its loyalty."],
+                            "targetWord": "beslemek"
+                          },
+                          {
+                            "rank": 399,
+                            "englishWord": ["brick", "The house was made of red bricks.", "He built a brick wall around his property.", "The brick factory produced thousands of bricks daily."],
+                            "targetWord": "tuğla"
+                          },
+                          {
+                            "rank": 400,
+                            "englishWord": ["bridge", "The bridge connected the two sides of the river.", "She walked across the bridge to get to the other side.", "The suspension bridge swayed in the strong wind."],
+                            "targetWord": "köprü"
+                          },
+                          {
+                            "rank": 401,
+                            "englishWord": ["brief", "She gave a brief overview of the project.", "He wrote a brief email to inform his colleagues.", "The meeting will be brief, lasting only 30 minutes."],
+                            "targetWord": "kısa"
+                          },
+                          {
+                            "rank": 402,
+                            "englishWord": ["briefly", "He spoke briefly about his recent travels.", "She met him briefly at the conference.", "The sun appeared briefly before disappearing behind the clouds."],
+                            "targetWord": "kısaca"
+                          },
+                          {
+                            "rank": 403,
+                            "englishWord": ["bright", "The stars were shining brightly in the night sky.", "She had a bright idea for the advertising campaign.", "The room was filled with bright colors."],
+                            "targetWord": "parlak"
+                          },
+                          {
+                            "rank": 404,
+                            "englishWord": ["brilliant", "She received a brilliant review for her performance.", "He had a brilliant mind and was known for his inventions.", "The fireworks display was absolutely brilliant."],
+                            "targetWord": "parlak"
+                          },
+                          {
+                            "rank": 405,
+                            "englishWord": ["bring", "Can you bring some snacks to the party?", "He promised to bring a gift for her birthday.", "She forgot to bring her umbrella on a rainy day."],
+                            "targetWord": "getirmek"
+                          },
+                          {
+                            "rank": 406,
+                            "englishWord": ["broad", "The river was broad and flowed gently.", "He had a broad knowledge of literature.", "Her smile was broad and infectious."],
+                            "targetWord": "geniş"
+                          },
+                          {
+                            "rank": 407,
+                            "englishWord": ["broadcast", "The radio station broadcast the news every hour.", "The event will be broadcast live on television.", "He used social media to broadcast his opinions."],
+                            "targetWord": "yayın"
+                          },
+                          {
+                            "rank": 408,
+                            "englishWord": ["broadly", "The term 'art' can be broadly defined.", "He smiled broadly when he saw his family.", "She approached the problem broadly, considering various solutions."],
+                            "targetWord": "geniş bir şekilde"
+                          },
+                          {
+                            "rank": 409,
+                            "englishWord": ["broken", "The vase was broken into several pieces.", "He had a broken leg and couldn't walk.", "Her heart was broken when her pet passed away."],
+                            "targetWord": "kırık"
+                          },
+                          {
+                            "rank": 410,
+                            "englishWord": ["brother", "Her younger brother looked up to her.", "He and his brother were inseparable.", "She has two brothers and one sister."],
+                            "targetWord": "erkek kardeş"
+                          },
+                          {
+                            "rank": 411,
+                            "englishWord": ["brown", "The leaves turned brown in the autumn.", "She wore a brown dress to the party.", "He preferred his coffee with brown sugar."],
+                            "targetWord": "kahverengi"
+                          },
+                          {
+                            "rank": 412,
+                            "englishWord": ["brush", "She used a brush to paint the canvas.", "He brushed his teeth twice a day.", "The cat's fur was soft to the touch after a good brush."],
+                            "targetWord": "fırça"
+                          },
+                          {
+                            "rank": 413,
+                            "englishWord": ["bubble", "The children blew bubbles in the park.", "Her excitement was like a bubble about to burst.", "The water in the pot began to bubble."],
+                            "targetWord": "kabarcık"
+                          },
+                          {
+                            "rank": 414,
+                            "englishWord": ["budget", "They created a budget to track their expenses.", "The company had a limited budget for advertising.", "She had to budget her time wisely to meet deadlines."],
+                            "targetWord": "bütçe"
+                          },
+                          {
+                            "rank": 415,
+                            "englishWord": ["build", "They decided to build a new house.", "He used his skills to build a wooden cabinet.", "The company plans to build a new factory."],
+                            "targetWord": "inşa etmek"
+                          },
+                          {
+                            "rank": 416,
+                            "englishWord": ["building", "The building had a modern design.", "She worked in the same building for over a decade.", "The tallest building in the city was an iconic landmark."],
+                            "targetWord": "bina"
+                          },
+                          {
+                            "rank": 417,
+                            "englishWord": ["bullet", "The bullet pierced through the target.", "The detective found a bullet casing at the crime scene.", "They heard a loud gunshot, and a bullet whizzed past them."],
+                            "targetWord": "mermi"
+                          },
+                          {
+                            "rank": 418,
+                            "englishWord": ["bunch", "She bought a bunch of fresh flowers.", "He picked a bunch of grapes from the vine.", "A bunch of friends gathered for a picnic."],
+                            "targetWord": "salkım"
+                          },
+                          {
+                            "rank": 419,
+                            "englishWord": ["burn", "The fire continued to burn throughout the night.", "She accidentally burned her hand while cooking.", "He used a torch to burn the old documents."],
+                            "targetWord": "yanmak"
+                          },
+                          {
+                            "rank": 420,
+                            "englishWord": ["burn down", "The old house burned down in a matter of hours.", "The forest fire threatened to burn down the entire area.", "He watched as the building burned down to ashes."],
+                            "targetWord": "yakmak"
+                          },
+                          {
+                            "rank": 421,
+                            "englishWord": ["burst", "The balloon burst with a loud pop.", "She couldn't contain her laughter and burst into giggles.", "The dam burst, causing a flood."],
+                            "targetWord": "patlamak"
+                          },
+                          {
+                            "rank": 422,
+                            "englishWord": ["bury", "They decided to bury the time capsule in the backyard.", "He was buried in the family cemetery.", "She wanted to bury her past and start fresh."],
+                            "targetWord": "göm"
+                          },
+                          {
+                            "rank": 423,
+                            "englishWord": ["bus", "The bus was packed with commuters.", "She took the bus to work every day.", "The school bus arrives at 8 AM sharp."],
+                            "targetWord": "otobüs"
+                          },
+                          {
+                            "rank": 424,
+                            "englishWord": ["bush", "The garden was filled with flowering bushes.", "They hid behind a bush to surprise their friend.", "Trimming the bush required skill and patience."],
+                            "targetWord": "çalı"
+                          },
+                          {
+                            "rank": 425,
+                            "englishWord": ["business", "He runs a successful business in the city.", "Business ethics are vital for sustainable growth.", "She studied business at the university."],
+                            "targetWord": "iş"
+                          },
+                          {
+                            "rank": 426,
+                            "englishWord": ["businessman", "The businessman negotiated a major deal.", "He is a well-known businessman in his community.", "Success as a businessman requires dedication and insight."],
+                            "targetWord": "iş adamı"
+                          },
+                          {
+                            "rank": 427,
+                            "englishWord": ["businesswoman", "The businesswoman launched her own startup.", "She is a respected businesswoman in the tech industry.", "Her skills as a businesswoman are widely admired."],
+                            "targetWord": "iş kadını"
+                          },
+                          {
+                            "rank": 428,
+                            "englishWord": ["c.", "The document was dated c. 1920.", "The painting is estimated to be from c. 1500.", "Historians believe the artifact is from c. 300 BCE."],
+                            "targetWord": "c."
+                          },
+                          {
+                            "rank": 429,
+                            "englishWord": ["cabinet", "She stored the dishes in the kitchen cabinet.", "The prime minister appointed his new cabinet.", "The antique cabinet was a family heirloom."],
+                            "targetWord": "kabin"
+                          },
+                          {
+                            "rank": 430,
+                            "englishWord": ["cable", "The bridge is supported by large steel cables.", "We need a longer cable for the television.", "The technician repaired the broken internet cable."],
+                            "targetWord": "kablo"
+                          },
+                          {
+                            "rank": 431,
+                            "englishWord": ["cake", "She baked a chocolate cake for the party.", "The wedding cake had three tiers.", "He cut a slice of cake for each guest."],
+                            "targetWord": "kek"
+                          },
+                          {
+                            "rank": 432,
+                            "englishWord": ["calculate", "Calculate the total cost of the project.", "She used a calculator to calculate the expenses.", "It's difficult to calculate the risks involved."],
+                            "targetWord": "hesaplamak"
+                          },
+                          {
+                            "rank": 433,
+                            "englishWord": ["calculation", "His calculation proved to be accurate.", "The calculation of probabilities is complex.", "She showed her work in the calculation."],
+                            "targetWord": "hesaplama"
+                          },
+                          {
+                            "rank": 434,
+                            "englishWord": ["call", "He decided to call his friend.", "The birds call at dawn.", "She received a call from an unknown number."],
+                            "targetWord": "aramak"
+                          },
+                          {
+                            "rank": 435,
+                            "englishWord": ["call back", "Please call back later.", "The actor was asked to call back for a second audition.", "If she calls, tell her to call back tomorrow."],
+                            "targetWord": "geri aramak"
+                          },
+                          {
+                            "rank": 436,
+                            "englishWord": ["calm", "The sea was calm and clear.", "He remained calm during the emergency.", "A calm demeanor helps in tense situations."],
+                            "targetWord": "sakin"
+                          },
+                          {
+                            "rank": 437,
+                            "englishWord": ["calm down", "Calm down, everything will be fine.", "She took deep breaths to calm down.", "The coach asked the team to calm down and focus."],
+                            "targetWord": "sakin ol"
+                          },
+                          {
+                            "rank": 438,
+                            "englishWord": ["camera", "She captured the sunset with her new camera.", "The security camera recorded the incident.", "He enjoys photography with his digital camera."],
+                            "targetWord": "kamera"
+                          },
+                          {
+                            "rank": 439,
+                            "englishWord": ["camp", "They set up camp by the lake.", "Summer camp was her favorite childhood memory.", "Refugees were housed in a temporary camp."],
+                            "targetWord": "kamp"
+                          },
+                          {
+                            "rank": 440,
+                            "englishWord": ["campaign", "The marketing campaign was very successful.", "She led a campaign for environmental awareness.", "The election campaign lasted six months."],
+                            "targetWord": "kampanya"
+                          },
+                          {
+                            "rank": 441,
+                            "englishWord": ["can", "You can see the sea from here.", "She can speak four languages.", "I can help you with your homework."],
+                            "targetWord": "yapabilir"
+                          },
+                          {
+                            "rank": 443,
+                            "englishWord": ["cancel", "The event was canceled due to rain.", "She had to cancel her appointment.", "Flights were canceled because of the fog."],
+                            "targetWord": "iptal etmek"
+                          },
+                          {
+                            "rank": 444,
+                            "englishWord": ["cancer", "He was diagnosed with skin cancer.", "Research on cancer treatment continues.", "Cancer awareness has increased in recent years."],
+                            "targetWord": "kanser"
+                          },
+                          {
+                            "rank": 445,
+                            "englishWord": ["candidate", "She is a strong candidate for the job.", "The political candidate held a rally.", "He was the best candidate for the scholarship."],
+                            "targetWord": "aday"
+                          },
+                          {
+                            "rank": 446,
+                            "englishWord": ["candy", "The children collected candy on Halloween.", "She bought a bag of candy at the store.", "He offered her a piece of candy."],
+                            "targetWord": "şeker"
+                          },
+                          {
+                            "rank": 447,
+                            "englishWord": ["cap", "He wore a cap to protect himself from the sun.", "Please put the cap back on the bottle.", "The salary cap was introduced to the league."],
+                            "targetWord": "kap"
+                          },
+                          {
+                            "rank": 448,
+                            "englishWord": ["capable", "She is capable of handling the situation.", "The team is capable of winning the championship.", "He proved himself to be capable in his field."],
+                            "targetWord": "kabiliyetli"
+                          },
+                          {
+                            "rank": 449,
+                            "englishWord": ["capacity", "The stadium has a capacity of 50,000 people.", "She served in the capacity of advisor.", "The battery has a large storage capacity."],
+                            "targetWord": "kapasite"
+                          },
+                          {
+                            "rank": 450,
+                            "englishWord": ["capital", "Paris is the capital of France.", "They invested a large amount of capital in the business.", "Learning the capital cities of the world is fun."],
+                            "targetWord": "başkent"
+                          },
+                          {
+                            "rank": 451,
+                            "englishWord": ["captain", "The captain steered the ship through the storm.", "He was named captain of the football team.", "The airline captain announced our arrival time."],
+                            "targetWord": "kaptan"
+                          },
+                          {
+                            "rank": 452,
+                            "englishWord": ["capture", "The artist managed to capture her beauty.", "The police captured the fugitive.", "The camera can capture high-quality video."],
+                            "targetWord": "yakalamak"
+                          },
+                          {
+                            "rank": 453,
+                            "englishWord": ["car", "He bought a new car last week.", "She took her car to the mechanic.", "The family packed the car for a road trip."],
+                            "targetWord": "araba"
+                          },
+                          {
+                            "rank": 454,
+                            "englishWord": ["card", "I sent her a birthday card.", "He paid with his credit card.", "They played a game of cards."],
+                            "targetWord": "kart"
+                          },
+                          {
+                            "rank": 455,
+                            "englishWord": ["care", "Take care of yourself.", "She has a great care for her plants.", "The nurse provided excellent care to the patient."],
+                            "targetWord": "ilgilenmek"
+                          },
+                          {
+                            "rank": 456,
+                            "rank": 456,
+                            "englishWord": ["career", "She had a long career in medicine.", "His career as an actor took off quickly.", "Choosing a career can be challenging."],
+                            "targetWord": "kariyer"
+                          },
+                          {
+                            "rank": 457,
+                            "englishWord": ["careful", "Be careful with the glass.", "He was careful to avoid any mistakes.", "She gave a careful consideration to the proposal."],
+                            "targetWord": "dikkatli"
+                          },
+                          {
+                            "rank": 458,
+                            "englishWord": ["careless", "His careless mistake caused a big problem.", "She was careless with her belongings.", "Careless driving can lead to accidents."],
+                            "targetWord": "dikkatsiz"
+                          },
+                         
+
+    ]
+}

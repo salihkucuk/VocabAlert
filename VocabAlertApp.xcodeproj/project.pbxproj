@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		661250792AED1F8300CAEC42 /* LoginSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661250782AED1F8300CAEC42 /* LoginSignUpView.swift */; };
+		6612507B2AED3F0600CAEC42 /* tr.json in Resources */ = {isa = PBXBuildFile; fileRef = 6612507A2AED3F0600CAEC42 /* tr.json */; };
+		6612507D2AED405800CAEC42 /* EnglishWordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612507C2AED405800CAEC42 /* EnglishWordModel.swift */; };
+		6612507F2AED411900CAEC42 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612507E2AED411900CAEC42 /* ContentViewModel.swift */; };
+		662C553C2B07894700D30E70 /* quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = 662C553B2B07894700D30E70 /* quiz.json */; };
+		662C55402B0C90C200D30E70 /* TranslateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662C553F2B0C90C200D30E70 /* TranslateView.swift */; };
+		662C55422B0C912F00D30E70 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662C55412B0C912F00D30E70 /* SettingsView.swift */; };
+		669A6EA32AEA913800CAFE9D /* VocabAlertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669A6EA22AEA913800CAFE9D /* VocabAlertApp.swift */; };
+		669A6EA52AEA913800CAFE9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669A6EA42AEA913800CAFE9D /* ContentView.swift */; };
+		669A6EA72AEA913800CAFE9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669A6EA62AEA913800CAFE9D /* Assets.xcassets */; };
+		669A6EAA2AEA913800CAFE9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669A6EA92AEA913800CAFE9D /* Preview Assets.xcassets */; };
+		66C26E7E2AF536B100B223EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 661250A42AF0E86200CAEC42 /* GoogleService-Info.plist */; };
+		66FD6E862AF52C6A0089398F /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FD6E852AF52C6A0089398F /* NotificationService.swift */; };
+		66FD6E8A2AF52C6A0089398F /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 66FD6E832AF52C6A0089398F /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8BA7128C171E529366BF4A25 /* Pods_VocabAlertApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D933EFCFC2869C7BAF36D3 /* Pods_VocabAlertApp.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		9A6908683FA5D31D5FA20E74 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D3A21CED8AEA1C0F3E6FC8 /* Pods_OneSignalNotificationServiceExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66FD6E882AF52C6A0089398F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 669A6E972AEA913700CAFE9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66FD6E822AF52C6A0089398F;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		66FD6E8E2AF52C6A0089398F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				66FD6E8A2AF52C6A0089398F /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00D3A21CED8AEA1C0F3E6FC8 /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D933EFCFC2869C7BAF36D3 /* Pods_VocabAlertApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VocabAlertApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBEA58A7C1CC7BC5162595B /* Pods-VocabAlertApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocabAlertApp.release.xcconfig"; path = "Target Support Files/Pods-VocabAlertApp/Pods-VocabAlertApp.release.xcconfig"; sourceTree = "<group>"; };
+		4EDBA80211C85C37966FD24F /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		661250782AED1F8300CAEC42 /* LoginSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUpView.swift; sourceTree = "<group>"; };
+		6612507A2AED3F0600CAEC42 /* tr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tr.json; sourceTree = "<group>"; };
+		6612507C2AED405800CAEC42 /* EnglishWordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishWordModel.swift; sourceTree = "<group>"; };
+		6612507E2AED411900CAEC42 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		661250A42AF0E86200CAEC42 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		662C553B2B07894700D30E70 /* quiz.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quiz.json; sourceTree = "<group>"; };
+		662C553F2B0C90C200D30E70 /* TranslateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateView.swift; sourceTree = "<group>"; };
+		662C55412B0C912F00D30E70 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6657D2942AF397E30019961A /* OneSignalCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OneSignalCore.xcframework; path = Pods/OneSignal/iOS_SDK/OneSignalSDK/OneSignal_Core/OneSignalCore.xcframework; sourceTree = "<group>"; };
+		66611AE82AF11A690083EF1B /* VocabAlertApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VocabAlertApp.entitlements; sourceTree = "<group>"; };
+		66611AE92AF11A850083EF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		669A6E9F2AEA913800CAFE9D /* VocabAlertApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocabAlertApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		669A6EA22AEA913800CAFE9D /* VocabAlertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabAlertApp.swift; sourceTree = "<group>"; };
+		669A6EA42AEA913800CAFE9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		669A6EA62AEA913800CAFE9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		669A6EA92AEA913800CAFE9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66FD6E832AF52C6A0089398F /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FD6E852AF52C6A0089398F /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		66FD6E872AF52C6A0089398F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873D88CB468D111ABCC5CBD7 /* Pods-VocabAlertApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocabAlertApp.debug.xcconfig"; path = "Target Support Files/Pods-VocabAlertApp/Pods-VocabAlertApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F427DEF0B88C32ADA06ADAA2 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		669A6E9C2AEA913700CAFE9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA7128C171E529366BF4A25 /* Pods_VocabAlertApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FD6E802AF52C6A0089398F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6908683FA5D31D5FA20E74 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		669A6E962AEA913700CAFE9D = {
+			isa = PBXGroup;
+			children = (
+				669A6EA12AEA913800CAFE9D /* VocabAlertApp */,
+				66FD6E842AF52C6A0089398F /* OneSignalNotificationServiceExtension */,
+				669A6EA02AEA913800CAFE9D /* Products */,
+				7BEE7721C8FC9E58B52CCE21 /* Pods */,
+				E2C88A43DEF2269030BE4BA7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		669A6EA02AEA913800CAFE9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				669A6E9F2AEA913800CAFE9D /* VocabAlertApp.app */,
+				66FD6E832AF52C6A0089398F /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		669A6EA12AEA913800CAFE9D /* VocabAlertApp */ = {
+			isa = PBXGroup;
+			children = (
+				66611AE92AF11A850083EF1B /* Info.plist */,
+				66611AE82AF11A690083EF1B /* VocabAlertApp.entitlements */,
+				669A6EA22AEA913800CAFE9D /* VocabAlertApp.swift */,
+				661250782AED1F8300CAEC42 /* LoginSignUpView.swift */,
+				669A6EA42AEA913800CAFE9D /* ContentView.swift */,
+				6612507E2AED411900CAEC42 /* ContentViewModel.swift */,
+				6612507C2AED405800CAEC42 /* EnglishWordModel.swift */,
+				662C553F2B0C90C200D30E70 /* TranslateView.swift */,
+				662C55412B0C912F00D30E70 /* SettingsView.swift */,
+				6612507A2AED3F0600CAEC42 /* tr.json */,
+				662C553B2B07894700D30E70 /* quiz.json */,
+				669A6EA62AEA913800CAFE9D /* Assets.xcassets */,
+				661250A42AF0E86200CAEC42 /* GoogleService-Info.plist */,
+				669A6EA82AEA913800CAFE9D /* Preview Content */,
+			);
+			path = VocabAlertApp;
+			sourceTree = "<group>";
+		};
+		669A6EA82AEA913800CAFE9D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				669A6EA92AEA913800CAFE9D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66FD6E842AF52C6A0089398F /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				66FD6E852AF52C6A0089398F /* NotificationService.swift */,
+				66FD6E872AF52C6A0089398F /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		7BEE7721C8FC9E58B52CCE21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				873D88CB468D111ABCC5CBD7 /* Pods-VocabAlertApp.debug.xcconfig */,
+				3BBEA58A7C1CC7BC5162595B /* Pods-VocabAlertApp.release.xcconfig */,
+				F427DEF0B88C32ADA06ADAA2 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				4EDBA80211C85C37966FD24F /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2C88A43DEF2269030BE4BA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6657D2942AF397E30019961A /* OneSignalCore.xcframework */,
+				36D933EFCFC2869C7BAF36D3 /* Pods_VocabAlertApp.framework */,
+				00D3A21CED8AEA1C0F3E6FC8 /* Pods_OneSignalNotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		669A6E9E2AEA913700CAFE9D /* VocabAlertApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 669A6EAD2AEA913800CAFE9D /* Build configuration list for PBXNativeTarget "VocabAlertApp" */;
+			buildPhases = (
+				0E1336C2897FD4FCC0A818DB /* [CP] Check Pods Manifest.lock */,
+				669A6E9B2AEA913700CAFE9D /* Sources */,
+				669A6E9C2AEA913700CAFE9D /* Frameworks */,
+				669A6E9D2AEA913700CAFE9D /* Resources */,
+				7C7512661912B47C4C947146 /* [CP] Embed Pods Frameworks */,
+				66FD6E8E2AF52C6A0089398F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66FD6E892AF52C6A0089398F /* PBXTargetDependency */,
+			);
+			name = VocabAlertApp;
+			productName = FirstSwiftUIApp;
+			productReference = 669A6E9F2AEA913800CAFE9D /* VocabAlertApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66FD6E822AF52C6A0089398F /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FD6E8B2AF52C6A0089398F /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				35878F4DDB1DCCD01C08A35F /* [CP] Check Pods Manifest.lock */,
+				66FD6E7F2AF52C6A0089398F /* Sources */,
+				66FD6E802AF52C6A0089398F /* Frameworks */,
+				66FD6E812AF52C6A0089398F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 66FD6E832AF52C6A0089398F /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		669A6E972AEA913700CAFE9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					669A6E9E2AEA913700CAFE9D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					66FD6E822AF52C6A0089398F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 669A6E9A2AEA913700CAFE9D /* Build configuration list for PBXProject "VocabAlertApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 669A6E962AEA913700CAFE9D;
+			productRefGroup = 669A6EA02AEA913800CAFE9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				669A6E9E2AEA913700CAFE9D /* VocabAlertApp */,
+				66FD6E822AF52C6A0089398F /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		669A6E9D2AEA913700CAFE9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C26E7E2AF536B100B223EB /* GoogleService-Info.plist in Resources */,
+				662C553C2B07894700D30E70 /* quiz.json in Resources */,
+				669A6EAA2AEA913800CAFE9D /* Preview Assets.xcassets in Resources */,
+				6612507B2AED3F0600CAEC42 /* tr.json in Resources */,
+				669A6EA72AEA913800CAFE9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FD6E812AF52C6A0089398F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E1336C2897FD4FCC0A818DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VocabAlertApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35878F4DDB1DCCD01C08A35F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C7512661912B47C4C947146 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VocabAlertApp/Pods-VocabAlertApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VocabAlertApp/Pods-VocabAlertApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VocabAlertApp/Pods-VocabAlertApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		669A6E9B2AEA913700CAFE9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662C55422B0C912F00D30E70 /* SettingsView.swift in Sources */,
+				6612507D2AED405800CAEC42 /* EnglishWordModel.swift in Sources */,
+				662C55402B0C90C200D30E70 /* TranslateView.swift in Sources */,
+				669A6EA52AEA913800CAFE9D /* ContentView.swift in Sources */,
+				669A6EA32AEA913800CAFE9D /* VocabAlertApp.swift in Sources */,
+				661250792AED1F8300CAEC42 /* LoginSignUpView.swift in Sources */,
+				6612507F2AED411900CAEC42 /* ContentViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FD6E7F2AF52C6A0089398F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FD6E862AF52C6A0089398F /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66FD6E892AF52C6A0089398F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66FD6E822AF52C6A0089398F /* OneSignalNotificationServiceExtension */;
+			targetProxy = 66FD6E882AF52C6A0089398F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		669A6EAB2AEA913800CAFE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		669A6EAC2AEA913800CAFE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		669A6EAE2AEA913800CAFE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 873D88CB468D111ABCC5CBD7 /* Pods-VocabAlertApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VocabAlertApp/VocabAlertApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VocabAlertApp/Preview Content\"";
+				DEVELOPMENT_TEAM = AM46LQTCTD;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VocabAlertApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salihkucuk.VocabAlertApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		669A6EAF2AEA913800CAFE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BBEA58A7C1CC7BC5162595B /* Pods-VocabAlertApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VocabAlertApp/VocabAlertApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VocabAlertApp/Preview Content\"";
+				DEVELOPMENT_TEAM = AM46LQTCTD;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VocabAlertApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salihkucuk.VocabAlertApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66FD6E8C2AF52C6A0089398F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F427DEF0B88C32ADA06ADAA2 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM46LQTCTD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salihkucuk.VocabAlertApp.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66FD6E8D2AF52C6A0089398F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EDBA80211C85C37966FD24F /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM46LQTCTD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salihkucuk.VocabAlertApp.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		669A6E9A2AEA913700CAFE9D /* Build configuration list for PBXProject "VocabAlertApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669A6EAB2AEA913800CAFE9D /* Debug */,
+				669A6EAC2AEA913800CAFE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		669A6EAD2AEA913800CAFE9D /* Build configuration list for PBXNativeTarget "VocabAlertApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				669A6EAE2AEA913800CAFE9D /* Debug */,
+				669A6EAF2AEA913800CAFE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FD6E8B2AF52C6A0089398F /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FD6E8C2AF52C6A0089398F /* Debug */,
+				66FD6E8D2AF52C6A0089398F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 669A6E972AEA913700CAFE9D /* Project object */;
+}
