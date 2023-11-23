@@ -8,24 +8,37 @@
 import Foundation
 import SwiftUI
 
+struct WrongGuess {
+    var englishWord: String
+    var correctTurkishWord: String
+}
+
 struct RandomWordView: View {
-    @State var randomWord: Word?
-    @State private var viewModel = ContentViewModel()
-    var onCorrectGuess: (Bool) -> Void
-    @State private var userGuess = ""
-    @State private var isTextFieldFocused = false
+        @State private var viewModel = ContentViewModel()
+        @Binding var randomWord: Word?
+        var onCorrectGuess: (Bool) -> Void
+        @State private var userGuess = ""
+        @State private var isTextFieldFocused = false
+        @Binding private var wrongGuesses: [WrongGuess]
+    
     func getRandomWord() {
         if let words = viewModel.loadWordJson(filename: "tr") {
             randomWord = words.randomElement()
         }
     }
+    
+    init(randomWord: Binding<Word?>, wrongGuesses: Binding<[WrongGuess]>, onCorrectGuess: @escaping (Bool) -> Void) {
+            self._randomWord = randomWord
+            self._wrongGuesses = wrongGuesses
+            self.onCorrectGuess = onCorrectGuess
+        }
     var body: some View {
             ZStack {
                 LinearGradient(gradient: Gradient(colors: [.white, .blue.opacity(0.2)]), startPoint: .top, endPoint: .bottom)
                     .edgesIgnoringSafeArea(.all)
                 VStack {
                     Spacer()
-                    Text(randomWord?.englishWord[0] ?? "")
+                    Text(randomWord?.englishWord.first ?? "")
                         .font(.system(size: 50))
                         .fontWeight(.heavy)
                         .foregroundColor(Color.blue)
@@ -58,21 +71,63 @@ struct RandomWordView: View {
             }
             .animation(.easeInOut(duration: 0.3), value: isTextFieldFocused)
         }
-    func checkGuess() {
-        let lowercasedGuess = userGuess.lowercased().convertTurkishCharacters()
-        
-        if let targetWord = randomWord?.targetWord.lowercased().convertTurkishCharacters(), lowercasedGuess == targetWord {
-            onCorrectGuess(true)
-            getRandomWord()
-            userGuess = ""
-        } else {
-            onCorrectGuess(false)
-            userGuess = ""
-            
-        }
-    }
     
+    func checkGuess() {
+        guard !userGuess.isEmpty, let englishWord = randomWord?.englishWord.first, let targetWord = randomWord?.targetWord else { return }
+                let lowercasedGuess = userGuess.lowercased().convertTurkishCharacters()
+                let targetWordConverted = targetWord.lowercased().convertTurkishCharacters()
+            
+            if let targetWord = randomWord?.targetWord.lowercased().convertTurkishCharacters() {
+                let distance = lowercasedGuess.levenshteinDistance(to: targetWord)
+                let similarity = Double(targetWord.count - distance) / Double(targetWord.count)
+
+                if similarity >= 0.8 {
+                    onCorrectGuess(true)
+                    getRandomWord()
+                    userGuess = ""
+                } else {
+                    wrongGuesses.append(WrongGuess(englishWord: englishWord, correctTurkishWord: targetWord)) // İngilizce ve Türkçe kelimeyi ekle
+                    onCorrectGuess(false)
+                    userGuess = ""
+                }
+            }
+        }
 }
+extension String {
+    func levenshteinDistance(to target: String) -> Int {
+        if self.isEmpty || target.isEmpty {
+                return max(self.count, target.count)
+            }
+        
+        let s = Array(self)
+        let t = Array(target)
+        let m = s.count
+        let n = t.count
+        var distanceMatrix = [[Int]](repeating: [Int](repeating: 0, count: n + 1), count: m + 1)
+
+        for i in 0...m {
+            distanceMatrix[i][0] = i
+        }
+
+        for j in 0...n {
+            distanceMatrix[0][j] = j
+        }
+
+        for i in 1...m {
+            for j in 1...n {
+                let cost = s[i - 1] == t[j - 1] ? 0 : 1
+                distanceMatrix[i][j] = Swift.min(
+                    distanceMatrix[i - 1][j] + 1,
+                    distanceMatrix[i][j - 1] + 1,
+                    distanceMatrix[i - 1][j - 1] + cost
+                )
+            }
+        }
+
+        return distanceMatrix[m][n]
+    }
+}
+
 struct CustomTextField: View {
     let placeholder: Text
     @Binding var text: String

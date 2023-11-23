@@ -20,6 +20,7 @@ func getItemWord() {
 }
 
 struct ContentView: View {
+    @State private var randomWord: Word?
     @State var isReminderEnabled: Bool = false
     @State var selectedInterval = 30
     @State var showingReminderSettings = false
@@ -30,6 +31,8 @@ struct ContentView: View {
     @State private var userGuess = ""
     @State private var score = 0
     @State var numberOfNotifications = 1
+    @State private var wrongGuesses = [WrongGuess]()
+    
     var body: some View {
         TabView {
             VStack {
@@ -41,7 +44,7 @@ struct ContentView: View {
             .tabItem {
                 Label("Ana Ekran", systemImage: "house")
             }
-            RandomWordView(randomWord: randomWord, onCorrectGuess: { isCorrect in
+            RandomWordView(randomWord: $randomWord, wrongGuesses: $wrongGuesses, onCorrectGuess: { isCorrect in
                 if isCorrect {
                     successAlert = true
                     saveScoreToFirestore(isCorrectGuess: true)
@@ -55,7 +58,7 @@ struct ContentView: View {
             }
             QuizView()
                 .tabItem {
-                    Label("Quiz", systemImage: "star")
+                    Label("Quiz", systemImage: "questionmark.circle")
                 }
             CardView() // RandomWordView, her sekmeyi temsil eder
                 .tabItem {
@@ -65,11 +68,16 @@ struct ContentView: View {
                 .tabItem {
                     Label("Skor", systemImage: "star")
                 }
+            WrongGuessesView(wrongGuesses: $wrongGuesses) // Yanlış tahminlerin gösterileceği sekme
+                            .tabItem {
+                                Label("Yanlış tahminler", systemImage: "xmark.circle")
+                            }
            
             TranslateView() // RandomWordView, her sekmeyi temsil eder
                 .tabItem {
                     Label("Çeviri", systemImage: "keyboard")
                 }
+            
             SettingsView(isReminderEnabled: isReminderEnabled, selectedInterval: selectedInterval, numberOfNotifications: numberOfNotifications) // ReminderSettingsView, her sekmeyi temsil eder
                 .tabItem {
                     Label("Ayarlar", systemImage: "gear")

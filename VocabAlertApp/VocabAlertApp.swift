@@ -17,18 +17,40 @@ import OneSignalFramework
 @main
 struct VocabAlertApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     init() {
         FirebaseApp.configure()
     }
+    
     var body: some Scene {
         WindowGroup {
-            NavigationView{
+                    MainView()
+                }
+    }
+}
+struct MainView: View {
+    @StateObject var session = SessionStore()
+    
+    var body: some View {
+        Group {
+            if session.isLoggedIn {
                 ContentView()
-                
+            } else {
+                LoginSignUpView()
             }
         }
+        .onAppear(perform: session.listenAuthenticationState)
     }
+}
+
+class SessionStore: ObservableObject {
+    @Published var isLoggedIn: Bool = false
     
+    func listenAuthenticationState() {
+        Auth.auth().addStateDidChangeListener { [weak self] (auth, user) in
+            self?.isLoggedIn = user != nil
+        }
+    }
 }
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
