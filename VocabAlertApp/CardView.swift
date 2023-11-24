@@ -72,6 +72,13 @@ struct CardBack : View {
                 })
         }.rotation3DEffect(Angle(degrees: degree), axis: (x: 0, y: 1, z: 0))
     }
+    func fontSize(for word: String) -> CGFloat {
+        let maxLength: CGFloat = 12 // Kelimenin maksimum karakter sayısı
+        let baseFontSize: CGFloat = 60 // Temel font boyutu
+
+        let length = CGFloat(word.count)
+        return min(baseFontSize, (baseFontSize * maxLength) / length)
+    }
 }
 
 struct CardView: View {

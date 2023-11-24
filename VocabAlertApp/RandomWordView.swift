@@ -7,6 +7,8 @@
 
 import Foundation
 import SwiftUI
+import FirebaseAuth
+import FirebaseFirestore
 
 struct WrongGuess {
     var englishWord: String
@@ -81,17 +83,39 @@ struct RandomWordView: View {
                 let distance = lowercasedGuess.levenshteinDistance(to: targetWord)
                 let similarity = Double(targetWord.count - distance) / Double(targetWord.count)
 
-                if similarity >= 0.8 {
+                if similarity >= 0.74 {
                     onCorrectGuess(true)
                     getRandomWord()
                     userGuess = ""
                 } else {
-                    wrongGuesses.append(WrongGuess(englishWord: englishWord, correctTurkishWord: targetWord)) // İngilizce ve Türkçe kelimeyi ekle
-                    onCorrectGuess(false)
-                    userGuess = ""
+                    let wrongGuess = WrongGuess(englishWord: englishWord, correctTurkishWord: targetWord)
+                        wrongGuesses.append(wrongGuess) // İngilizce ve Türkçe kelimeyi ekle
+                        saveWrongGuessToFirebase(guess: wrongGuess) // Firebase'e kaydet
+                        onCorrectGuess(false)
+                        userGuess = ""
                 }
             }
         }
+    func saveWrongGuessToFirebase(guess: WrongGuess) {
+        guard let userId = Auth.auth().currentUser?.uid else {
+            print("Kullanıcı oturumu açık değil.")
+            return
+        }
+
+        let documentId = UUID().uuidString // Her tahmin için benzersiz bir ID
+        let data = [
+            "englishWord": guess.englishWord,
+            "correctTurkishWord": guess.correctTurkishWord
+        ]
+
+        db.collection("users").document(userId).collection("wrongGuesses").document(documentId).setData(data) { error in
+            if let error = error {
+                print("Wrong guess kaydedilirken hata: \(error.localizedDescription)")
+            } else {
+                print("Wrong guess başarıyla kaydedildi.")
+            }
+        }
+    }
 }
 extension String {
     func levenshteinDistance(to target: String) -> Int {

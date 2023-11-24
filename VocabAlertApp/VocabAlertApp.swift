@@ -33,23 +33,29 @@ struct MainView: View {
     
     var body: some View {
         Group {
-            if session.isLoggedIn {
-                ContentView()
-            } else {
-                LoginSignUpView()
-            }
+            if let isLoggedIn = session.isLoggedIn {
+                            if isLoggedIn {
+                                ContentView()
+                            } else {
+                                LoginSignUpView()
+                            }
+                        } else {
+                            // Show a loading view or splash screen here
+                            LoadingView() // Create this view according to your design
+                        }
         }
         .onAppear(perform: session.listenAuthenticationState)
     }
 }
 
 class SessionStore: ObservableObject {
-    @Published var isLoggedIn: Bool = false
+    @Published var isLoggedIn: Bool?
     
     func listenAuthenticationState() {
-        Auth.auth().addStateDidChangeListener { [weak self] (auth, user) in
-            self?.isLoggedIn = user != nil
-        }
+        isLoggedIn = nil // Start with loading state
+                Auth.auth().addStateDidChangeListener { [weak self] (auth, user) in
+                    self?.isLoggedIn = user != nil
+                }
     }
 }
 class AppDelegate: NSObject, UIApplicationDelegate {
