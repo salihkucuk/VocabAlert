@@ -18,6 +18,7 @@ struct LoginSignUpView: View {
     @State private var isNavigation: Bool = false
     @State private var showAlert = false
     @State private var alertMessage = ""
+    @State private var rememberMe = false // Beni Hatırla için yeni değişken
     
     var body: some View {
         VStack {
@@ -43,6 +44,10 @@ struct LoginSignUpView: View {
                 .background(RoundedRectangle(cornerRadius: 10).stroke(Color.blue, lineWidth: 2))
                 .padding([.leading, .trailing, .bottom], 20)
             
+            Toggle(isOn: $rememberMe) {
+                            Text("Beni Hatırla")
+                        }
+                        .padding()
             Button(action: {
                 if isLogin {
                     Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
@@ -71,6 +76,10 @@ struct LoginSignUpView: View {
             }
             .padding([.leading, .trailing], 20)
             
+            Button("Şifremi Unuttum") {
+                        resetPassword()
+                    }
+                    .padding()
             Button(action: {
                 isLogin.toggle()
             }) {
@@ -89,6 +98,32 @@ struct LoginSignUpView: View {
                 Alert(title: Text("Uyarı!"), message: Text(alertMessage), dismissButton: .default(Text("Tamam")))
             }
     }
+    func resetPassword() {
+        Auth.auth().sendPasswordReset(withEmail: email) { error in
+            if let error = error {
+                // Hata mesajını göster
+                self.alertMessage = error.localizedDescription
+                self.showAlert = true
+            } else {
+                // Başarılı mesajını göster
+                self.alertMessage = "Şifre sıfırlama bağlantısı e-posta adresinize gönderildi."
+                self.showAlert = true
+            }
+        }
+    }
+    func loginUser() {
+            Auth.auth().signIn(withEmail: email, password: password) { [self] authResult, error in
+                if error != nil {
+                    // Hata işleme...
+                } else {
+                    UserDefaults.standard.set(self.rememberMe == true, forKey: "rememberMe")
+                    if self.rememberMe == true {
+                        UserDefaults.standard.set(email, forKey: "userEmail")
+                    }
+                    isNavigation = true
+                }
+            }
+        }
     func signUpUser() {
         isEmailTaken(email: self.email) { isEmailTaken in
             if isEmailTaken {

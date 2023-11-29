@@ -50,12 +50,25 @@ struct MainView: View {
 
 class SessionStore: ObservableObject {
     @Published var isLoggedIn: Bool?
-    
+
     func listenAuthenticationState() {
-        isLoggedIn = nil // Start with loading state
-                Auth.auth().addStateDidChangeListener { [weak self] (auth, user) in
-                    self?.isLoggedIn = user != nil
+        isLoggedIn = nil
+
+        if UserDefaults.standard.bool(forKey: "rememberMe"),
+           let userEmail = UserDefaults.standard.string(forKey: "userEmail") {
+            Auth.auth().signIn(withEmail: userEmail, password: "Kullanıcının Şifresi") { [self] authResult, error in
+                if error == nil {
+                    self.isLoggedIn = true
+                } else {
+                    // Kullanıcıyı tekrar giriş yapmaya yönlendir
+                    self.isLoggedIn = false
                 }
+            }
+        } else {
+            Auth.auth().addStateDidChangeListener { [self] (_, user) in
+                self.isLoggedIn = user != nil
+            }
+        }
     }
 }
 class AppDelegate: NSObject, UIApplicationDelegate {
