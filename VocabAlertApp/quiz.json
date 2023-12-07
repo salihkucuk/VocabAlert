@@ -870,6 +870,276 @@
             "wordQ": "Zip",
             "wordA": "Fermuarını çekmek",
             "options": ["Açmak", "Koparmak", "Yırtmak"]
+        },
+        {
+            "id": 146,
+            "wordQ": "Butterfly",
+            "wordA": "Kelebek",
+            "options": ["Arı", "Sinek", "Karınca"]
+        },
+        {
+            "id": 147,
+            "wordQ": "Moon",
+            "wordA": "Ay",
+            "options": ["Yıldız", "Güneş", "Gezegen"]
+        },
+        {
+            "id": 148,
+            "wordQ": "Teacher",
+            "wordA": "Öğretmen",
+            "options": ["Öğrenci", "Doktor", "Avukat"]
+        },
+        {
+            "id": 149,
+            "wordQ": "Ocean",
+            "wordA": "Okyanus",
+            "options": ["Göl", "Akarsu", "Deniz"]
+        },
+        {
+            "id": 150,
+            "wordQ": "Bicycle",
+            "wordA": "Bisiklet",
+            "options": ["Araba", "Motosiklet", "Kaykay"]
+        },
+        {
+            "id": 151,
+            "wordQ": "Lion",
+            "wordA": "Aslan",
+            "options": ["Kaplan", "Fil", "Zebra"]
+        },
+        {
+            "id": 152,
+            "wordQ": "Computer",
+            "wordA": "Bilgisayar",
+            "options": ["Telefon", "Tablet", "Televizyon"]
+        },
+        {
+            "id": 153,
+            "wordQ": "Mountain",
+            "wordA": "Dağ",
+            "options": ["Tepesi", "Vadi", "Plaj"]
+        },
+        {
+            "id": 154,
+            "wordQ": "Strawberry",
+            "wordA": "Çilek",
+            "options": ["Elma", "Muz", "Kavun"]
+        },
+        {
+            "id": 155,
+            "wordQ": "Pencil",
+            "wordA": "Kalem",
+            "options": ["Silgi", "Defter", "Cetvel"]
+        },
+        {
+            "id": 156,
+            "wordQ": "Bird",
+            "wordA": "Kuş",
+            "options": ["Balık", "Köpek", "Kedi"]
+        },
+        {
+            "id": 157,
+            "wordQ": "Rain",
+            "wordA": "Yağmur",
+            "options": ["Kar", "Güneş", "Bulut"]
+        },
+        {
+            "id": 158,
+            "wordQ": "Flower",
+            "wordA": "Çiçek",
+            "options": ["Ağaç", "Çimen", "Yaprak"]
+        },
+        {
+            "id": 159,
+            "wordQ": "Orange",
+            "wordA": "Portakal",
+            "options": ["Elma", "Muz", "Kivi"]
+        },
+        {
+            "id": 160,
+            "wordQ": "Book",
+            "wordA": "Kitap",
+            "options": ["Defter", "Kalem", "Silgi"]
+        },
+        {
+        "id": 161,
+        "wordQ": "Bee",
+        "wordA": "Arı",
+        "options": ["Kelebek", "Örümcek", "Sinek"]
+        },
+        {
+        "id": 162,
+        "wordQ": "Desert",
+        "wordA": "Çöl",
+        "options": ["Dağ", "Orman", "Ova"]
+        },
+        {
+        "id": 163,
+        "wordQ": "Frog",
+        "wordA": "Kurbağa",
+        "options": ["Kaplumbağa", "Yılan", "Timsah"]
+        },
+        {
+        "id": 164,
+        "wordQ": "Grapes",
+        "wordA": "Üzüm",
+        "options": ["Elma", "Armut", "Muz"]
+        },
+        {
+        "id": 165,
+        "wordQ": "Island",
+        "wordA": "Ada",
+        "options": ["Yarımada", "Kıta", "Koy"]
+        },
+        {
+        "id": 166,
+        "wordQ": "Jacket",
+        "wordA": "Ceket",
+        "options": ["Gömlek", "Pantolon", "Şort"]
+        },
+        {
+        "id": 167,
+        "wordQ": "Kite",
+        "wordA": "Uçurtma",
+        "options": ["Balon", "Top", "Frisbee"]
+        },
+        {
+        "id": 168,
+        "wordQ": "Lamp",
+        "wordA": "Lamba",
+        "options": ["Masa", "Sandalye", "Kitaplık"]
+        },
+        {
+        "id": 169,
+        "wordQ": "Mirror",
+        "wordA": "Ayna",
+        "options": ["Tablo", "Saat", "Vazo"]
+        },
+        {
+        "id": 170,
+        "wordQ": "Nurse",
+        "wordA": "Hemşire",
+        "options": ["Doktor", "Eczacı", "Diş hekimi"]
+        },
+        {
+        "id": 171,
+        "wordQ": "Owl",
+        "wordA": "Baykuş",
+        "options": ["Kartal", "Karga", "Serçe"]
+        },
+        {
+        "id": 172,
+        "wordQ": "Pear",
+        "wordA": "Armut",
+        "options": ["Elma", "Kiraz", "Şeftali"]
+        },
+        {
+        "id": 173,
+        "wordQ": "Quiz",
+        "wordA": "Bilgi Yarışması",
+        "options": ["Sınav", "Anket", "Toplantı"]
+        },
+        {
+        "id": 174,
+        "wordQ": "Rabbit",
+        "wordA": "Tavşan",
+        "options": ["Kedi", "Köpek", "Hamster"]
+        },
+        {
+        "id": 175,
+        "wordQ": "Spoon",
+        "wordA": "Kaşık",
+        "options": ["Çatal", "Bıçak", "Tabak"]
+        },
+        {
+        "id": 176,
+        "wordQ": "Archaeology",
+        "wordA": "Arkeoloji",
+        "options": ["Astronomi", "Antropoloji", "Biyoloji"]
+        },
+        {
+        "id": 177,
+        "wordQ": "Bureaucracy",
+        "wordA": "Bürokrasi",
+        "options": ["Demokrasi", "Anarşi", "Otokrasi"]
+        },
+        {
+        "id": 178,
+        "wordQ": "Consciousness",
+        "wordA": "Bilinç",
+        "options": ["Bilinçsizlik", "Rüya", "Düşünce"]
+        },
+        {
+        "id": 179,
+        "wordQ": "Diplomacy",
+        "wordA": "Diplomasi",
+        "options": ["Politika", "Strateji", "İletişim"]
+        },
+        {
+        "id": 180,
+        "wordQ": "Entrepreneur",
+        "wordA": "Girişimci",
+        "options": ["Yönetici", "Çalışan", "Müdür"]
+        },
+        {
+        "id": 181,
+        "wordQ": "Fluorescent",
+        "wordA": "Floresan",
+        "options": ["Opak", "Transparan", "Yansıtıcı"]
+        },
+        {
+        "id": 182,
+        "wordQ": "Geography",
+        "wordA": "Coğrafya",
+        "options": ["Tarih", "Fizik", "Matematik"]
+        },
+        {
+        "id": 183,
+        "wordQ": "Humanitarian",
+        "wordA": "İnsani",
+        "options": ["Bencil", "Materyalist", "Realist"]
+        },
+        {
+        "id": 184,
+        "wordQ": "Innovate",
+        "wordA": "Yenilik Yapmak",
+        "options": ["Taklit Etmek", "Koruyucu Olmak", "Yıkmak"]
+        },
+        {
+        "id": 185,
+        "wordQ": "Juxtapose",
+        "wordA": "Yan Yana Koymak",
+        "options": ["Ayırmak", "Karıştırmak", "Üst üste koymak"]
+        },
+        {
+        "id": 186,
+        "wordQ": "Kinetic",
+        "wordA": "Kinetik",
+        "options": ["Statik", "Potansiyel", "Pasif"]
+        },
+        {
+        "id": 187,
+        "wordQ": "Linguistics",
+        "wordA": "Dilbilim",
+        "options": ["Edebiyat", "Psikoloji", "Sosyoloji"]
+        },
+        {
+        "id": 188,
+        "wordQ": "Metaphor",
+        "wordA": "Mecaz",
+        "options": ["Gerçek", "Alegori", "Simge"]
+        },
+        {
+        "id": 189,
+        "wordQ": "Neurology",
+        "wordA": "Nöroloji",
+        "options": ["Kardiyoloji", "Psikiyatri", "Endokrinoloji"]
+        },
+        {
+        "id": 190,
+        "wordQ": "Omnivore",
+        "wordA": "Hepçil",
+        "options": ["Otçul", "Etçil", "Detritçil"]
         }
         
     ]

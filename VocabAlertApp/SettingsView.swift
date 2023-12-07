@@ -1,195 +1,99 @@
-//
-//  SettingsView.swift
-//  VocabAlertApp
-//
-//  Created by MSK on 21.11.2023.
-//
 
-import Foundation
 import SwiftUI
 import FirebaseAuth
+import FirebaseFirestore
 
 struct SettingsView: View {
-    @State var isReminderEnabled = false
-    @State var selectedInterval = 30
-    @State var customTime = ""
-    @State var savedTime = ""
-    let belirliSureTag = 150
-    @State var isNavigationActive = false
     @State var showingLogoutAlert = false
-    @State var numberOfNotifications: Int
+    @State var showingDeleteAccountAlert = false
+    let db = Firestore.firestore()
 
     var body: some View {
-            VStack {
-                Spacer()
-
-                VStack(alignment: .center, spacing: 20) {
-                    Picker("Hatırlatma Aralığı", selection: $selectedInterval) {
-                        Text("30 Dakika").tag(30)
-                        Text("1 Saat").tag(60)
-                        Text("2 Saat").tag(120)
-                        Text("Belirli Bir Süre").tag(belirliSureTag)
-                    }
-                    .pickerStyle(SegmentedPickerStyle())
+        VStack {
+            Button(action: {
+                showingLogoutAlert = true
+            }) {
+                Text("Çıkış Yap")
+                    .fontWeight(.bold)
                     .padding()
-                    .onChange(of: selectedInterval) { newValue in
-                        if newValue != belirliSureTag {
-                            customTime = ""
-                            savedTime = "\(newValue) dakika"
-                        }
-                    }
-
-                    if selectedInterval == belirliSureTag {
-                        TextField("Belirli Bir Süre Girin (dakika cinsinden)", text: $customTime)
-                            .textFieldStyle(RoundedBorderTextFieldStyle())
-                            .keyboardType(.numberPad)
-                    }
-
-                    Toggle("Hatırlatmaları Etkinleştir", isOn: $isReminderEnabled)
-                        .onChange(of: isReminderEnabled) { newValue in
-                            saveSettingsToFirestore(isReminderEnabled: newValue, selectedInterval: selectedInterval, customTime: customTime)
-                        }
-                        .foregroundColor(Color.black)
-                        .padding()
-                }
-                .padding()
-
-                Spacer()
-                Button(action: {
-                    showingLogoutAlert = true
-                }) {
-                    Text("Çıkış Yap")
-                        .fontWeight(.bold)
-                        .padding()
-                        .frame(maxWidth: .infinity)
-                        .background(Color.red)
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
-                        .padding([.top, .bottom], 20)
-                }
-                .padding([.leading, .trailing], 20)
-                .background(
-                              NavigationLink(destination: LoginSignUpView(), isActive: $isNavigationActive) {
-                                  EmptyView()
-                              }
-                                .alert(isPresented: $showingLogoutAlert) {
-                                    Alert(
-                                        title: Text("Çıkış Yap"),
-                                        message: Text("Çıkış yapmak istediğinize emin misiniz?"),
-                                        primaryButton: .destructive(Text("Evet")) {
-                                            logout()
-                                            isNavigationActive = true
-                                        },
-                                        secondaryButton: .cancel(Text("Hayır"))
-                                    )}
-            )}
-            .onAppear {
-                        loadSettingsFromFirestore { isEnabled, interval, time in
-                            isReminderEnabled = isEnabled
-                            selectedInterval = interval
-                            customTime = time
-                        }
-                    }
-        }
-                              
-        func saveSettingsToFirestore(isReminderEnabled: Bool, selectedInterval: Int, customTime: String) {
-            guard let userId = Auth.auth().currentUser?.uid else {
-                print("Kullanıcı oturumu açık değil.")
-                return
+                    .frame(maxWidth: .infinity)
+                    .background(Color.orange)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+                    .padding([.top, .bottom], 20)
             }
-
-            let settings = [
-                "isReminderEnabled": isReminderEnabled,
-                "selectedInterval": selectedInterval,
-                "customTime": customTime
-            ] as [String : Any]
-
-            db.collection("user_settings").document(userId).setData(settings) { error in
-                if let error = error {
-                    print("Ayarları kaydederken hata: \(error.localizedDescription)")
-                } else {
-                    print("Ayarlar başarıyla kaydedildi.")
-                }
+            .padding([.leading, .trailing], 20)
+            .alert(isPresented: $showingLogoutAlert) {
+                Alert(
+                    title: Text("Çıkış Yap"),
+                    message: Text("Çıkış yapmak istediğinize emin misiniz?"),
+                    primaryButton: .destructive(Text("Evet")) {
+                        logout()
+                    },
+                    secondaryButton: .cancel(Text("Hayır"))
+                )
             }
-            scheduleNotifications(isReminderEnabled: isReminderEnabled, selectedInterval: selectedInterval, numberOfNotifications: numberOfNotifications)
-        }
-    func requestNotificationPermission() {
-        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { granted, error in
-            if granted {
-                print("Bildirim izinleri kabul edildi.")
-            } else if let error = error {
-                print("Bildirim izinleri hatası: \(error)")
+            Spacer()
+            Button(action: {
+                showingDeleteAccountAlert = true
+            }) {
+                Text("Hesabı Sil")
+                    .fontWeight(.bold)
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(Color.red)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+                    .padding(.top, 20)
+            }
+            .padding([.leading, .trailing], 20)
+            .alert(isPresented: $showingDeleteAccountAlert) {
+                Alert(
+                    title: Text("Hesabı Sil"),
+                    message: Text("Hesabınızı silmek istediğinize emin misiniz? Bu işlem geri alınamaz."),
+                    primaryButton: .destructive(Text("Sil")) {
+                        deleteAccount()
+                    },
+                    secondaryButton: .cancel()
+                )
             }
         }
-    }
-
-    func loadSettingsFromFirestore(completion: @escaping (Bool, Int, String) -> Void) {
-        guard let userId = Auth.auth().currentUser?.uid else {
-            print("Kullanıcı oturumu açık değil.")
-            return
-        }
-
-        db.collection("user_settings").document(userId).getDocument { document, error in
-            if let error = error {
-                print("Ayarları yüklerken hata: \(error.localizedDescription)")
-                return
-            }
-
-            if let document = document, document.exists {
-                let data = document.data()
-                let isReminderEnabled = data?["isReminderEnabled"] as? Bool ?? false
-                let selectedInterval = data?["selectedInterval"] as? Int ?? 30
-                let customTime = data?["customTime"] as? String ?? ""
-                completion(isReminderEnabled, selectedInterval, customTime)
-            } else {
-                print("Belge mevcut değil.")
-            }
-        }
-    }
-    func scheduleNotifications(isReminderEnabled: Bool, selectedInterval: Int, numberOfNotifications: Int) {
-        let center = UNUserNotificationCenter.current()
-
-        // Önceki tüm planlanmış bildirimleri iptal edin
-        center.removeAllPendingNotificationRequests()
-
-        guard isReminderEnabled else { return }
-
-        for _ in 1...numberOfNotifications {
-            let randomWordA = fetchRandomWord() // Her bildirim için yeni bir kelime alın
-            let content = UNMutableNotificationContent()
-            content.title = "Kelime Zamanı"
-            content.body = "\(randomWordA)"
-            content.sound = UNNotificationSound.default
-
-            // Bildirimin ne zaman tetikleneceğini belirleyin
-            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: TimeInterval(selectedInterval * 4), repeats: false)
-
-            // Bildirim isteğini oluşturun
-            let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
-
-            // Bildirimi planlayın
-            center.add(request) { error in
-                if let error = error {
-                    print("Bildirim planlanırken hata: \(error.localizedDescription)")
-                }
-            }
-        }
-    }
-
-    func fetchRandomWord() -> (englishWord: String, targetWord: String) {
-            let englishWord = randomWord?.englishWord[0] ?? ""
-            let targetWord = randomWord?.targetWord ?? ""
-            return (englishWord, targetWord)
     }
 
     func logout() {
         do {
             try Auth.auth().signOut()
-            // Oturum kapatma başarılı oldu, ek işlemleri buraya ekleyebilirsiniz
             print("Oturum kapatıldı.")
         } catch let signOutError as NSError {
-            // Oturum kapatma hatası, hata işleme mekanizmasını buraya ekleyin
             print("Oturum kapatma hatası: \(signOutError.localizedDescription)")
         }
+    }
+
+    func deleteAccount() {
+        guard let user = Auth.auth().currentUser else { return }
+
+        // Firestore ve Firebase Auth hesabını silmek için ilgili işlemler
+        // Örnek Firebase Firestore veri silme işlemi
+    
+        db.collection("user_scores").document(user.uid).delete { error in
+            if let error = error {
+                print("Firestore'dan veri silinirken hata: \(error.localizedDescription)")
+                return
+            } else{
+                print("Kullanıcı verileri başarıyla silindi")
+            }
+            
+
+            // Firebase Auth hesabını silmek için işlem
+            user.delete { error in
+                if let error = error {
+                    print("Kullanıcı hesabı silinirken hata: \(error.localizedDescription)")
+                } else {
+                    print("Kullanıcı hesabı başarıyla silindi")
+                    // Burada kullanıcıyı logout yaparak ana ekrana yönlendirebilirsiniz
+                }
+            }
+        }
+        
     }
 }

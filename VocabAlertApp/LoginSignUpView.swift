@@ -18,85 +18,114 @@ struct LoginSignUpView: View {
     @State private var isNavigation: Bool = false
     @State private var showAlert = false
     @State private var alertMessage = ""
-    @State private var rememberMe = false // Beni Hatırla için yeni değişken
+    @State private var navigateToCardView = false
     
     var body: some View {
-        VStack {
-            Image(systemName: "person.circle")
-                .font(.system(size: 100))
-                .padding()
-                .foregroundColor(.blue)
-            
-            if !isLogin {
-                TextField("Kullanıcı adı", text: $username)
+        NavigationView{
+            VStack {
+                /*  Text("Welcome to VocabAlert")
+                 .font(.largeTitle) // Büyük ve dikkat çekici bir font
+                 .italic()
+                 .foregroundColor(.white) // Mavi renk
+                 .padding() // Etrafına boşluk ekleme
+                 .background(Color.green) // Beyaz arka plan rengi
+                 .cornerRadius(10) // Kenarları yuvarlaklaştırma
+                 .shadow(radius: 10) // Gölge efekti
+                 .padding()
+                 
+                 */
+                
+                Image("main")
+                    .resizable() // Resmi yeniden boyutlandırılabilir yap
+                    .aspectRatio(contentMode: .fill) // İçeriği dolduracak şekilde boyutlandır
+                    .frame(height: 200) // Resmin yüksekliğini belirle
+                    .clipped() // Çerçeve dışına taşan kısımları kırp
+                    .cornerRadius(10) // Kenarları yuvarlaklaştır
+                    .padding() // Etrafına boşluk ekle
+                
+                
+                if !isLogin {
+                    TextField("Kullanıcı adı", text: $username)
+                        .padding()
+                        .background(RoundedRectangle(cornerRadius: 10).stroke(Color.blue, lineWidth: 2))
+                        .padding([.leading, .trailing, .bottom], 20)
+                }
+                TextField("E-posta", text: $email)
                     .padding()
                     .background(RoundedRectangle(cornerRadius: 10).stroke(Color.blue, lineWidth: 2))
                     .padding([.leading, .trailing, .bottom], 20)
-            }
-            
-            TextField("E-posta", text: $email)
-                .padding()
-                .background(RoundedRectangle(cornerRadius: 10).stroke(Color.blue, lineWidth: 2))
-                .padding([.leading, .trailing, .bottom], 20)
-            
-            SecureField("Şifre", text: $password)
-                .padding()
-                .background(RoundedRectangle(cornerRadius: 10).stroke(Color.blue, lineWidth: 2))
-                .padding([.leading, .trailing, .bottom], 20)
-            
-            Toggle(isOn: $rememberMe) {
-                            Text("Beni Hatırla")
+                
+                SecureField("Şifre", text: $password)
+                    .padding()
+                    .background(RoundedRectangle(cornerRadius: 10).stroke(Color.blue, lineWidth: 2))
+                    .padding([.leading, .trailing, .bottom], 20)
+                Button(action: {
+                    if isLogin {
+                        Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
+                            if let error = error {
+                                print("Giriş başarısız. Hata: \(error.localizedDescription)")
+                                self.alertMessage = "E-posta veya Şifre Yanlış"
+                                self.showAlert = true
+                                
+                            } else {
+                                print("Giriş başarılı!")
+                                isNavigation = true
+                            }
                         }
+                    } else {
+                        signUpUser()
+                    }
+                }) {
+                    Text(isLogin ? "Giriş Yap" : "Kayıt Ol")
+                        .fontWeight(.bold)
                         .padding()
-            Button(action: {
-                if isLogin {
-                    Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
-                        if let error = error {
-                            print("Giriş başarısız. Hata: \(error.localizedDescription)")
-                            self.alertMessage = "E-posta veya Şifre Yanlış"
-                            self.showAlert = true
-                            
-                        } else {
-                            print("Giriş başarılı!")
-                            isNavigation = true
-                        }
-                    }
-                } else {
-                    signUpUser()
+                        .frame(maxWidth: .infinity)
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                        .padding([.top, .bottom], 20)
                 }
-            }) {
-                Text(isLogin ? "Giriş Yap" : "Kayıt Ol")
-                    .fontWeight(.bold)
-                    .padding()
-                    .frame(maxWidth: .infinity)
-                    .background(Color.blue)
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
-                    .padding([.top, .bottom], 20)
+                .padding([.leading, .trailing], 20)
+                
+                Button("Şifremi Unuttum") {
+                    resetPassword()
+                }
+                .padding()
+                Button(action: {
+                    isLogin.toggle()
+                }) {
+                    Text(isLogin ? "Hesabınız yok mu? Kayıt olun" : "Zaten hesabınız var mı? Giriş yapın")
+                        .foregroundColor(.blue)
+                }
+                .padding([.top], 20)
+                
+                NavigationLink(destination: ContentView(), isActive: $isNavigation) {
+                    EmptyView()
+                }
+                // Spacer'ı ekleyerek alttaki butonu sayfanın altına it
+                Spacer()
+                
+                // "Kayıt olmadan uygulamayı keşfetmek için tıklayın!" butonu
+                Button("Kayıt Olmadan Uygulamayı Keşfet!") {
+                    navigateToCardView = true
+                }
+                .padding()
+                .background(Color.green)
+                .foregroundColor(.white)
+                .cornerRadius(10)
+                .padding()
+                
+                // CardView'a Yönlendirme
+                NavigationLink(destination: CardView(), isActive: $navigateToCardView) {
+                    EmptyView()
+                }
             }
-            .padding([.leading, .trailing], 20)
-            
-            Button("Şifremi Unuttum") {
-                        resetPassword()
-                    }
-                    .padding()
-            Button(action: {
-                isLogin.toggle()
-            }) {
-                Text(isLogin ? "Hesabınız yok mu? Kayıt olun" : "Zaten hesabınız var mı? Giriş yapın")
-                    .foregroundColor(.blue)
-            }
-            .padding([.top], 20)
-            
-            NavigationLink(destination: ContentView(), isActive: $isNavigation) {
-                EmptyView()
-            }
-        }
-        .navigationBarHidden(true)
-        .padding()
-        .alert(isPresented: $showAlert) {
+            .navigationBarHidden(true)
+            .padding()
+            .alert(isPresented: $showAlert) {
                 Alert(title: Text("Uyarı!"), message: Text(alertMessage), dismissButton: .default(Text("Tamam")))
             }
+        }
     }
     func resetPassword() {
         Auth.auth().sendPasswordReset(withEmail: email) { error in
@@ -116,10 +145,6 @@ struct LoginSignUpView: View {
                 if error != nil {
                     // Hata işleme...
                 } else {
-                    UserDefaults.standard.set(self.rememberMe == true, forKey: "rememberMe")
-                    if self.rememberMe == true {
-                        UserDefaults.standard.set(email, forKey: "userEmail")
-                    }
                     isNavigation = true
                 }
             }
@@ -153,6 +178,7 @@ struct LoginSignUpView: View {
                         self.alertMessage = "Kayıt işlemi başarılı!"
                         self.showAlert = true
                         self.saveUsernameToFirestore(username: self.username)
+                        self.isLogin = true // Burada değişiklik yapıldı
                     }
                 }
             }

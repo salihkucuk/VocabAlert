@@ -24,8 +24,8 @@ struct VocabAlertApp: App {
     
     var body: some Scene {
         WindowGroup {
-                    MainView()
-                }
+            MainView()
+        }
     }
 }
 struct MainView: View {
@@ -34,15 +34,15 @@ struct MainView: View {
     var body: some View {
         Group {
             if let isLoggedIn = session.isLoggedIn {
-                            if isLoggedIn {
-                                ContentView()
-                            } else {
-                                LoginSignUpView()
-                            }
-                        } else {
-                            // Show a loading view or splash screen here
-                            LoadingView() // Create this view according to your design
-                        }
+                if isLoggedIn {
+                    ContentView()
+                } else {
+                    LoginSignUpView()
+                }
+            } else {
+                // Show a loading view or splash screen here
+                LoadingView() // Create this view according to your design
+            }
         }
         .onAppear(perform: session.listenAuthenticationState)
     }
@@ -50,10 +50,10 @@ struct MainView: View {
 
 class SessionStore: ObservableObject {
     @Published var isLoggedIn: Bool?
-
+    
     func listenAuthenticationState() {
         isLoggedIn = nil
-
+        
         if UserDefaults.standard.bool(forKey: "rememberMe"),
            let userEmail = UserDefaults.standard.string(forKey: "userEmail") {
             Auth.auth().signIn(withEmail: userEmail, password: "Kullanıcının Şifresi") { [self] authResult, error in
@@ -71,23 +71,24 @@ class SessionStore: ObservableObject {
         }
     }
 }
+
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-       // Remove this method to stop OneSignal Debugging
-       OneSignal.Debug.setLogLevel(.LL_VERBOSE)
+        // Remove this method to stop OneSignal Debugging
+        OneSignal.Debug.setLogLevel(.LL_VERBOSE)
         
-       // OneSignal initialization
-       OneSignal.initialize("e8b71c46-8a62-4588-be4f-7961e988913e", withLaunchOptions: launchOptions)
-
-       // requestPermission will show the native iOS notification permission prompt.
-       // We recommend removing the following code and instead using an In-App Message to prompt for notification permission
-       OneSignal.Notifications.requestPermission({ accepted in
-         print("User accepted notifications: \(accepted)")
-       }, fallbackToSettings: true)
-
-       // Login your customer with externalId
-       // OneSignal.login("EXTERNAL_ID")
-            
-       return true
+        // OneSignal initialization
+        OneSignal.initialize("e8b71c46-8a62-4588-be4f-7961e988913e", withLaunchOptions: launchOptions)
+        
+        // requestPermission will show the native iOS notification permission prompt.
+        // We recommend removing the following code and instead using an In-App Message to prompt for notification permission
+        OneSignal.Notifications.requestPermission({ accepted in
+            print("User accepted notifications: \(accepted)")
+        }, fallbackToSettings: true)
+        
+        // Login your customer with externalId
+        // OneSignal.login("EXTERNAL_ID")
+        
+        return true
     }
 }

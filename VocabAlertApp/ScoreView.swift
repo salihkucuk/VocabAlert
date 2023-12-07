@@ -10,24 +10,6 @@ import FirebaseAuth
 import FirebaseFirestore
 import SwiftUI
 
-func saveScoreToFirestore(isCorrectGuess: Bool) {
-    if let userId = Auth.auth().currentUser?.uid {
-        let scoreChange = isCorrectGuess ? 1 : -1 // Doğru tahmin için +1, yanlış tahmin için -1
-
-        let userScoresCollection = db.collection("user_scores")
-        let userScoreDocument = userScoresCollection.document(userId)
-
-        userScoreDocument.setData(["score": FieldValue.increment(Int64(scoreChange))], merge: true) { error in
-            if let error = error {
-                print("Firestore Hata: \(error.localizedDescription)")
-            } else {
-                print("Puan başarıyla kaydedildi!")
-            }
-        }
-    } else {
-        print("Kullanıcı oturumu açık değil.")
-    }
-}
 struct UserScore {
     var username: String
     var score: Int
