@@ -102,23 +102,6 @@ struct LoginSignUpView: View {
                 NavigationLink(destination: ContentView(), isActive: $isNavigation) {
                     EmptyView()
                 }
-                // Spacer'ı ekleyerek alttaki butonu sayfanın altına it
-                Spacer()
-                
-                // "Kayıt olmadan uygulamayı keşfetmek için tıklayın!" butonu
-                Button("Kayıt Olmadan Uygulamayı Keşfet!") {
-                    navigateToCardView = true
-                }
-                .padding()
-                .background(Color.green)
-                .foregroundColor(.white)
-                .cornerRadius(10)
-                .padding()
-                
-                // CardView'a Yönlendirme
-                NavigationLink(destination: CardView(), isActive: $navigateToCardView) {
-                    EmptyView()
-                }
             }
             .navigationBarHidden(true)
             .padding()

@@ -37,7 +37,7 @@ struct MainView: View {
                 if isLoggedIn {
                     ContentView()
                 } else {
-                    LoginSignUpView()
+                    PreviewView()
                 }
             } else {
                 // Show a loading view or splash screen here

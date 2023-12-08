@@ -20,6 +20,7 @@
 		662C554A2B0C96CD00D30E70 /* RandomWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662C55492B0C96CD00D30E70 /* RandomWordView.swift */; };
 		662C554E2B0F4CCC00D30E70 /* WrongGuessesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662C554D2B0F4CCC00D30E70 /* WrongGuessesView.swift */; };
 		662C55502B0FDFB200D30E70 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662C554F2B0FDFB200D30E70 /* LoadingView.swift */; };
+		664777FB2B227CF10032FD0C /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664777FA2B227CF10032FD0C /* PreviewView.swift */; };
 		667B87E12B1E5F1B00724A8B /* CardFront.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667B87E02B1E5F1B00724A8B /* CardFront.swift */; };
 		667B87E32B1E5F3500724A8B /* CardBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667B87E22B1E5F3500724A8B /* CardBack.swift */; };
 		669A6EA32AEA913800CAFE9D /* VocabAlertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669A6EA22AEA913800CAFE9D /* VocabAlertApp.swift */; };
@@ -80,6 +81,7 @@
 		662C55492B0C96CD00D30E70 /* RandomWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomWordView.swift; sourceTree = "<group>"; };
 		662C554D2B0F4CCC00D30E70 /* WrongGuessesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrongGuessesView.swift; sourceTree = "<group>"; };
 		662C554F2B0FDFB200D30E70 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		664777FA2B227CF10032FD0C /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 		6657D2942AF397E30019961A /* OneSignalCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OneSignalCore.xcframework; path = Pods/OneSignal/iOS_SDK/OneSignalSDK/OneSignal_Core/OneSignalCore.xcframework; sourceTree = "<group>"; };
 		66611AE82AF11A690083EF1B /* VocabAlertApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VocabAlertApp.entitlements; sourceTree = "<group>"; };
 		66611AE92AF11A850083EF1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				66611AE92AF11A850083EF1B /* Info.plist */,
 				66611AE82AF11A690083EF1B /* VocabAlertApp.entitlements */,
 				669A6EA22AEA913800CAFE9D /* VocabAlertApp.swift */,
+				664777FA2B227CF10032FD0C /* PreviewView.swift */,
 				661250782AED1F8300CAEC42 /* LoginSignUpView.swift */,
 				669A6EA42AEA913800CAFE9D /* ContentView.swift */,
 				6612507E2AED411900CAEC42 /* ContentViewModel.swift */,
@@ -408,6 +411,7 @@
 			files = (
 				662C554E2B0F4CCC00D30E70 /* WrongGuessesView.swift in Sources */,
 				66C28A562B1E6D5D00380712 /* CustomButton.swift in Sources */,
+				664777FB2B227CF10032FD0C /* PreviewView.swift in Sources */,
 				662C55422B0C912F00D30E70 /* SettingsView.swift in Sources */,
 				662C55462B0C95CB00D30E70 /* CardView.swift in Sources */,
 				66C28A4E2B1E644C00380712 /* Util.swift in Sources */,
@@ -575,7 +579,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = VocabAlertApp/VocabAlertApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"VocabAlertApp/Preview Content\"";
 				DEVELOPMENT_TEAM = AM46LQTCTD;
 				ENABLE_PREVIEWS = YES;
@@ -612,7 +616,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = VocabAlertApp/VocabAlertApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"VocabAlertApp/Preview Content\"";
 				DEVELOPMENT_TEAM = AM46LQTCTD;
 				ENABLE_PREVIEWS = YES;
@@ -645,7 +649,7 @@
 			baseConfigurationReference = F427DEF0B88C32ADA06ADAA2 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = AM46LQTCTD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
@@ -672,7 +676,7 @@
 			baseConfigurationReference = 4EDBA80211C85C37966FD24F /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = AM46LQTCTD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
