@@ -10,6 +10,7 @@ target 'VocabAlertApp' do
   pod 'FirebaseFirestore'
   pod 'FirebaseStorage'
   pod 'Firebase'
+  pod 'Google-Mobile-Ads-SDK'
   pod 'OneSignal/OneSignal', '>= 5.0.0', '< 6.0'
   pod 'OneSignal/OneSignalInAppMessages', '>= 5.0.0', '< 6.0'
   # If your app does not use CoreLocation, you can remove this:
