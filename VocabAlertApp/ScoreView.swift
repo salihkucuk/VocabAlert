@@ -34,22 +34,32 @@ func fetchAllUserScoresAndUsernames(completion: @escaping ([UserScore]) -> Void)
 }
 struct ScoreView: View {
     @State private var userScores = [UserScore]()
+    @State private var showingAllScores = false  // Tüm skorları gösterip göstermediğimizi kontrol etmek için
+
+    var displayedScores: [UserScore] {
+        showingAllScores ? userScores : Array(userScores.prefix(10))
+    }
 
     var body: some View {
         VStack {
-            Text("Puan Sıralaması")
+            Text("Skor Tablosu")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .padding()
 
-            List(userScores.indices, id: \.self) { index in
-                let userScore = userScores[index]
+            List(displayedScores.indices, id: \.self) { index in
+                let userScore = displayedScores[index]
 
                 HStack {
+                    Text("\(index + 1).") // Sıra numarasını göster
+                        .fontWeight(.bold)
+                        .foregroundColor(.black)
+
                     Text(userScore.username)
                         .fontWeight(.medium)
                         .lineLimit(1)
                         .truncationMode(.tail)
+                        .foregroundColor(.black)
 
                     Spacer()
 
@@ -58,7 +68,19 @@ struct ScoreView: View {
                         .foregroundColor(.blue)
                 }
                 .padding(.vertical, 5)
-                .listRowBackground(self.backgroundColor(for: index))
+                .listRowBackground(Color.orange)
+            }
+
+            if !showingAllScores && userScores.count > 10 {
+                Button("Devamını Gör") {
+                    showingAllScores = true
+                }
+                .font(.headline)
+                .foregroundColor(.white)
+                .padding()
+                .background(Color.orange)
+                .cornerRadius(8)
+                .padding(.bottom)
             }
         }
         .onAppear {
@@ -67,8 +89,10 @@ struct ScoreView: View {
             }
         }
     }
+}
 
-    private func backgroundColor(for index: Int) -> Color {
+
+    /*private func backgroundColor(for index: Int) -> Color {
         // İndekse bağlı olarak sarıdan kırmızıya renk geçişi
         let progress = Double(index) / Double(userScores.count - 1)
         let redValue = 1.0 // Kırmızı bileşen sabit
@@ -77,4 +101,5 @@ struct ScoreView: View {
 
         return Color(red: redValue, green: greenValue, blue: blueValue)
     }
-}
+     */
+

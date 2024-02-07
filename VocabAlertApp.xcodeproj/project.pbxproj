@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66070E1B2B5527A10091C2D2 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66070E1A2B5527A10091C2D2 /* FeedbackView.swift */; };
+		66070E1D2B55C2270091C2D2 /* quizA2.json in Resources */ = {isa = PBXBuildFile; fileRef = 66070E1C2B55C2270091C2D2 /* quizA2.json */; };
+		66070E1F2B55CB2F0091C2D2 /* quizB1.json in Resources */ = {isa = PBXBuildFile; fileRef = 66070E1E2B55CB2F0091C2D2 /* quizB1.json */; };
+		66070E212B55D7210091C2D2 /* quizB2.json in Resources */ = {isa = PBXBuildFile; fileRef = 66070E202B55D7210091C2D2 /* quizB2.json */; };
 		661250792AED1F8300CAEC42 /* LoginSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661250782AED1F8300CAEC42 /* LoginSignUpView.swift */; };
 		6612507B2AED3F0600CAEC42 /* tr.json in Resources */ = {isa = PBXBuildFile; fileRef = 6612507A2AED3F0600CAEC42 /* tr.json */; };
 		6612507D2AED405800CAEC42 /* EnglishWordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612507C2AED405800CAEC42 /* EnglishWordModel.swift */; };
 		6612507F2AED411900CAEC42 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6612507E2AED411900CAEC42 /* ContentViewModel.swift */; };
-		662C553C2B07894700D30E70 /* quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = 662C553B2B07894700D30E70 /* quiz.json */; };
+		662C553C2B07894700D30E70 /* quizA1.json in Resources */ = {isa = PBXBuildFile; fileRef = 662C553B2B07894700D30E70 /* quizA1.json */; };
 		662C55402B0C90C200D30E70 /* TranslateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662C553F2B0C90C200D30E70 /* TranslateView.swift */; };
 		662C55422B0C912F00D30E70 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662C55412B0C912F00D30E70 /* SettingsView.swift */; };
 		662C55442B0C954C00D30E70 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662C55432B0C954C00D30E70 /* ScoreView.swift */; };
@@ -67,12 +71,16 @@
 		36D933EFCFC2869C7BAF36D3 /* Pods_VocabAlertApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VocabAlertApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBEA58A7C1CC7BC5162595B /* Pods-VocabAlertApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocabAlertApp.release.xcconfig"; path = "Target Support Files/Pods-VocabAlertApp/Pods-VocabAlertApp.release.xcconfig"; sourceTree = "<group>"; };
 		4EDBA80211C85C37966FD24F /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		66070E1A2B5527A10091C2D2 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		66070E1C2B55C2270091C2D2 /* quizA2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quizA2.json; sourceTree = "<group>"; };
+		66070E1E2B55CB2F0091C2D2 /* quizB1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quizB1.json; sourceTree = "<group>"; };
+		66070E202B55D7210091C2D2 /* quizB2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quizB2.json; sourceTree = "<group>"; };
 		661250782AED1F8300CAEC42 /* LoginSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUpView.swift; sourceTree = "<group>"; };
 		6612507A2AED3F0600CAEC42 /* tr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tr.json; sourceTree = "<group>"; };
 		6612507C2AED405800CAEC42 /* EnglishWordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishWordModel.swift; sourceTree = "<group>"; };
 		6612507E2AED411900CAEC42 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		661250A42AF0E86200CAEC42 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		662C553B2B07894700D30E70 /* quiz.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quiz.json; sourceTree = "<group>"; };
+		662C553B2B07894700D30E70 /* quizA1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quizA1.json; sourceTree = "<group>"; };
 		662C553F2B0C90C200D30E70 /* TranslateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateView.swift; sourceTree = "<group>"; };
 		662C55412B0C912F00D30E70 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		662C55432B0C954C00D30E70 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
@@ -171,10 +179,14 @@
 				662C554D2B0F4CCC00D30E70 /* WrongGuessesView.swift */,
 				662C553F2B0C90C200D30E70 /* TranslateView.swift */,
 				662C55412B0C912F00D30E70 /* SettingsView.swift */,
+				66070E1A2B5527A10091C2D2 /* FeedbackView.swift */,
 				662C55432B0C954C00D30E70 /* ScoreView.swift */,
 				662C55472B0C964700D30E70 /* QuizView.swift */,
 				6612507A2AED3F0600CAEC42 /* tr.json */,
-				662C553B2B07894700D30E70 /* quiz.json */,
+				662C553B2B07894700D30E70 /* quizA1.json */,
+				66070E1C2B55C2270091C2D2 /* quizA2.json */,
+				66070E1E2B55CB2F0091C2D2 /* quizB1.json */,
+				66070E202B55D7210091C2D2 /* quizB2.json */,
 				669A6EA62AEA913800CAFE9D /* Assets.xcassets */,
 				661250A42AF0E86200CAEC42 /* GoogleService-Info.plist */,
 				669A6EA82AEA913800CAFE9D /* Preview Content */,
@@ -323,9 +335,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66070E212B55D7210091C2D2 /* quizB2.json in Resources */,
 				66C26E7E2AF536B100B223EB /* GoogleService-Info.plist in Resources */,
-				662C553C2B07894700D30E70 /* quiz.json in Resources */,
+				66070E1F2B55CB2F0091C2D2 /* quizB1.json in Resources */,
+				662C553C2B07894700D30E70 /* quizA1.json in Resources */,
 				669A6EAA2AEA913800CAFE9D /* Preview Assets.xcassets in Resources */,
+				66070E1D2B55C2270091C2D2 /* quizA2.json in Resources */,
 				6612507B2AED3F0600CAEC42 /* tr.json in Resources */,
 				669A6EA72AEA913800CAFE9D /* Assets.xcassets in Resources */,
 			);
@@ -423,6 +438,7 @@
 				662C55402B0C90C200D30E70 /* TranslateView.swift in Sources */,
 				662C554A2B0C96CD00D30E70 /* RandomWordView.swift in Sources */,
 				66C28A512B1E6CFC00380712 /* Extension+String.swift in Sources */,
+				66070E1B2B5527A10091C2D2 /* FeedbackView.swift in Sources */,
 				669A6EA52AEA913800CAFE9D /* ContentView.swift in Sources */,
 				669A6EA32AEA913800CAFE9D /* VocabAlertApp.swift in Sources */,
 				662C55482B0C964700D30E70 /* QuizView.swift in Sources */,
@@ -579,7 +595,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = VocabAlertApp/VocabAlertApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VocabAlertApp/Preview Content\"";
 				DEVELOPMENT_TEAM = AM46LQTCTD;
 				ENABLE_PREVIEWS = YES;
@@ -598,7 +614,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.salihkucuk.VocabAlertApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -616,7 +632,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = VocabAlertApp/VocabAlertApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VocabAlertApp/Preview Content\"";
 				DEVELOPMENT_TEAM = AM46LQTCTD;
 				ENABLE_PREVIEWS = YES;
@@ -635,7 +651,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.salihkucuk.VocabAlertApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -649,7 +665,7 @@
 			baseConfigurationReference = F427DEF0B88C32ADA06ADAA2 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AM46LQTCTD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
@@ -661,7 +677,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.salihkucuk.VocabAlertApp.OneSignalNotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -676,7 +692,7 @@
 			baseConfigurationReference = 4EDBA80211C85C37966FD24F /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = AM46LQTCTD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
@@ -688,7 +704,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.salihkucuk.VocabAlertApp.OneSignalNotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

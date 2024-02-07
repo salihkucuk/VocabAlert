@@ -16,13 +16,16 @@ struct CardBack : View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 20)
-                .fill(.yellow)
+                .fill(.orange)
                 .frame(width: width, height: height)
                 .shadow(color: .gray, radius: 2, x: 0, y: 0)
             Text(randomWord.targetWord)
                 .font(.system(size: 60))
                 .foregroundColor(Color.black)
                 .frame(width: 300, height: 400)
+                .multilineTextAlignment(.center) // Metni ortalamak genellikle daha iyi görünür
+                .lineLimit(1) // Metni tek satırda sınırla
+                .minimumScaleFactor(0.5) // Metni, orijinal boyutunun %50'sine kadar küçültebilir
                 .padding()
         }.rotation3DEffect(Angle(degrees: degree), axis: (x: 0, y: 1, z: 0))
     }

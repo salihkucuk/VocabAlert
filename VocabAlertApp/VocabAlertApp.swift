@@ -88,7 +88,6 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         
         // Login your customer with externalId
         // OneSignal.login("EXTERNAL_ID")
-        
         return true
     }
 }

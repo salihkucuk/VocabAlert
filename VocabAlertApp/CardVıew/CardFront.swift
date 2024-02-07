@@ -16,27 +16,32 @@ struct CardFront : View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 20)
-                .fill(Color.yellow)
+                .fill(.orange)
                 .frame(width: width, height: height)
                 .shadow(color: .gray, radius: 2, x: 0, y: 0)
             VStack(alignment: .leading){
                 Text(randomWord.englishWord[0])
                     .font(.system(size: 50))
                     .foregroundColor(Color.black)
-                    .multilineTextAlignment(.leading)
+                    .multilineTextAlignment(.center) // Metni ortalamak genellikle daha iyi görünür
+                    .lineLimit(1) // Metni tek satırda sınırla
+                    .minimumScaleFactor(0.5) // Metni, orijinal boyutunun %50'sine kadar küçültebilir
                     .padding()
                 Text(randomWord.englishWord[1])
                     .font(.system(size: 20))
+                    .fontWeight(.bold)
                     .foregroundColor(Color.white)
                     .padding()
                     .multilineTextAlignment(.leading)
                 Text(randomWord.englishWord[2])
                     .font(.system(size: 20))
+                    .fontWeight(.bold)
                     .foregroundColor(Color.white)
                     .padding()
                     .multilineTextAlignment(.leading)
                 Text(randomWord.englishWord[3])
                     .font(.system(size: 20))
+                    .fontWeight(.bold)
                     .foregroundColor(Color.white)
                     .padding()
                     .multilineTextAlignment(.leading)

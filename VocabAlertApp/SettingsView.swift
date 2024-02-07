@@ -2,14 +2,33 @@
 import SwiftUI
 import FirebaseAuth
 import FirebaseFirestore
+import FirebaseFunctions
 
 struct SettingsView: View {
     @State var showingLogoutAlert = false
     @State var showingDeleteAccountAlert = false
+    @State var showingFeedbackView = false // Geri Bildirim View'ını göstermek için yeni bir state
     let db = Firestore.firestore()
-
+    
     var body: some View {
         VStack {
+            Button(action: {
+                showingFeedbackView = true // Geri Bildirim View'ını aç
+            }) {
+                Text("Geri Bildirim Gönder")
+                    .fontWeight(.bold)
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+                    .padding(.top, 20)
+            }
+            .padding([.leading, .trailing], 20)
+            // Geri Bildirim View'ına geçiş
+            NavigationLink(destination: FeedbackView(), isActive: $showingFeedbackView) {
+                EmptyView()
+            }
             Button(action: {
                 showingLogoutAlert = true
             }) {
@@ -36,8 +55,8 @@ struct SettingsView: View {
             Spacer()
             Button(action: {
                 showingDeleteAccountAlert = true
-            }) {
-                Text("Hesabı Sil")
+            })
+            {  Text("Hesabı Sil")
                     .fontWeight(.bold)
                     .padding()
                     .frame(maxWidth: .infinity)
@@ -59,7 +78,6 @@ struct SettingsView: View {
             }
         }
     }
-
     func logout() {
         do {
             try Auth.auth().signOut()
@@ -68,13 +86,13 @@ struct SettingsView: View {
             print("Oturum kapatma hatası: \(signOutError.localizedDescription)")
         }
     }
-
+    
     func deleteAccount() {
         guard let user = Auth.auth().currentUser else { return }
-
+        
         // Firestore ve Firebase Auth hesabını silmek için ilgili işlemler
         // Örnek Firebase Firestore veri silme işlemi
-    
+        
         db.collection("user_scores").document(user.uid).delete { error in
             if let error = error {
                 print("Firestore'dan veri silinirken hata: \(error.localizedDescription)")
@@ -83,7 +101,7 @@ struct SettingsView: View {
                 print("Kullanıcı verileri başarıyla silindi")
             }
             
-
+            
             // Firebase Auth hesabını silmek için işlem
             user.delete { error in
                 if let error = error {
@@ -96,4 +114,5 @@ struct SettingsView: View {
         }
         
     }
+    
 }

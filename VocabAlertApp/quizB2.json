@@ -1,0 +1,4338 @@
+{
+    
+    "items": [
+        {
+            "id": 1,
+            "wordQ": "abandon",
+            "wordA": "terk etmek",
+            "options": ["bırakmak", "devam etmek", "gelmek"]
+        },
+        {
+            "id": 2,
+            "wordQ": "absolute",
+            "wordA": "mutlak, kesin",
+            "options": ["kesirli", "olabilir", "hassas"]
+        },
+        {
+            "id": 3,
+            "wordQ": "academic",
+            "wordA": "akademik",
+            "options": ["matematiksel", "bilimsel", "teorik"]
+        },
+        {
+            "id": 4,
+            "wordQ": "acceptable",
+            "wordA": "kabul edilebilir",
+            "options": ["çekilmez", "reddedilemez", "tartışmalı"]
+        },
+        {
+            "id": 5,
+            "wordQ": "accompany",
+            "wordA": "eşlik etmek",
+            "options": ["ayrılmak", "unutmak", "beklemek"]
+        },
+        {
+            "id": 6,
+            "wordQ": "account",
+            "wordA": "hesap; hesap vermek",
+            "options": ["ödeme", "kağıt", "çek"]
+        },
+        {
+            "id": 7,
+            "wordQ": "accurate",
+            "wordA": "doğru, kesin",
+            "options": ["yanıltıcı", "yanlış", "kesik"]
+        },
+        {
+            "id": 8,
+            "wordQ": "accuse",
+            "wordA": "suçlamak",
+            "options": ["övmek", "özür dilemek", "aldatmak"]
+        },
+        {
+            "id": 9,
+            "wordQ": "acknowledge",
+            "wordA": "kabul etmek, onaylamak",
+            "options": ["reddetmek", "unutmak", "görmek"]
+        },
+        {
+            "id": 10,
+            "wordQ": "acquire",
+            "wordA": "edinmek, kazanmak",
+            "options": ["satmak", "vazgeçmek", "yapmak"]
+        },
+        {
+            "id": 11,
+            "wordQ": "actual",
+            "wordA": "gerçek, asıl",
+            "options": ["hayali", "gizli", "karanlık"]
+        },
+        {
+            "id": 12,
+            "wordQ": "adapt",
+            "wordA": "uyum sağlamak, adapte olmak",
+            "options": ["aykırı olmak", "kaçmak", "kaybetmek"]
+        },
+        {
+            "id": 13,
+            "wordQ": "additional",
+            "wordA": "ilave, ek",
+            "options": ["az", "fazla", "orta"]
+        },
+        {
+            "id": 14,
+            "wordQ": "address",
+            "wordA": "adres; hitap etmek",
+            "options": ["isim", "telefon", "şehir"]
+        },
+        {
+            "id": 15,
+            "wordQ": "administration",
+            "wordA": "yönetim, idare",
+            "options": ["gecikme", "oy", "topluluk"]
+        },
+        {
+            "id": 16,
+            "wordQ": "adopt",
+            "wordA": "benimsemek, evlat edinmek",
+            "options": ["terketmek", "inkar etmek", "engellemek"]
+        },
+        {
+            "id": 17,
+            "wordQ": "advance",
+            "wordA": "ilerleme; ilerlemek, gelişmek",
+            "options": ["gerileme", "geriye gitmek", "durağan"]
+        },
+        {
+            "id": 18,
+            "wordQ": "affair",
+            "wordA": "iş, mesele",
+            "options": ["evlilik", "ilişki", "hediye"]
+        },
+        {
+            "id": 19,
+            "wordQ": "afterwards",
+            "wordA": "sonradan, daha sonra",
+            "options": ["önce", "şimdi", "gece"]
+        },
+        {
+            "id": 20,
+            "wordQ": "agency",
+            "wordA": "ajans, acenta",
+            "options": ["şirket", "iş", "girişim"]
+        },
+        {
+            "id": 21,
+            "wordQ": "agenda",
+            "wordA": "gündem, ajanda",
+            "options": ["ziyaret", "not", "toplantı"]
+        },
+        {
+            "id": 22,
+            "wordQ": "aggressive",
+            "wordA": "agresif, saldırgan",
+            "options": ["pasif", "kibar", "sakin"]
+        },
+        {
+            "id": 23,
+            "wordQ": "aid",
+            "wordA": "yardım; yardım etmek",
+            "options": ["hastalık", "tıp", "ilaç"]
+        },
+        {
+            "id": 24,
+            "wordQ": "aircraft",
+            "wordA": "uçak, hava aracı",
+            "options": ["gemisi", "otomobil", "tren"]
+        },
+        {
+            "id": 25,
+            "wordQ": "alarm",
+            "wordA": "alarm; alarma geçirmek",
+            "options": ["uykusu", "gürültüsü", "koku"]
+        },
+        {
+            "id": 26,
+            "wordQ": "alter",
+            "wordA": "değiştirmek, değişmek",
+            "options": ["devam etmek", "korumak", "kalmak"]
+        },
+        {
+            "id": 27,
+            "wordQ": "amount",
+            "wordA": "miktar; tutar",
+            "options": ["ağırlık", "yükseklik", "genişlik"]
+        },
+        {
+            "id": 28,
+            "wordQ": "anger",
+            "wordA": "öfke; öfkelendirmek",
+            "options": ["sevinç", "korku", "şaşkınlık"]
+        },
+        {
+            "id": 29,
+            "wordQ": "angle",
+            "wordA": "açı",
+            "options": ["kenar", "düzlem", "direnç"]
+        },
+        {
+            "id": 30,
+            "wordQ": "anniversary",
+            "wordA": "yıldönümü",
+            "options": ["tatil", "kutlama", "başarı"]
+        },
+        {
+            "id": 31,
+            "wordQ": "annual",
+            "wordA": "yıllık",
+            "options": ["aylık", "haftalık", "dört yıllık"]
+        },
+        {
+            "id": 32,
+            "wordQ": "anxious",
+            "wordA": "endişeli, kaygılı",
+            "options": ["mutlu", "rahat", "şüpheli"]
+        },
+        {
+            "id": 33,
+            "wordQ": "apparent",
+            "wordA": "açık, bariz",
+            "options": ["gizli", "karmaşık", "bulanık"]
+        },
+        {
+            "id": 34,
+            "wordQ": "apparently",
+            "wordA": "görünüşe göre",
+            "options": ["aslında", "belli ki", "muhtemelen"]
+        },
+        {
+            "id": 35,
+            "wordQ": "appeal",
+            "wordA": "çekicilik; başvurmak, çekmek",
+            "options": ["itiraf", "karar", "özür"]
+        },
+        {
+            "id": 36,
+            "wordQ": "approach",
+            "wordA": "yaklaşım; yaklaşmak",
+            "options": ["kaçış", "geri çekilme", "sertlik"]
+        },
+        {
+            "id": 37,
+            "wordQ": "appropriate",
+            "wordA": "uygun, münasip",
+            "options": ["saçma", "yanlış", "rezil"]
+        },
+        {
+            "id": 38,
+            "wordQ": "approval",
+            "wordA": "onay, tasdik",
+            "options": ["ret", "söz", "kanıt"]
+        },
+        {
+            "id": 39,
+            "wordQ": "approve",
+            "wordA": "onaylamak, tasdik etmek",
+            "options": ["reddetmek", "sormak", "konuşmak"]
+        },
+        {
+            "id": 40,
+            "wordQ": "arise",
+            "wordA": "ortaya çıkmak, doğmak",
+            "options": ["gelişmek", "üremek", "süregelmek"]
+        },
+        {
+            "id": 41,
+            "wordQ": "armed",
+            "wordA": "silahlı",
+            "options": ["silahsız", "aç", "savunmasız"]
+        },
+        {
+            "id": 42,
+            "wordQ": "arms",
+            "wordA": "silahlar",
+            "options": ["bacaklar", "eller", "gözler"]
+        },
+        {
+            "id": 43,
+            "wordQ": "artificial",
+            "wordA": "yapay",
+            "options": ["doğal", "gerçek", "otantik"]
+        },
+        {
+            "id": 44,
+            "wordQ": "artistic",
+            "wordA": "sanatsal",
+            "options": ["bilimsel", "yaratıcı", "teknik"]
+        },
+        {
+            "id": 45,
+            "wordQ": "ashamed",
+            "wordA": "utanmış, mahçup",
+            "options": ["gururlu", "mutlu", "şaşkın"]
+        },
+        {
+            "id": 46,
+            "wordQ": "aspect",
+            "wordA": "yön, açı",
+            "options": ["görüş", "neden", "amaç"]
+        },
+        {
+            "id": 47,
+            "wordQ": "assess",
+            "wordA": "değerlendirmek, belirlemek",
+            "options": ["güvenceye almak", "tartmak", "denemek"]
+        },
+        {
+            "id": 48,
+            "wordQ": "assessment",
+            "wordA": "değerlendirme, tespit",
+            "options": ["işlem", "hizmet", "döküman"]
+        },
+        {
+            "id": 49,
+            "wordQ": "associate",
+            "wordA": "ilişkilendirmek; ortak",
+            "options": ["koparmak", "kapatmak", "kaybetmek"]
+        },
+        {
+            "id": 50,
+            "wordQ": "associated",
+            "wordA": "ilişkili, bağlantılı",
+            "options": ["ayrı", "uzak", "soyut"]
+        },
+        {
+            "id": 51,
+            "wordQ": "association",
+            "wordA": "dernek, birlik",
+            "options": ["şirket", "topluluk", "mağaza"]
+        },
+        {
+            "id": 52,
+            "wordQ": "assume",
+            "wordA": "varsaymak, farzetmek",
+            "options": ["inkar etmek", "gerçekleşmek", "karşılaşmak"]
+        },
+        {
+            "id": 53,
+            "wordQ": "attempt",
+            "wordA": "girişim; girişimde bulunmak",
+            "options": ["hedef", "başarı", "olumsuzluk"]
+        },
+        {
+            "id": 54,
+            "wordQ": "back",
+            "wordA": "geri; desteklemek",
+            "options": ["ileri", "yan", "aşağı"]
+        },
+        {
+            "id": 55,
+            "wordQ": "bacteria",
+            "wordA": "bakteri",
+            "options": ["virus", "mantar", "parazit"]
+        },
+        {
+            "id": 56,
+            "wordQ": "bar",
+            "wordA": "bar; engellemek",
+            "options": ["kahve", "restoran", "otel"]
+        },
+        {
+            "id": 57,
+            "wordQ": "barrier",
+            "wordA": "engel, bariyer",
+            "options": ["duvar", "kapı", "çatı"]
+        },
+        {
+            "id": 58,
+            "wordQ": "basically",
+            "wordA": "temelde, aslında",
+            "options": ["genellikle", "nadiren", "bazen"]
+        },
+        {
+            "id": 59,
+            "wordQ": "battle",
+            "wordA": "savaş; savaşmak",
+            "options": ["barış", "görev", "mücadele"]
+        },
+        {
+            "id": 60,
+            "wordQ": "bear",
+            "wordA": "taşımak, katlanmak",
+            "options": ["yükselmek", "savaşmak", "kazanmak"]
+        },
+        {
+            "id": 61,
+            "wordQ": "beat",
+            "wordA": "vuruş; dövmek",
+            "options": ["söylemek", "koşmak", "yatmak"]
+        },
+        {
+            "id": 62,
+            "wordQ": "beg",
+            "wordA": "yalvarmak, dilenmek",
+            "options": ["konuşmak", "gezmek", "çalışmak"]
+        },
+        {
+            "id": 63,
+            "wordQ": "being",
+            "wordA": "varlık, varoluş",
+            "options": ["gerçek", "zaman", "yer"]
+        },
+        {
+            "id": 64,
+            "wordQ": "bent",
+            "wordA": "bükülmüş, eğilmiş",
+            "options": ["sert", "yüksek", "uzun"]
+        },
+        {
+            "id": 65,
+            "wordQ": "bet",
+            "wordA": "bahis; bahse girmek",
+            "options": ["yarış", "oyun", "kazanç"]
+        },
+        {
+            "id": 66,
+            "wordQ": "beyond",
+            "wordA": "ötesinde",
+            "options": ["yakınında", "yanında", "karşısında"]
+        },
+        {
+            "id": 67,
+            "wordQ": "bill",
+            "wordA": "fatura; tasarı",
+            "options": ["not", "dava", "hediye"]
+        },
+        {
+            "id": 68,
+            "wordQ": "bitter",
+            "wordA": "acı, keskin",
+            "options": ["tatlı", "tuzlu", "ekşi"]
+        },
+        {
+            "id": 69,
+            "wordQ": "blame",
+            "wordA": "suç; suçlamak",
+            "options": ["özür", "talep", "karar"]
+        },
+        {
+            "id": 70,
+            "wordQ": "blind",
+            "wordA": "kör; kör etmek",
+            "options": ["görme", "işitme", "dokunma"]
+        },
+        {
+            "id": 71,
+            "wordQ": "bond",
+            "wordA": "bağ, ilişki",
+            "options": ["aile", "dost", "sevgili"]
+        },
+        {
+            "id": 72,
+            "wordQ": "border",
+            "wordA": "sınır; sınırlamak",
+            "options": ["orman", "nehir", "dağ"]
+        },
+        {
+            "id": 73,
+            "wordQ": "breast",
+            "wordA": "göğüs",
+            "options": ["karın", "sırt", "bacak"]
+        },
+        {
+            "id": 74,
+            "wordQ": "brief",
+            "wordA": "kısa, öz",
+            "options": ["uzun", "geniş", "detaylı"]
+        },
+        {
+            "id": 75,
+            "wordQ": "broad",
+            "wordA": "geniş, yaygın",
+            "options": ["dar", "küçük", "çok"]
+        },
+        {
+            "id": 76,
+            "wordQ": "broadcast",
+            "wordA": "yayın; yayınlamak",
+            "options": ["dinlemek", "izlemek", "göndermek"]
+        },
+        {
+            "id": 77,
+            "wordQ": "budget",
+            "wordA": "bütçe",
+            "options": ["harcama", "tasarruf", "borç"]
+        },
+        {
+            "id": 78,
+            "wordQ": "bullet",
+            "wordA": "kurşun",
+            "options": ["mermi", "roket", "bomba"]
+        },
+        {
+            "id": 79,
+            "wordQ": "bunch",
+            "wordA": "demet, grup",
+            "options": ["yığın", "sıra", "dizi"]
+        },
+        {
+            "id": 80,
+            "wordQ": "burn",
+            "wordA": "yanmak; yakmak",
+            "options": ["donmak", "suçlamak", "ağlamak"]
+        },
+        {
+            "id": 81,
+            "wordQ": "cable",
+            "wordA": "kablo",
+            "options": ["internet", "elektrik", "telefon"]
+        },
+        {
+            "id": 82,
+            "wordQ": "calculate",
+            "wordA": "hesaplamak",
+            "options": ["karar vermek", "tahmin etmek", "çözmek"]
+        },
+        {
+            "id": 83,
+            "wordQ": "cancel",
+            "wordA": "iptal etmek",
+            "options": ["onaylamak", "geri almak", "uyandırmak"]
+        },
+        {
+            "id": 84,
+            "wordQ": "cancer",
+            "wordA": "kanser",
+            "options": ["grip", "şeker", "astım"]
+        },
+        {
+            "id": 85,
+            "wordQ": "capable",
+            "wordA": "yetenekli, kabiliyetli",
+            "options": ["utanmaz", "hırslı", "özgüvenli"]
+        },
+        {
+            "id": 86,
+            "wordQ": "capacity",
+            "wordA": "kapasite, yetenek",
+            "options": ["süreç", "talep", "zorunluluk"]
+        },
+        {
+            "id": 87,
+            "wordQ": "capture",
+            "wordA": "yakalamak; tutsak etmek",
+            "options": ["çözmek", "kurtarmak", "kaçmak"]
+        },
+        {
+            "id": 88,
+            "wordQ": "cast",
+            "wordA": "atmak, fırlatmak; oyuncu kadrosu",
+            "options": ["tutmak", "seyretmek", "bağlamak"]
+        },
+        {
+            "id": 89,
+            "wordQ": "catch",
+            "wordA": "yakalamak; tutmak",
+            "options": ["kaçmak", "vurmak", "serbest bırakmak"]
+        },
+        {
+            "id": 90,
+            "wordQ": "cell",
+            "wordA": "hücre",
+            "options": ["organ", "doku", "madde"]
+        },
+        {
+            "id": 91,
+            "wordQ": "chain",
+            "wordA": "zincir; zincirlemek",
+            "options": ["halka", "ip", "tel"]
+        },
+        {
+            "id": 92,
+            "wordQ": "chair",
+            "wordA": "sandalye; başkanlık etmek",
+            "options": ["masa", "koltuk", "tablo"]
+        },
+        {
+            "id": 93,
+            "wordQ": "chairman",
+            "wordA": "Başkan",
+            "options": ["lider", "yönetici", "başbakan"]
+        },
+        {
+            "id": 94,
+            "wordQ": "challenge",
+            "wordA": "Meydan okuma",
+            "options": ["tehdit", "görev", "yarış"]
+        },
+        {
+            "id": 95,
+            "wordQ": "characteristic",
+            "wordA": "Özellik",
+            "options": ["özgünlük", "karakter", "nitelik"]
+        },
+        {
+            "id": 96,
+            "wordQ": "chart",
+            "wordA": "Grafik çizmek",
+            "options": ["tablo", "çizim", "şema"]
+        },
+        {
+            "id": 97,
+            "wordQ": "chief",
+            "wordA": "Baş, Başkan",
+            "options": ["lider", "patron", "general"]
+        },
+        {
+            "id": 98,
+            "wordQ": "circumstance",
+            "wordA": "Durum, Koşul",
+            "options": ["süreç", "geçmiş", "olay"]
+        },
+        {
+            "id": 99,
+            "wordQ": "cite",
+            "wordA": "Alıntı yapmak",
+            "options": ["referans", "anı", "göstermek"]
+        },
+        {
+            "id": 100,
+            "wordQ": "citizen",
+            "wordA": "Vatandaş",
+            "options": ["yabancı", "misafir", "insan"]
+        },
+        {
+            "id": 101,
+            "wordQ": "civil",
+            "wordA": "Sivil",
+            "options": ["askeri", "kamu", "resmi"]
+        },
+        {
+            "id": 102,
+            "wordQ": "classic",
+            "wordA": "Klasik",
+            "options": ["modern", "popüler", "eski"]
+        },
+        {
+            "id": 103,
+            "wordQ": "close",
+            "wordA": "Kapatmak, Yakın",
+            "options": ["açmak", "uzak", "geniş"]
+        },
+        {
+            "id": 104,
+            "wordQ": "closely",
+            "wordA": "Yakından",
+            "options": ["hızlıca", "açıkça", "sakin"]
+        },
+        {
+            "id": 105,
+            "wordQ": "collapse",
+            "wordA": "Çökmek, Çöküş",
+            "options": ["yükselmek", "genişlemek", "patlamak"]
+        },
+        {
+            "id": 106,
+            "wordQ": "combination",
+            "wordA": "Kombinasyon, Birleşim",
+            "options": ["ayrım", "karışım", "seçim"]
+        },
+        {
+            "id": 107,
+            "wordQ": "comfort",
+            "wordA": "Rahatlık, Rahatlatmak",
+            "options": ["stres", "sıkıntı", "rahatsızlık"]
+        },
+        {
+            "id": 108,
+            "wordQ": "command",
+            "wordA": "Emir, Emretmek",
+            "options": ["ceza", "izin", "özür"]
+        },
+        {
+            "id": 109,
+            "wordQ": "commission",
+            "wordA": "Komisyon, Görevlendirmek",
+            "options": ["yatırım", "hükümet", "kuruluş"]
+        },
+        {
+            "id": 110,
+            "wordQ": "commitment",
+            "wordA": "Taahhüt, Bağlılık",
+            "options": ["vazgeçme", "kaçma", "korku"]
+        },
+        {
+            "id": 111,
+            "wordQ": "committee",
+            "wordA": "Komite, Kurul",
+            "options": ["topluluk", "grup", "ekip"]
+        },
+        {
+            "id": 112,
+            "wordQ": "commonly",
+            "wordA": "Genellikle, Sıkça",
+            "options": ["nadiren", "daima", "kısa süreli"]
+        },
+        {
+            "id": 113,
+            "wordQ": "complex",
+            "wordA": "Karmaşık",
+            "options": ["basit", "anlaşılır", "net"]
+        },
+        {
+            "id": 114,
+            "wordQ": "complicated",
+            "wordA": "Karmaşık",
+            "options": ["basit", "anlaşılır", "net"]
+        },
+        {
+            "id": 115,
+            "wordQ": "component",
+            "wordA": "Bileşen, Parça",
+            "options": ["tüm", "bağımsız", "tamamlayıcı"]
+        },
+        {
+            "id": 116,
+            "wordQ": "concentration",
+            "wordA": "Konsantrasyon, Yoğunluk",
+            "options": ["dağılım", "dikkatsizlik", "genişlik"]
+        },
+        {
+            "id": 117,
+            "wordQ": "concept",
+            "wordA": "Kavram",
+            "options": ["detay", "nesne", "tanım"]
+        },
+        {
+            "id": 118,
+            "wordQ": "concern",
+            "wordA": "Endişe, İlgilendirmek",
+            "options": ["mutluluk", "ilgi", "güvence"]
+        },
+        {
+            "id": 119,
+            "wordQ": "concerned",
+            "wordA": "Endişeli",
+            "options": ["mutlu", "ilgili", "sakin"]
+        },
+        {
+            "id": 120,
+            "wordQ": "conduct",
+            "wordA": "Davranış, Davranmak",
+            "options": ["konuşma", "yürütme", "denetleme"]
+        },
+        {
+            "id": 121,
+            "wordQ": "confidence",
+            "wordA": "Güven",
+            "options": ["korku", "endişe", "utanç"]
+        },
+        {
+            "id": 122,
+            "wordQ": "conflict",
+            "wordA": "Çatışma, Çatışmak",
+            "options": ["barış", "uzlaşma", "dostluk"]
+        },
+        {
+            "id": 123,
+            "wordQ": "confusing",
+            "wordA": "Kafa karıştırıcı",
+            "options": ["net", "anlaşılır", "basit"]
+        },
+        {
+            "id": 124,
+            "wordQ": "conscious",
+            "wordA": "Bilinçli",
+            "options": ["bilinçsiz", "uykulu", "sarsılmış"]
+        },
+        {
+            "id": 125,
+            "wordQ": "conservative",
+            "wordA": "Muhafazakar",
+            "options": ["liberal", "ilerici", "radikal"]
+        },
+        {
+            "id": 126,
+            "wordQ": "consideration",
+            "wordA": "Düşünme, Dikkate Alma",
+            "options": ["önemsizlik", "ihmal", "umursamazlık"]
+        },
+        {
+            "id": 127,
+            "wordQ": "consistent",
+            "wordA": "Tutarlı",
+            "options": ["çelişkili", "değişken", "uyumsuz"]
+        },
+        {
+            "id": 128,
+            "wordQ": "constant",
+            "wordA": "Sürekli",
+            "options": ["geçici", "durağan", "kesintili"]
+        },
+        {
+            "id": 129,
+            "wordQ": "constantly",
+            "wordA": "Sürekli olarak",
+            "options": ["aniden", "kesinlikle", "çoğunlukla"]
+        },
+        {
+            "id": 130,
+            "wordQ": "construct",
+            "wordA": "İnşa etmek",
+            "options": ["yıkmak", "bozmak", "tüketmek"]
+        },
+        {
+            "id": 131,
+            "wordQ": "construction",
+            "wordA": "İnşaat",
+            "options": ["yıkım", "tamirat", "gelişme"]
+        },
+        {
+            "id": 132,
+            "wordQ": "contemporary",
+            "wordA": "Çağdaş",
+            "options": ["geleneksel", "antik", "klasik"]
+        },
+        {
+            "id": 133,
+            "wordQ": "contest",
+            "wordA": "Yarışma, Yarışmak",
+            "options": ["eğlence", "gösteri", "deneme"]
+        },
+        {
+            "id": 134,
+            "wordQ": "contract",
+            "wordA": "Sözleşme, Sözleşmek",
+            "options": ["anlaşma", "anlaşmak", "kararlaştırma"]
+        },
+        {
+            "id": 135,
+            "wordQ": "contribute",
+            "wordA": "Katkıda bulunmak",
+            "options": ["engellemek", "engel olmak", "geri çekilmek"]
+        },
+        {
+            "id": 136,
+            "wordQ": "contribution",
+            "wordA": "Katkı",
+            "options": ["ihmal", "geri çekilme", "engel"]
+        },
+        {
+            "id": 137,
+            "wordQ": "convert",
+            "wordA": "Dönüştürmek",
+            "options": ["sabotaj", "geri dönüşüm", "yeniden kullanma"]
+        },
+        {
+            "id": 138,
+            "wordQ": "convinced",
+            "wordA": "İkna olmuş",
+            "options": ["şüpheli", "kararsız", "kayıtsız"]
+        },
+        {
+            "id": 139,
+            "wordQ": "core",
+            "wordA": "Temel, Çekirdek",
+            "options": ["dış", "yüzey", "yüzey"]
+        },
+        {
+            "id": 140,
+            "wordQ": "corporate",
+            "wordA": "Kurumsal",
+            "options": ["kişisel", "bireysel", "toplumsal"]
+        },
+        {
+            "id": 141,
+            "wordQ": "council",
+            "wordA": "Konsey, Meclis",
+            "options": ["komite", "topluluk", "örgüt"]
+        },
+        {
+            "id": 142,
+            "wordQ": "county",
+            "wordA": "İlçe",
+            "options": ["şehir", "ülke", "bölge"]
+        },
+        {
+            "id": 143,
+            "wordQ": "courage",
+            "wordA": "Cesaret",
+            "options": ["korku", "zayıflık", "utanç"]
+        },
+        {
+            "id": 144,
+            "wordQ": "crash",
+            "wordA": "Kaza, Çarpışma",
+            "options": ["iniş", "uçuş", "çıkış"]
+        },
+        {
+            "id": 145,
+            "wordQ": "creation",
+            "wordA": "Yaratma",
+            "options": ["yıkım", "bozma", "tüketme"]
+        },
+        {
+            "id": 146,
+            "wordQ": "creature",
+            "wordA": "Yaratık",
+            "options": ["canavar", "insan", "hayvan"]
+        },
+        {
+            "id": 147,
+            "wordQ": "credit",
+            "wordA": "Kredi, Kredi vermek",
+            "options": ["borç", "alışveriş", "harcama"]
+        },
+        {
+            "id": 148,
+            "wordQ": "crew",
+            "wordA": "Ekip",
+            "options": ["grup", "takım", "çalışanlar"]
+        },
+        {
+            "id": 149,
+            "wordQ": "crisis",
+            "wordA": "Kriz",
+            "options": ["çözüm", "çözümleme", "durum"]
+        },
+        {
+            "id": 150,
+            "wordQ": "criterion",
+            "wordA": "Kriter",
+            "options": ["seçenek", "koşul", "şart"]
+        },
+        {
+            "id": 151,
+            "wordQ": "critic",
+            "wordA": "Eleştirmen",
+            "options": ["yazar", "tarihçi", "müzisyen"]
+        },
+        {
+            "id": 152,
+            "wordQ": "critical",
+            "wordA": "Kritik, Önemli",
+            "options": ["önemsiz", "basit", "kolay"]
+        },
+        {
+            "id": 153,
+            "wordQ": "criticism",
+            "wordA": "Eleştiri",
+            "options": ["övgü", "destek", "özeleştiri"]
+        },
+        {
+            "id": 154,
+            "wordQ": "criticize",
+            "wordA": "Eleştirmek",
+            "options": ["övmek", "takdir etmek", "desteklemek"]
+        },
+        {
+            "id": 155,
+            "wordQ": "crop",
+            "wordA": "Mahsul, Ürün",
+            "options": ["tohum", "hasat", "tarım"]
+        },
+        {
+            "id": 156,
+            "wordQ": "crucial",
+            "wordA": "Kritik, Önemli",
+            "options": ["gereksiz", "basit", "ilgisiz"]
+        },
+        {
+            "id": 157,
+            "wordQ": "cry",
+            "wordA": "Ağlamak, Çığlık",
+            "options": ["gülümseme", "şarkı söyleme", "konuşma"]
+        },
+        {
+            "id": 158,
+            "wordQ": "cure",
+            "wordA": "İyileştirmek, Tedavi etmek",
+            "options": ["hastalanmak", "rahatsız etmek", "hastalık"]
+        },
+        {
+            "id": 159,
+            "wordQ": "current",
+            "wordA": "Akım, Şu anki",
+            "options": ["geçmiş", "gelecek", "sabit"]
+        },
+        {
+            "id": 160,
+            "wordQ": "curve",
+            "wordA": "Eğri, Kavis",
+            "options": ["doğru", "kare", "düz"]
+        },
+        {
+            "id": 161,
+            "wordQ": "date",
+            "wordA": "Tarih, Randevu",
+            "options": ["zaman", "gün", "ay"]
+        },
+        {
+            "id": 162,
+            "wordQ": "debate",
+            "wordA": "Tartışma, Tartışmak",
+            "options": ["anlaşma", "savaş", "konuşma"]
+        },
+        {
+            "id": 163,
+            "wordQ": "debt",
+            "wordA": "Borç",
+            "options": ["kredi", "harcama", "gelir"]
+        },
+        {
+            "id": 164,
+            "wordQ": "decent",
+            "wordA": "Uygun, Terbiyeli",
+            "options": ["saygılı", "saygısız", "saygı"]
+        },
+        {
+            "id": 165,
+            "wordQ": "declare",
+            "wordA": "İlan etmek",
+            "options": ["saklamak", "göstermek", "açıklamak"]
+        },
+        {
+            "id": 166,
+            "wordQ": "decline",
+            "wordA": "Azalmak, Reddetmek",
+            "options": ["artmak", "yükselmek", "kabul etmek"]
+        },
+        {
+            "id": 167,
+            "wordQ": "decoration",
+            "wordA": "Süs, Dekorasyon",
+            "options": ["mobilya", "resim", "tasarım"]
+        },
+        {
+            "id": 168,
+            "wordQ": "decrease",
+            "wordA": "Azaltmak, Azalma",
+            "options": ["artırmak", "çoğaltmak", "büyütmek"]
+        },
+        {
+            "id": 169,
+            "wordQ": "deeply",
+            "wordA": "Derinlemesine",
+            "options": ["yüzeysel", "hızlı", "dikkatli"]
+        },
+        {
+            "id": 170,
+            "wordQ": "defeat",
+            "wordA": "Yenmek, Mağlubiyet",
+            "options": ["galip gelmek", "berabere kalmak", "kaçmak"]
+        },
+        {
+            "id": 171,
+            "wordQ": "defence",
+            "wordA": "Savunma",
+            "options": ["saldırı", "geri çekilme", "ateş etme"]
+        },
+        {
+            "id": 172,
+            "wordQ": "defend",
+            "wordA": "Savunmak",
+            "options": ["saldırmak", "kaçmak", "barış yapmak"]
+        },
+        {
+            "id": 173,
+            "wordQ": "delay",
+            "wordA": "Gecikme, Geciktirmek",
+            "options": ["hız", "acele", "başlama"]
+        },
+        {
+            "id": 174,
+            "wordQ": "deliberate",
+            "wordA": "Kasıtlı, Düşünerek",
+            "options": ["tesadüfi", "plansız", "isteksiz"]
+        },
+        {
+            "id": 175,
+            "wordQ": "deliberately",
+            "wordA": "Bilerek",
+            "options": ["unutarak", "kazara", "sevinerek"]
+        },
+        {
+            "id": 176,
+            "wordQ": "delight",
+            "wordA": "Memnuniyet, Memnun etmek",
+            "options": ["üzgün", "sıkılmış", "keyif"]
+        },
+        {
+            "id": 177,
+            "wordQ": "delighted",
+            "wordA": "Memnun",
+            "options": ["üzgün", "korkmuş", "mutlu"]
+        },
+        {
+            "id": 178,
+            "wordQ": "delivery",
+            "wordA": "Teslimat",
+            "options": ["ziyaret", "gönderi", "geliş"]
+        },
+        {
+            "id": 179,
+            "wordQ": "demand",
+            "wordA": "Talep, Talep etmek",
+            "options": ["teklif", "cevap", "hediye"]
+        },
+        {
+            "id": 180,
+            "wordQ": "demonstrate",
+            "wordA": "Göstermek",
+            "options": ["saklamak", "anlatmak", "gizlemek"]
+        },
+        {
+            "id": 181,
+            "wordQ": "deny",
+            "wordA": "İnkar etmek",
+            "options": ["kabul etmek", "söylemek", "hatırlamak"]
+        },
+        {
+            "id": 182,
+            "wordQ": "depressed",
+            "wordA": "Depresif",
+            "options": ["mutlu", "şaşkın", "kızgın"]
+        },
+        {
+            "id": 183,
+            "wordQ": "depressing",
+            "wordA": "Depresif",
+            "options": ["mutlu edici", "şaşırtıcı", "kızgın"]
+        },
+        {
+            "id": 184,
+            "wordQ": "depth",
+            "wordA": "Derinlik",
+            "options": ["yükseklik", "uzaklık", "genişlik"]
+        },
+        {
+            "id": 185,
+            "wordQ": "desert",
+            "wordA": "Çöl, Terk etmek",
+            "options": ["orman", "dağ", "gölge"]
+        },
+        {
+            "id": 186,
+            "wordQ": "deserve",
+            "wordA": "Hak etmek",
+            "options": ["kabul etmek", "önemsemek", "hissetmek"]
+        },
+        {
+            "id": 187,
+            "wordQ": "desire",
+            "wordA": "Arzu, Arzu etmek",
+            "options": ["talep", "çılgınlık", "katkı"]
+        },
+        {
+            "id": 188,
+            "wordQ": "desperate",
+            "wordA": "Umutsuz",
+            "options": ["güçlü", "mutlu", "neşeli"]
+        },
+        {
+            "id": 189,
+            "wordQ": "detail",
+            "wordA": "Detay, Detaylandırmak",
+            "options": ["genel", "özet", "karar"]
+        },
+        {
+            "id": 190,
+            "wordQ": "detailed",
+            "wordA": "Detaylı",
+            "options": ["genel", "kaba", "basit"]
+        },
+        {
+            "id": 191,
+            "wordQ": "detect",
+            "wordA": "Tespit etmek",
+            "options": ["saklamak", "kaçmak", "engellemek"]
+        },
+        {
+            "id": 192,
+            "wordQ": "dig",
+            "wordA": "Kazmak",
+            "options": ["kapatmak", "bakmak", "düşünmek"]
+        },
+        {
+            "id": 193,
+            "wordQ": "disc",
+            "wordA": "Disk",
+            "options": ["kağıt", "plaka", "tel"]
+        },
+        {
+            "id": 194,
+            "wordQ": "discipline",
+            "wordA": "Disiplin",
+            "options": ["serbest", "kararsız", "sıkı"]
+        },
+        {
+            "id": 195,
+            "wordQ": "discount",
+            "wordA": "İndirim, İndirim yapmak",
+            "options": ["artış", "zam", "kazanç"]
+        },
+        {
+            "id": 196,
+            "wordQ": "dishonest",
+            "wordA": "Dürüst olmayan",
+            "options": ["dürüst", "saygılı", "doğru"]
+        },
+        {
+            "id": 197,
+            "wordQ": "dismiss",
+            "wordA": "Reddetmek, Kovanmak",
+            "options": ["kabul etmek", "yükseltmek", "affetmek"]
+        },
+        {
+            "id": 198,
+            "wordQ": "display",
+            "wordA": "Göstermek, Sergi",
+            "options": ["saklamak", "anlatmak", "sahip olmak"]
+        },
+        {
+            "id": 199,
+            "wordQ": "distribute",
+            "wordA": "Dağıtmak",
+            "options": ["toplamak", "vermek", "saklamak"]
+        },
+        {
+            "id": 200,
+            "wordQ": "distribution",
+            "wordA": "Dağıtım",
+            "options": ["toplum", "tartışma", "teşvik"]
+        },
+        {
+            "id": 201,
+            "wordQ": "district",
+            "wordA": "Bölge, İlçe",
+            "options": ["köy", "şehir", "ülke"]
+        },
+        {
+            "id": 202,
+            "wordQ": "divide",
+            "wordA": "Bölmek",
+            "options": ["birleştirmek", "genişletmek", "bitirmek"]
+        },
+        {
+            "id": 203,
+            "wordQ": "division",
+            "wordA": "Bölüm, Bölünme",
+            "options": ["bütünleme", "ekleme", "çıkarma"]
+        },
+        {
+            "id": 204,
+            "wordQ": "document",
+            "wordA": "Belge",
+            "options": ["resim", "film", "müzik"]
+        },
+        {
+            "id": 205,
+            "wordQ": "domestic",
+            "wordA": "Yerel, İç",
+            "options": ["uluslararası", "genel", "halk"]
+        },
+        {
+            "id": 206,
+            "wordQ": "dominate",
+            "wordA": "Hükmetmek, Egemen olmak",
+            "options": ["barışmak", "karışmak", "üşümek"]
+        },
+        {
+            "id": 207,
+            "wordQ": "downwards",
+            "wordA": "Aşağıya doğru",
+            "options": ["yukarıya doğru", "ileriye doğru", "geriye doğru"]
+        },
+        {
+            "id": 208,
+            "wordQ": "dozen",
+            "wordA": "Düzine",
+            "options": ["birkaç", "onlarca", "yüzlerce"]
+        },
+        {
+            "id": 209,
+            "wordQ": "draft",
+            "wordA": "Taslak, Taslağını yapmak",
+            "options": ["tamamlama", "yayınlama", "inceleme"]
+        },
+        {
+            "id": 210,
+            "wordQ": "drag",
+            "wordA": "Sürüklemek",
+            "options": ["koşmak", "zıplamak", "uçmak"]
+        },
+        {
+            "id": 211,
+            "wordQ": "dramatic",
+            "wordA": "Dramatik",
+            "options": ["komik", "gerçekçi", "romantik"]
+        },
+        {
+            "id": 212,
+            "wordQ": "edit",
+            "wordA": "Düzenlemek, Kurgulamak",
+            "options": ["yayınlamak", "karalamak", "kaydetmek"]
+        },
+        {
+            "id": 213,
+            "wordQ": "edition",
+            "wordA": "Baskı, Baskı yapmak",
+            "options": ["bölüm", "bölme", "bölge"]
+        },
+        {
+            "id": 214,
+            "wordQ": "efficient",
+            "wordA": "Verimli",
+            "options": ["kayıtsız", "sarsıcı", "verimsiz"]
+        },
+        {
+            "id": 215,
+            "wordQ": "elderly",
+            "wordA": "Yaşlı",
+            "options": ["genç", "çocuk", "yetişkin"]
+        },
+        {
+            "id": 216,
+            "wordQ": "elect",
+            "wordA": "Seçmek",
+            "options": ["red etmek", "kabul etmek", "öne sürmek"]
+        },
+        {
+            "id": 217,
+            "wordQ": "elsewhere",
+            "wordA": "Başka yerde",
+            "options": ["burada", "şimdi", "sonra"]
+        },
+        {
+            "id": 218,
+            "wordQ": "emerge",
+            "wordA": "Ortaya çıkmak",
+            "options": ["gizlemek", "kaçmak", "unutmak"]
+        },
+        {
+            "id": 219,
+            "wordQ": "emotional",
+            "wordA": "Duygusal",
+            "options": ["soğuk", "mantıklı", "duyarsız"]
+        },
+        {
+            "id": 220,
+            "wordQ": "emphasis",
+            "wordA": "Vurgu",
+            "options": ["istek", "hayal", "niyet"]
+        },
+        {
+            "id": 221,
+            "wordQ": "emphasize",
+            "wordA": "Vurgulamak",
+            "options": ["göz ardı etmek", "kapatmak", "kandırmak"]
+        },
+        {
+            "id": 222,
+            "wordQ": "enable",
+            "wordA": "İmkân sağlamak",
+            "options": ["zorlaştırmak", "engellemek", "gerektirmek"]
+        },
+        {
+            "id": 223,
+            "wordQ": "encounter",
+            "wordA": "Karşılaşma",
+            "options": ["kaçış", "düşmanlık", "çözümleme"]
+        },
+        {
+            "id": 224,
+            "wordQ": "engage",
+            "wordA": "İlgilenmek, Katılmak",
+            "options": ["vazgeçmek", "kabullenmek", "red etmek"]
+        },
+        {
+            "id": 225,
+            "wordQ": "enhance",
+            "wordA": "Geliştirmek",
+            "options": ["azaltmak", "sınırlamak", "bozmak"]
+        },
+        {
+            "id": 226,
+            "wordQ": "enquiry",
+            "wordA": "Soruşturma",
+            "options": ["anlaşma", "kabul", "konuşma"]
+        },
+        {
+            "id": 227,
+            "wordQ": "ensure",
+            "wordA": "Sağlamak",
+            "options": ["belirlemek", "hatırlamak", "unutmak"]
+        },
+        {
+            "id": 228,
+            "wordQ": "enthusiasm",
+            "wordA": "Coşku",
+            "options": ["nefret", "korku", "şüphe"]
+        },
+        {
+            "id": 229,
+            "wordQ": "enthusiastic",
+            "wordA": "Coşkulu",
+            "options": ["hassas", "karamsar", "duyarsız"]
+        },
+        {
+            "id": 230,
+            "wordQ": "entire",
+            "wordA": "Tüm, Bütün",
+            "options": ["tek", "sabit", "kesirli"]
+        },
+        {
+            "id": 231,
+            "wordQ": "entirely",
+            "wordA": "Tamamen",
+            "options": ["yavaşça", "kısmen", "kötüce"]
+        },
+        {
+            "id": 232,
+            "wordQ": "equal",
+            "wordA": "Eşit",
+            "options": ["farklı", "benzer", "az"]
+        },
+        {
+            "id": 233,
+            "wordQ": "establish",
+            "wordA": "Kurmak, Oluşturmak",
+            "options": ["yok etmek", "düzenlemek", "tamamlamak"]
+        },
+        {
+            "id": 234,
+            "wordQ": "estate",
+            "wordA": "Mülk, Emlak",
+            "options": ["arazi", "bina", "şehir"]
+        },
+        {
+            "id": 235,
+            "wordQ": "estimate",
+            "wordA": "Tahmin etmek, Tahmin",
+            "options": ["saymak", "tartmak", "karşılaştırmak"]
+        },
+        {
+            "id": 236,
+            "wordQ": "ethical",
+            "wordA": "Etik",
+            "options": ["ahlaki", "çıkarımsal", "dinî"]
+        },
+        {
+            "id": 237,
+            "wordQ": "evaluate",
+            "wordA": "Değerlendirmek",
+            "options": ["düşünmek", "atlamak", "inkar etmek"]
+        },
+        {
+            "id": 238,
+            "wordQ": "even",
+            "wordA": "Hatta, Bile",
+            "options": ["ancak", "sadece", "çoğunlukla"]
+        },
+        {
+            "id": 239,
+            "wordQ": "evil",
+            "wordA": "Kötü, Kötülük",
+            "options": ["iyi", "nefret", "düşmanlık"]
+        },
+        {
+            "id": 240,
+            "wordQ": "examination",
+            "wordA": "Sınav, Muayene",
+            "options": ["inceleme", "incelemek", "bilmek"]
+        },
+        {
+            "id": 241,
+            "wordQ": "excuse",
+            "wordA": "Bahane, Bahane bulmak",
+            "options": ["suçlamak", "anlamak", "cezalandırmak"]
+        },
+        {
+            "id": 242,
+            "wordQ": "executive",
+            "wordA": "Yönetici, Yürütme",
+            "options": ["öğrenci", "işçi", "çalışan"]
+        },
+        {
+            "id": 243,
+            "wordQ": "existence",
+            "wordA": "Varlık",
+            "options": ["gerçek", "hayal", "inanç"]
+        },
+        {
+            "id": 244,
+            "wordQ": "expectation",
+            "wordA": "Beklenti",
+            "options": ["tahmin", "ümit", "korku"]
+        },
+        {
+            "id": 245,
+            "wordQ": "expense",
+            "wordA": "Gider",
+            "options": ["gelir", "kar", "borç"]
+        },
+        {
+            "id": 246,
+            "wordQ": "exploration",
+            "wordA": "Keşif",
+            "options": ["seyahat", "çalışma", "üretim"]
+        },
+        {
+            "id": 247,
+            "wordQ": "expose",
+            "wordA": "Ortaya çıkarmak",
+            "options": ["saklamak", "korumak", "engellemek"]
+        },
+        {
+            "id": 248,
+            "wordQ": "extend",
+            "wordA": "Uzatmak",
+            "options": ["daraltmak", "kısaltmak", "kesmek"]
+        },
+        {
+            "id": 249,
+            "wordQ": "extent",
+            "wordA": "Derece, Boyut",
+            "options": ["renk", "hız", "süre"]
+        },
+        {
+            "id": 250,
+            "wordQ": "external",
+            "wordA": "Dış, Harici",
+            "options": ["iç", "yüzey", "derin"]
+        },
+        {
+            "id": 251,
+            "wordQ": "extraordinary",
+            "wordA": "Olağanüstü",
+            "options": ["sıradan", "normal", "olası"]
+        },
+        {
+            "id": 252,
+            "wordQ": "extreme",
+            "wordA": "Aşırı, Sınır",
+            "options": ["orta", "denge", "sakin"]
+        },
+        {
+            "id": 253,
+            "wordQ": "extremely",
+            "wordA": "Son derece",
+            "options": ["kısmen", "genellikle", "bazen"]
+        },
+        {
+            "id": 254,
+            "wordQ": "facility",
+            "wordA": "Tesis, İmkan",
+            "options": ["sorun", "hata", "sıkıntı"]
+        },
+        {
+            "id": 255,
+            "wordQ": "factor",
+            "wordA": "Faktör, Etken",
+            "options": ["sonuç", "amaç", "neden"]
+        },
+        {
+            "id": 256,
+            "wordQ": "failure",
+            "wordA": "Başarısızlık",
+            "options": ["başarı", "ilerleme", "başlangıç"]
+        },
+        {
+            "id": 257,
+            "wordQ": "faith",
+            "wordA": "İnanç",
+            "options": ["şüphe", "güvensizlik", "gerçeklik"]
+        },
+        {
+            "id": 258,
+            "wordQ": "false",
+            "wordA": "Yanlış, Sahte",
+            "options": ["doğru", "gerçek", "kesin"]
+        },
+        {
+            "id": 259,
+            "wordQ": "familiar",
+            "wordA": "Tanıdık",
+            "options": ["yabancı", "bilinmeyen", "tuhaf"]
+        },
+        {
+            "id": 260,
+            "wordQ": "fantastic",
+            "wordA": "Fantastik, Harika",
+            "options": ["korkunç", "sıkıcı", "basit"]
+        },
+        {
+            "id": 261,
+            "wordQ": "fault",
+            "wordA": "Hata",
+            "options": ["sorun", "başarı", "zorluk"]
+        },
+        {
+            "id": 262,
+            "wordQ": "favour",
+            "wordA": "Tercih etmek, Lütuf",
+            "options": ["ceza", "yanıt", "çalışma"]
+        },
+        {
+            "id": 263,
+            "wordQ": "feather",
+            "wordA": "Tüy",
+            "options": ["kuş", "kuyruk", "kanat"]
+        },
+        {
+            "id": 264,
+            "wordQ": "fee",
+            "wordA": "Ücret",
+            "options": ["gelir", "kar", "borç"]
+        },
+        {
+            "id": 265,
+            "wordQ": "feed",
+            "wordA": "Beslemek",
+            "options": ["açlık", "susuzluk", "uyku"]
+        },
+        {
+            "id": 266,
+            "wordQ": "feedback",
+            "wordA": "Geri bildirim",
+            "options": ["sonuç", "gerçek", "hız"]
+        },
+        {
+            "id": 267,
+            "wordQ": "feel",
+            "wordA": "Hiss etmek",
+            "options": ["düşünmek", "bilmek", "anlamak"]
+        },
+        {
+            "id": 268,
+            "wordQ": "fellow",
+            "wordA": "Arkadaş, Dost",
+            "options": ["yabancı", "rakip", "misafir"]
+        },
+        {
+            "id": 269,
+            "wordQ": "figure",
+            "wordA": "Şekil, Sayı",
+            "options": ["görünüm", "yüz", "boy"]
+        },
+        {
+            "id": 270,
+            "wordQ": "file",
+            "wordA": "Dosya",
+            "options": ["belge", "kitap", "not"]
+        },
+        {
+            "id": 271,
+            "wordQ": "finance",
+            "wordA": "Finans, Finanse etmek",
+            "options": ["hazine", "kredi", "para"]
+        },
+        {
+            "id": 272,
+            "wordQ": "finding",
+            "wordA": "Bulgular",
+            "options": ["çalışma", "arama", "keşif"]
+        },
+        {
+            "id": 273,
+            "wordQ": "firm",
+            "wordA": "Şirket",
+            "options": ["kuruluş", "ortaklık", "iş"]
+        },
+        {
+            "id": 274,
+            "wordQ": "fix",
+            "wordA": "Tamir etmek, Düzeltmek",
+            "options": ["değiştirmek", "yeniden yapmak", "ihmal etmek"]
+        },
+        {
+            "id": 275,
+            "wordQ": "flame",
+            "wordA": "Alev",
+            "options": ["duman", "ateş", "ışık"]
+        },
+        {
+            "id": 276,
+            "wordQ": "flash",
+            "wordA": "Parlamak, Aniden parlamak",
+            "options": ["parıltı", "parlaklık", "ışıltı"]
+        },
+        {
+            "id": 277,
+            "wordQ": "flexible",
+            "wordA": "Esnek",
+            "options": ["katı", "sabit", "sert"]
+        },
+        {
+            "id": 278,
+            "wordQ": "float",
+            "wordA": "Suda yüzmek",
+            "options": ["batmak", "dalgalanmak", "batırma"]
+        },
+        {
+            "id": 279,
+            "wordQ": "fold",
+            "wordA": "Katlamak, Kat",
+            "options": ["açmak", "genişletmek", "uzatmak"]
+        },
+        {
+            "id": 280,
+            "wordQ": "following",
+            "wordA": "Sonraki, Takip eden",
+            "options": ["önceki", "geçmiş", "var olan"]
+        },
+        {
+            "id": 281,
+            "wordQ": "forgive",
+            "wordA": "Affetmek",
+            "options": ["unutmak", "özür dilemek", "özür kabul etmek"]
+        },
+        {
+            "id": 282,
+            "wordQ": "former",
+            "wordA": "Eski, Önceki",
+            "options": ["sonraki", "şimdiki", "yeni"]
+        },
+        {
+            "id": 283,
+            "wordQ": "fortune",
+            "wordA": "Servet, Şans",
+            "options": ["talih", "kader", "zenginlik"]
+        },
+        {
+            "id": 284,
+            "wordQ": "forward",
+            "wordA": "İleri, Öne doğru",
+            "options": ["geri", "yukarı", "aşağı"]
+        },
+        {
+            "id": 285,
+            "wordQ": "found",
+            "wordA": "Kurmak",
+            "options": ["inşa etmek", "yapmak", "olmak"]
+        },
+        {
+            "id": 286,
+            "wordQ": "free",
+            "wordA": "Özgür",
+            "options": ["bağımsız", "serbest", "hür"]
+        },
+        {
+            "id": 287,
+            "wordQ": "freedom",
+            "wordA": "Özgürlük",
+            "options": ["esneklik", "bağımsızlık", "hürriyet"]
+        },
+        {
+            "id": 288,
+            "wordQ": "frequency",
+            "wordA": "Frekans, Sıklık",
+            "options": ["yoğunluk", "sürekli", "devamlı"]
+        },
+        {
+            "id": 289,
+            "wordQ": "fuel",
+            "wordA": "Yakıt",
+            "options": ["benzin", "enerji", "petrol"]
+        },
+        {
+            "id": 290,
+            "wordQ": "fully",
+            "wordA": "Tamamen",
+            "options": ["eksiksiz", "bütün", "tümüyle"]
+        },
+        {
+            "id": 291,
+            "wordQ": "function",
+            "wordA": "İşlev, Fonksiyon",
+            "options": ["görev", "rol", "gözlem"]
+        },
+        {
+            "id": 292,
+            "wordQ": "fund",
+            "wordA": "Fon, Fon oluşturmak",
+            "options": ["yatırım", "sermaye", "kaynak"]
+        },
+        {
+            "id": 293,
+            "wordQ": "fundamental",
+            "wordA": "Temel",
+            "options": ["ana", "esas", "kök"]
+        },
+        {
+            "id": 294,
+            "wordQ": "funding",
+            "wordA": "Finansman",
+            "options": ["parasal destek", "yatırım", "kredi"]
+        },
+        {
+            "id": 295,
+            "wordQ": "furthermore",
+            "wordA": "Dahası",
+            "options": ["ayrıca", "buna ek olarak", "üstelik"]
+        },
+        {
+            "id": 296,
+            "wordQ": "gain",
+            "wordA": "Kazanmak, Kazanç",
+            "options": ["kar elde etmek", "artırmak", "gelir"]
+        },
+        {
+            "id": 297,
+            "wordQ": "gang",
+            "wordA": "Çete",
+            "options": ["şebeke", "grup", "topluluk"]
+        },
+        {
+            "id": 298,
+            "wordQ": "generate",
+            "wordA": "Üretmek",
+            "options": ["yaratmak", "oluşturmak", "meydana getirmek"]
+        },
+        {
+            "id": 299,
+            "wordQ": "genre",
+            "wordA": "Tür, Tarz",
+            "options": ["kategori", "stil", "çeşit"]
+        },
+        {
+            "id": 300,
+            "wordQ": "govern",
+            "wordA": "Yönetmek",
+            "options": ["hükmetmek", "denetlemek", "kontrol etmek"]
+        },
+        {
+            "id": 301,
+            "wordQ": "grab",
+            "wordA": "Kapmak",
+            "options": ["tutmak", "yakalamak", "sıkıca tutmak"]
+        },
+        {
+            "id": 302,
+            "wordQ": "grade",
+            "wordA": "Sınıf, Derece",
+            "options": ["seviye", "not", "kademeli"]
+        },
+        {
+            "id": 303,
+            "wordQ": "gradually",
+            "wordA": "Kademeli olarak",
+            "options": ["yavaşça", "azar azar", "gittikçe"]
+        },
+        {
+            "id": 304,
+            "wordQ": "grand",
+            "wordA": "Büyük, Muhteşem",
+            "options": ["yüksek", "görkemli", "ulusal"]
+        },
+        {
+            "id": 305,
+            "wordQ": "grant",
+            "wordA": "Burs, Vermek",
+            "options": ["hibe", "izin", "bahşetmek"]
+        },
+        {
+            "id": 306,
+            "wordQ": "guarantee",
+            "wordA": "Garanti etmek, Garanti",
+            "options": ["teminat", "kefil olmak", "güvence"]
+        },
+        {
+            "id": 307,
+            "wordQ": "handle",
+            "wordA": "İşlemek, Tutma kolu",
+            "options": ["kolu", "kontrol etmek", "idare etmek"]
+        },
+        {
+            "id": 308,
+            "wordQ": "harm",
+            "wordA": "Zarar, Zarar vermek",
+            "options": ["zararlı", "tehlikeli", "rahat"]
+        },
+        {
+            "id": 309,
+            "wordQ": "harmful",
+            "wordA": "Zararlı",
+            "options": ["kötü", "zarar verici", "hasarlı"]
+        },
+        {
+            "id": 310,
+            "wordQ": "hearing",
+            "wordA": "İşitme",
+            "options": ["duyulma", "kulak", "ses"]
+        },
+        {
+            "id": 311,
+            "wordQ": "heaven",
+            "wordA": "Cennet",
+            "options": ["cehennem", "cennette", "gök"]
+        },
+        {
+            "id": 312,
+            "wordQ": "heel",
+            "wordA": "Topuk",
+            "options": ["ayak", "taban", "baş"]
+        },
+        {
+            "id": 313,
+            "wordQ": "hell",
+            "wordA": "Cehennem",
+            "options": ["şeytan", "zindan", "cehennem ateşi"]
+        },
+        {
+            "id": 314,
+            "wordQ": "hesitate",
+            "wordA": "Tereddüt etmek",
+            "options": ["duraksamak", "şüphe etmek", "beklemek"]
+        },
+        {
+            "id": 315,
+            "wordQ": "high",
+            "wordA": "Yüksek",
+            "options": ["düşük", "yükseklik", "tepe"]
+        },
+        {
+            "id": 316,
+            "wordQ": "hire",
+            "wordA": "Kiralama, Kiralamak",
+            "options": ["işe alma", "çalıştırma", "kira"]
+        },
+        {
+            "id": 317,
+            "wordQ": "hold",
+            "wordA": "Tutma, Tutmak",
+            "options": ["sıkıca", "kavramak", "elde etmek"]
+        },
+        {
+            "id": 318,
+            "wordQ": "hollow",
+            "wordA": "Boş, Kova",
+            "options": ["çukur", "boşluk", "oyuk"]
+        },
+        {
+            "id": 319,
+            "wordQ": "holy",
+            "wordA": "Kutsal",
+            "options": ["dini", "sakral", "kutsallık"]
+        },
+        {
+            "id": 320,
+            "wordQ": "honour",
+            "wordA": "Onur, Onurlandırmak",
+            "options": ["saygı", "şeref", "haysiyet"]
+        },
+        {
+            "id": 321,
+            "wordQ": "host",
+            "wordA": "Ev sahibi, Ev sahipliği yapmak",
+            "options": ["konak", "barındırmak", "misafirperver"]
+        },
+        {
+            "id": 322,
+            "wordQ": "house",
+            "wordA": "Ev, Ev yapmak",
+            "options": ["konut", "bina", "yerleşim"]
+        },
+        {
+            "id": 323,
+            "wordQ": "household",
+            "wordA": "Ev halkı",
+            "options": ["aile", "hane", "hanelik"]
+        },
+        {
+            "id": 324,
+            "wordQ": "housing",
+            "wordA": "Konut, Konut yapma",
+            "options": ["yerleşim alanı", "evleme", "barınma"]
+        },
+        {
+            "id": 325,
+            "wordQ": "humorous",
+            "wordA": "Komik",
+            "options": ["güldürücü", "esprili", "komedi"]
+        },
+        {
+            "id": 326,
+            "wordQ": "humour",
+            "wordA": "Mizah",
+            "options": ["espri", "komiklik", "gülünçlük"]
+        },
+        {
+            "id": 327,
+            "wordQ": "hunt",
+            "wordA": "Av, Avlanmak",
+            "options": ["avcı", "iz sürmek", "yakalamak"]
+        },
+        {
+            "id": 328,
+            "wordQ": "hunting",
+            "wordA": "Avcılık",
+            "options": ["avlanma", "vahşi", "yarışma"]
+        },
+        {
+            "id": 329,
+            "wordQ": "hurt",
+            "wordA": "Yaralamak, Acıtmak",
+            "options": ["incitmek", "zarar vermek", "tırmalamak"]
+        },
+        {
+            "id": 330,
+            "wordQ": "ideal",
+            "wordA": "İdeal",
+            "options": ["kusursuz", "mükemmel", "hayali"]
+        },
+        {
+            "id": 331,
+            "wordQ": "illustrate",
+            "wordA": "İllüstre etmek",
+            "options": ["resimlemek", "anlatmak", "göstermek"]
+        },
+        {
+            "id": 332,
+            "wordQ": "illustration",
+            "wordA": "Resim, İllüstrasyon",
+            "options": ["çizim", "grafik", "şema"]
+        },
+        {
+            "id": 333,
+            "wordQ": "imagination",
+            "wordA": "Hayal gücü",
+            "options": ["yaratıcılık", "düş gücü", "hayalet"]
+        },
+        {
+            "id": 334,
+            "wordQ": "impatient",
+            "wordA": "Sabırsız",
+            "options": ["aceleci", "beklemeyen", "dayanılmaz"]
+        },
+        {
+            "id": 335,
+            "wordQ": "imply",
+            "wordA": "İma etmek",
+            "options": ["anlamına gelmek", "çağrışım yapmak", "varsaymak"]
+        },
+        {
+            "id": 336,
+            "wordQ": "impose",
+            "wordA": "Zorla kabul ettirmek",
+            "options": ["uygulamak", "emretmek", "uygulamak"]
+        },
+        {
+            "id": 337,
+            "wordQ": "impress",
+            "wordA": "Etkilemek",
+            "options": ["izlenim bırakmak", "vurmak", "şaşırtmak"]
+        },
+        {
+            "id": 338,
+            "wordQ": "impressed",
+            "wordA": "Etkilenmiş",
+            "options": ["etkileyici", "hayran kalmış", "takdir edilmiş"]
+        },
+        {
+            "id": 339,
+            "wordQ": "inch",
+            "wordA": "İnç",
+            "options": ["milimetre", "metre", "uzunluk ölçüsü"]
+        },
+        {
+            "id": 340,
+            "wordQ": "incident",
+            "wordA": "Olay",
+            "options": ["kaza", "durum", "rahatsızlık"]
+        },
+        {
+            "id": 341,
+            "wordQ": "income",
+            "wordA": "Gelir",
+            "options": ["kazanç", "kar", "kâr"]
+        },
+        {
+            "id": 342,
+            "wordQ": "increasingly",
+            "wordA": "Artan bir şekilde",
+            "options": ["gittikçe", "daha çok", "iyice"]
+        },
+        {
+            "id": 343,
+            "wordQ": "industrial",
+            "wordA": "Endüstriyel, Sanayi",
+            "options": ["fabrika", "üretim", "ticaret"]
+        },
+        {
+            "id": 344,
+            "wordQ": "infection",
+            "wordA": "Enfeksiyon",
+            "options": ["hastalık", "mikrop", "virüs"]
+        },
+        {
+            "id": 345,
+            "wordQ": "inform",
+            "wordA": "Bilgilendirmek",
+            "options": ["haberdar etmek", "uyarmak", "bilgi vermek"]
+        },
+        {
+            "id": 346,
+            "wordQ": "initial",
+            "wordA": "İlk, Başlangıç",
+            "options": ["öncü", "ilk harf", "baş harf"]
+        },
+        {
+            "id": 347,
+            "wordQ": "initially",
+            "wordA": "İlk olarak",
+            "options": ["başlangıçta", "ilk başta", "başta"]
+        },
+        {
+            "id": 348,
+            "wordQ": "initiative",
+            "wordA": "Girişim, İlk adım",
+            "options": ["teşebbüs", "yatırım", "cesaret"]
+        },
+        {
+            "id": 349,
+            "wordQ": "inner",
+            "wordA": "İç, Dahili",
+            "options": ["dış", "içerideki", "içsel"]
+        },
+        {
+            "id": 350,
+            "wordQ": "insight",
+            "wordA": "Anlayış, İçgörü",
+            "options": ["sezgi", "görüş", "akıl"]
+        },
+        {
+            "id": 351,
+            "wordQ": "insist",
+            "wordA": "İsrar etmek",
+            "options": ["ısrarla talep etmek", "diretmek", "kararlı olmak"]
+        },
+        {
+            "id": 352,
+            "wordQ": "inspire",
+            "wordA": "İlham vermek",
+            "options": ["aydınlatmak", "teşvik etmek", "harekete geçirmek"]
+        },
+        {
+            "id": 353,
+            "wordQ": "install",
+            "wordA": "Kurmak, Yüklemek",
+            "options": ["monte etmek", "yerleştirmek", "kurulum yapmak"]
+        },
+        {
+            "id": 354,
+            "wordQ": "instance",
+            "wordA": "Örnek, Örnek olay",
+            "options": ["örneğin", "örneklem", "örneklemek"]
+        },
+        {
+            "id": 355,
+            "wordQ": "institute",
+            "wordA": "Enstitü, Enstitü kurmak",
+            "options": ["kurum", "eğitim", "enstitüleştirmek"]
+        },
+        {
+            "id": 356,
+            "wordQ": "inspire",
+            "wordA": "İlham vermek",
+            "options": ["yaratıcılık", "hayal gücü", "vizyon"]
+        },
+        {
+            "id": 357,
+            "wordQ": "instance",
+            "wordA": "Örnek, Vaka",
+            "options": ["senaryo", "olay", "durum"]
+        },
+        {
+            "id": 358,
+            "wordQ": "instant",
+            "wordA": "Anlık, Hemen",
+            "options": ["an", "moment", "anı"]
+        },
+        {
+            "id": 359,
+            "wordQ": "instead",
+            "wordA": "Yerine, Bunun yerine",
+            "options": ["alternatif olarak", "değişiklik", "başka bir şey"]
+        },
+        {
+            "id": 360,
+            "wordQ": "institution",
+            "wordA": "Kurum",
+            "options": ["yapı", "organizasyon", "kuruluş"]
+        },
+        {
+            "id": 361,
+            "wordQ": "instruct",
+            "wordA": "Talimat vermek, Öğretmek",
+            "options": ["danışmanlık", "rehberlik", "bilgi vermek"]
+        },
+        {
+            "id": 362,
+            "wordQ": "instrument",
+            "wordA": "Alet, Enstrüman",
+            "options": ["araç", "gereç", "ekipman"]
+        },
+        {
+            "id": 363,
+            "wordQ": "insurance",
+            "wordA": "Sigorta",
+            "options": ["güvenlik", "koruma", "garanti"]
+        },
+        {
+            "id": 364,
+            "wordQ": "intend",
+            "wordA": "Niyet etmek, Planlamak",
+            "options": ["amaç", "hedef", "düşünce"]
+        },
+        {
+            "id": 365,
+            "wordQ": "intense",
+            "wordA": "Yoğun",
+            "options": ["derin", "çarpıcı", "etkili"]
+        },
+        {
+            "id": 376,
+            "wordQ": "justify",
+            "wordA": "Haklı çıkarmak",
+            "options": ["denge", "strateji", "tasarım"]
+        },
+        {
+            "id": 377,
+            "wordQ": "labour",
+            "wordA": "Emek, İşgücü",
+            "options": ["gelişim", "kültür", "teknoloji"]
+        },
+        {
+            "id": 378,
+            "wordQ": "landscape",
+            "wordA": "Manzara",
+            "options": ["sanat", "mimari", "tasarım"]
+        },
+        {
+            "id": 379,
+            "wordQ": "largely",
+            "wordA": "Genellikle",
+            "options": ["strateji", "planlama", "analiz"]
+        },
+        {
+            "id": 380,
+            "wordQ": "latest",
+            "wordA": "En son",
+            "options": ["inovasyon", "trend", "teknoloji"]
+        },
+        {
+            "id": 381,
+            "wordQ": "launch",
+            "wordA": "Başlatmak, Fırlatmak",
+            "options": ["inovasyon", "geliştirme", "planlama"]
+        },
+        {
+            "id": 382,
+            "wordQ": "leadership",
+            "wordA": "Liderlik",
+            "options": ["vizyon", "strateji", "yenilik"]
+        },
+        {
+            "id": 383,
+            "wordQ": "league",
+            "wordA": "Lig, Birlik",
+            "options": ["organizasyon", "grup", "koordinasyon"]
+        },
+        {
+            "id": 384,
+            "wordQ": "lean",
+            "wordA": "Eğilmek",
+            "options": ["denge", "stabilite", "harmoni"]
+        },
+        {
+            "id": 385,
+            "wordQ": "leave",
+            "wordA": "Ayrılmak, İzin vermek",
+            "options": ["değişiklik", "yolculuk", "dönüşüm"]
+        },
+        {
+            "id": 386,
+            "wordQ": "level",
+            "wordA": "Seviye, Düzlemek",
+            "options": ["dengelilik", "istikrar", "standart"]
+        },
+        {
+            "id": 387,
+            "wordQ": "licence",
+            "wordA": "Lisans",
+            "options": ["yetki", "onay", "belge"]
+        },
+        {
+            "id": 388,
+            "wordQ": "limited",
+            "wordA": "Sınırlı",
+            "options": ["kısıtlı", "özel", "belirli"]
+        },
+        {
+            "id": 389,
+            "wordQ": "line",
+            "wordA": "Hat, Çizgi",
+            "options": ["sınır", "yol", "yön"]
+        },
+        {
+            "id": 390,
+            "wordQ": "lively",
+            "wordA": "Canlı",
+            "options": ["enerjik", "hareketli", "dinamik"]
+        },
+        {
+            "id": 391,
+            "wordQ": "load",
+            "wordA": "Yük, Yüklemek",
+            "options": ["kapasite", "taşıma", "depo"]
+        },
+        {
+            "id": 392,
+            "wordQ": "loan",
+            "wordA": "Kredi",
+            "options": ["finansman", "borç", "destek"]
+        },
+        {
+            "id": 393,
+            "wordQ": "logical",
+            "wordA": "Mantıklı",
+            "options": ["analitik", "akılcı", "sistematik"]
+        },
+        {
+            "id": 394,
+            "wordQ": "long-term",
+            "wordA": "Uzun vadeli",
+            "options": ["sürdürülebilir", "geleceğe yönelik", "kalıcı"]
+        },
+        {
+            "id": 395,
+            "wordQ": "loose",
+            "wordA": "Gevşek",
+            "options": ["esnek", "rahat", "serbest"]
+        },
+        {
+            "id": 396,
+            "wordQ": "lord",
+            "wordA": "Efendi, Lord",
+            "options": ["lider", "yönetici", "otorite"]
+        },
+        {
+            "id": 397,
+            "wordQ": "low",
+            "wordA": "Düşük",
+            "options": ["az", "minimal", "hafif"]
+        },
+        {
+            "id": 398,
+            "wordQ": "lower",
+            "wordA": "Düşürmek",
+            "options": ["azaltmak", "küçültmek", "indirmek"]
+        },
+        {
+            "id": 399,
+            "wordQ": "lung",
+            "wordA": "Akciğer",
+            "options": ["solunum", "nefes", "hava yolu"]
+        },
+        {
+            "id": 400,
+            "wordQ": "maintain",
+            "wordA": "Sürdürmek",
+            "options": ["devam ettirmek", "koruma", "bakım"]
+        },
+        {
+            "id": 401,
+            "wordQ": "majority",
+            "wordA": "Çoğunluk",
+            "options": ["büyük kısım", "çoğunluk", "genel çoğunluk"]
+        },
+        {
+            "id": 402,
+            "wordQ": "make",
+            "wordA": "Yapmak",
+            "options": ["oluşturmak", "üretmek", "hazırlamak"]
+        },
+        {
+            "id": 403,
+            "wordQ": "map",
+            "wordA": "Harita çizmek",
+            "options": ["planlamak", "şematize etmek", "düzenlemek"]
+        },
+        {
+            "id": 404,
+            "wordQ": "mass",
+            "wordA": "Kitle, Kütlesi",
+            "options": ["grup", "topluluk", "büyük miktar"]
+        },
+        {
+            "id": 405,
+            "wordQ": "massive",
+            "wordA": "Büyük, Devasa",
+            "options": ["kocaman", "muazzam", "geniş"]
+        },
+        {
+            "id": 406,
+            "wordQ": "master",
+            "wordA": "Ustabaşı, Ustalık",
+            "options": ["yönetici", "lider", "uzman"]
+        },
+        {
+            "id": 407,
+            "wordQ": "matching",
+            "wordA": "Eşleştirme, Uyumlu",
+            "options": ["uyum", "benzerlik", "koordinasyon"]
+        },
+        {
+            "id": 408,
+            "wordQ": "material",
+            "wordA": "Malzeme, Materyal",
+            "options": ["kaynak", "unsur", "bileşen"]
+        },
+        {
+            "id": 409,
+            "wordQ": "maximum",
+            "wordA": "Maksimum, En fazla",
+            "options": ["en yüksek", "zirve", "tavan"]
+        },
+        {
+            "id": 410,
+            "wordQ": "means",
+            "wordA": "Araç, Vasıta",
+            "options": ["yol", "metod", "yöntem"]
+        },
+        {
+            "id": 411,
+            "wordQ": "measurement",
+            "wordA": "Ölçüm, Ölçü",
+            "options": ["değerlendirme", "tahmin", "analiz"]
+        },
+        {
+            "id": 412,
+            "wordQ": "medium",
+            "wordA": "Orta, Ortam",
+            "options": ["vasıta", "platform", "araç"]
+        },
+        {
+            "id": 413,
+            "wordQ": "melt",
+            "wordA": "Eritmek",
+            "options": ["çözünmek", "akmak", "yumuşamak"]
+        },
+        {
+            "id": 414,
+            "wordQ": "military",
+            "wordA": "Askeri, Ordu",
+            "options": ["savunma", "güvenlik", "strateji"]
+        },
+        {
+            "id": 415,
+            "wordQ": "mineral",
+            "wordA": "Maden",
+            "options": ["kaynak", "element", "cevher"]
+        },
+        {
+            "id": 416,
+            "wordQ": "minimum",
+            "wordA": "Minimum, En az",
+            "options": ["temel", "başlangıç", "en düşük"]
+        },
+        {
+            "id": 417,
+            "wordQ": "minister",
+            "wordA": "Bakan",
+            "options": ["lider", "yönetici", "yetkili"]
+        },
+        {
+            "id": 418,
+            "wordQ": "minor",
+            "wordA": "Küçük, Önemsiz",
+            "options": ["sınırlı", "ikincil", "hafif"]
+        },
+        {
+            "id": 419,
+            "wordQ": "minority",
+            "wordA": "Azınlık",
+            "options": ["küçük grup", "kısıtlı sayı", "daha az"]
+        },
+        {
+            "id": 420,
+            "wordQ": "mission",
+            "wordA": "Misyon, Görev",
+            "options": ["amaç", "hedef", "projekt"]
+        },
+        {
+            "id": 421,
+            "wordQ": "mistake",
+            "wordA": "Hata yapmak",
+            "options": ["yanılgı", "yanlış", "kaza"]
+        },
+        {
+            "id": 422,
+            "wordQ": "mixed",
+            "wordA": "Karışık",
+            "options": ["çeşitli", "bileşik", "kombine"]
+        },
+        {
+            "id": 423,
+            "wordQ": "model",
+            "wordA": "Modellemek",
+            "options": ["tasarlamak", "örnek almak", "şekillendirmek"]
+        },
+        {
+            "id": 424,
+            "wordQ": "modify",
+            "wordA": "Değiştirmek, Değişiklik yapmak",
+            "options": ["uyarlama", "güncelleme", "dönüştürme"]
+        },
+        {
+            "id": 425,
+            "wordQ": "monitor",
+            "wordA": "Monitör; İzlemek, Gözlemlemek",
+            "options": ["gözetim", "denetim", "takip"]
+        },
+        {
+            "id": 426,
+            "wordQ": "moral",
+            "wordA": "Ahlaki; Ahlak",
+            "options": ["etik", "değerler", "ilkeler"]
+        },
+        {
+            "id": 427,
+            "wordQ": "motor",
+            "wordA": "Motor; Motorlu",
+            "options": ["mekanik", "hareket", "güç"]
+        },
+        {
+            "id": 428,
+            "wordQ": "mount",
+            "wordA": "Monte etmek, Yerleştirmek",
+            "options": ["kurmak", "düzenlemek", "yerleştirme"]
+        },
+        {
+            "id": 429,
+            "wordQ": "multiple",
+            "wordA": "Çoklu, Çeşitli",
+            "options": ["farklı", "birçok", "çeşitlilik"]
+        },
+        {
+            "id": 430,
+            "wordQ": "multiply",
+            "wordA": "Çoğaltmak, Çarpma işlemi yapmak",
+            "options": ["artırmak", "genişletmek", "büyütmek"]
+        },
+        {
+            "id": 431,
+            "wordQ": "mysterious",
+            "wordA": "Gizemli, Esrarengiz",
+            "options": ["sır", "bilinmez", "anlaşılmaz"]
+        },
+        {
+            "id": 432,
+            "wordQ": "narrow",
+            "wordA": "Daraltmak",
+            "options": ["sınırlamak", "kısıtlamak", "küçültmek"]
+        },
+        {
+            "id": 433,
+            "wordQ": "national",
+            "wordA": "Ulusal",
+            "options": ["milli", "devlet", "resmi"]
+        },
+        {
+            "id": 434,
+            "wordQ": "neat",
+            "wordA": "Düzenli, Temiz",
+            "options": ["sıralı", "bakımlı", "titiz"]
+        },
+        {
+            "id": 435,
+            "wordQ": "negative",
+            "wordA": "Negatif, Olumsuz",
+            "options": ["pessimist", "kötümser", "ters"]
+        },
+        {
+            "id": 436,
+            "wordQ": "nerve",
+            "wordA": "Sinir",
+            "options": ["direnç", "güç", "dayanıklılık"]
+        },
+        {
+            "id": 437,
+            "wordQ": "nevertheless",
+            "wordA": "Yine de, Buna rağmen",
+            "options": ["ancak", "fakat", "bununla birlikte"]
+        },
+        {
+            "id": 438,
+            "wordQ": "nightmare",
+            "wordA": "Kabus",
+            "options": ["korku", "endişe", "panik"]
+        },
+        {
+            "id": 439,
+            "wordQ": "notion",
+            "wordA": "Kavram, Fikir",
+            "options": ["düşünce", "inanış", "görüş"]
+        },
+        {
+            "id": 440,
+            "wordQ": "numerous",
+            "wordA": "Sayısız, Çok sayıda",
+            "options": ["birçok", "çeşitli", "bol"]
+        },
+        {
+            "id": 441,
+            "wordQ": "obey",
+            "wordA": "İtaat etmek",
+            "options": ["uyum", "bağlılık", "saygı"]
+        },
+        {
+            "id": 442,
+            "wordQ": "object",
+            "wordA": "Nesne",
+            "options": ["şey", "madde", "öğe"]
+        },
+        {
+            "id": 443,
+            "wordQ": "objective",
+            "wordA": "Hedef, Amaç; Objektif, Tarafsız",
+            "options": ["amaç", "gayret", "adil"]
+        },
+        {
+            "id": 444,
+            "wordQ": "obligation",
+            "wordA": "Yükümlülük",
+            "options": ["sorumluluk", "görev", "zorunluluk"]
+        },
+        {
+            "id": 445,
+            "wordQ": "observation",
+            "wordA": "Gözlem",
+            "options": ["inceleme", "analiz", "değerlendirme"]
+        },
+        {
+            "id": 446,
+            "wordQ": "observe",
+            "wordA": "Gözlemlemek",
+            "options": ["izlemek", "incelenmek", "analiz etmek"]
+        },
+        {
+            "id": 447,
+            "wordQ": "obtain",
+            "wordA": "Elde etmek",
+            "options": ["kazanmak", "edindirmek", "toplamak"]
+        },
+        {
+            "id": 448,
+            "wordQ": "occasionally",
+            "wordA": "Ara sıra, Zaman zaman",
+            "options": ["bazen", "nadiren", "ara ara"]
+        },
+        {
+            "id": 449,
+            "wordQ": "offence",
+            "wordA": "Suç",
+            "options": ["ihlal", "hata", "kural dışı"]
+        },
+        {
+            "id": 450,
+            "wordQ": "offend",
+            "wordA": "Gücendirmek",
+            "options": ["rahatsız etmek", "kırmak", "incitmek"]
+        },
+        {
+            "id": 451,
+            "wordQ": "offensive",
+            "wordA": "Saldırgan, Hakaret eden",
+            "options": ["agresif", "kaba", "saldirgan"]
+        },
+        {
+            "id": 452,
+            "wordQ": "official",
+            "wordA": "Resmi, Yetkili",
+            "options": ["formal", "yetkili", "devlet"]
+        },
+        {
+            "id": 453,
+            "wordQ": "opening",
+            "wordA": "Açılış, Başlangıç",
+            "options": ["başlama", "giriş", "ilk adım"]
+        },
+        {
+            "id": 454,
+            "wordQ": "operate",
+            "wordA": "İşletmek, Çalıştırmak",
+            "options": ["yürütmek", "yönetmek", "aktif etmek"]
+        },
+        {
+            "id": 455,
+            "wordQ": "opponent",
+            "wordA": "Rakip, Karşı taraf",
+            "options": ["düşman", "mücadeleci", "rekabetçi"]
+        },
+        {
+            "id": 456,
+            "wordQ": "oppose",
+            "wordA": "Karşı çıkmak",
+            "options": ["mücadele etmek", "direnmek", "itiraz etmek"]
+        },
+        {
+            "id": 457,
+            "wordQ": "opposed",
+            "wordA": "Karşıt, Zıt",
+            "options": ["ters", "farklı", "aykırı"]
+        },
+        {
+            "id": 458,
+            "wordQ": "opposition",
+            "wordA": "Karşıtlık, Muhalefet",
+            "options": ["rekabet", "çatışma", "antitez"]
+        },
+        {
+            "id": 460,
+            "wordQ": "origin",
+            "wordA": "Köken",
+            "options": ["başlangıç", "kaynak", "temel"]
+        },
+        {
+            "id": 461,
+            "wordQ": "otherwise",
+            "wordA": "Aksi takdirde, Başka türlü",
+            "options": ["alternatif olarak", "farklı şekilde", "diğer durumda"]
+        },
+        {
+            "id": 462,
+            "wordQ": "outcome",
+            "wordA": "Sonuç",
+            "options": ["netice", "son", "sonlanım"]
+        },
+        {
+            "id": 463,
+            "wordQ": "outer",
+            "wordA": "Dış, Dışarıya ait",
+            "options": ["harici", "kenar", "çevre"]
+        },
+        {
+            "id": 464,
+            "wordQ": "outline",
+            "wordA": "Ana hat, Özet; Taslağı çıkarmak",
+            "options": ["şema", "özetlemek", "temel çizgiler"]
+        },
+        {
+            "id": 465,
+            "wordQ": "overall",
+            "wordA": "Genel, Toplam; Genel olarak",
+            "options": ["tüm", "kapsamlı", "bütünsel"]
+        },
+        {
+            "id": 466,
+            "wordQ": "owe",
+            "wordA": "Borçlu olmak",
+            "options": ["yatırım", "sorumluluk", "yükümlülük"]
+        },
+        {
+            "id": 468,
+            "wordQ": "pace",
+            "wordA": "Adım, Hız; Hızlı gitmek, Hızlandırmak",
+            "options": ["ritim", "hızlanma", "ilgi"]
+        },
+        {
+            "id": 469,
+            "wordQ": "package",
+            "wordA": "Paketlemek",
+            "options": ["ambalaj", "bütünleştirmek", "gruplamak"]
+        },
+        {
+            "id": 470,
+            "wordQ": "panel",
+            "wordA": "Panel, Panelden oluşan grup",
+            "options": ["grup", "komite", "bölüm"]
+        },
+        {
+            "id": 471,
+            "wordQ": "parliament",
+            "wordA": "Parlamento, Millet meclisi",
+            "options": ["kongre", "meclis", "yasama"]
+        },
+        {
+            "id": 472,
+            "wordQ": "participant",
+            "wordA": "Katılımcı",
+            "options": ["üye", "aktör", "iştirakçi"]
+        },
+        {
+            "id": 473,
+            "wordQ": "partly",
+            "wordA": "Kısmen, Kısmi olarak",
+            "options": ["bir kısmı", "kısmi", "bölümlü"]
+        },
+        {
+            "id": 474,
+            "wordQ": "passage",
+            "wordA": "Geçiş, Yolculuk",
+            "options": ["seyahat", "transfer", "yol"]
+        },
+        {
+            "id": 475,
+            "wordQ": "patient",
+            "wordA": "Hasta",
+            "options": ["tedavi edilen", "klinik", "tedavi"]
+        },
+        {
+            "id": 476,
+            "wordQ": "pension",
+            "wordA": "Emeklilik maaşı",
+            "options": ["tazminat", "emekli", "ödeme"]
+        },
+        {
+            "id": 477,
+            "wordQ": "permanent",
+            "wordA": "Kalıcı, Sürekli",
+            "options": ["daimi", "sabit", "sürekli"]
+        },
+        {
+            "id": 478,
+            "wordQ": "permit",
+            "wordA": "İzin vermek, Ruhsat",
+            "options": ["lisans", "onay", "yetki"]
+        },
+        {
+            "id": 479,
+            "wordQ": "perspective",
+            "wordA": "Bakış açısı",
+            "options": ["görüş", "yaklaşım", "anlayış"]
+        },
+        {
+            "id": 480,
+            "wordQ": "phase",
+            "wordA": "Aşama, Evre",
+            "options": ["dönem", "etap", "bölüm"]
+        },
+        {
+            "id": 481,
+            "wordQ": "phenomenon",
+            "wordA": "Fenomen, Olay",
+            "options": ["olgusal", "hadise", "olay"]
+        },
+        {
+            "id": 482,
+            "wordQ": "philosophy",
+            "wordA": "Felsefe",
+            "options": ["düşünce", "ideoloji", "akım"]
+        },
+        {
+            "id": 483,
+            "wordQ": "pick",
+            "wordA": "Seçmek, Seçme",
+            "options": ["ayırmak", "seçim", "belirlemek"]
+        },
+        {
+            "id": 484,
+            "wordQ": "picture",
+            "wordA": "Resim yapmak",
+            "options": ["tasvir", "betimlemek", "çizmek"]
+        },
+        {
+            "id": 485,
+            "wordQ": "pile",
+            "wordA": "Yığın, Yığılmak",
+            "options": ["küme", "yığmak", "kümelenmek"]
+        },
+        {
+            "id": 486,
+            "wordQ": "pitch",
+            "wordA": "Saha, Alan",
+            "options": ["alan", "oyun sahası", "meydan"]
+        },
+        {
+            "id": 487,
+            "wordQ": "plain",
+            "wordA": "Sade, Basit",
+            "options": ["net", "açık", "belli"]
+        },
+        {
+            "id": 488,
+            "wordQ": "plot",
+            "wordA": "Komplo yapmak, Plan yapmak",
+            "options": ["strateji", "düzenleme", "tasarım"]
+        },
+        {
+            "id": 489,
+            "wordQ": "plus",
+            "wordA": "Artı, Ek olarak",
+            "options": ["ek", "fazladan", "ilave"]
+        },
+        {
+            "id": 490,
+            "wordQ": "pointed",
+            "wordA": "Sivri uçlu, Keskin",
+            "options": ["kılıç", "delici", "kesici"]
+        },
+        {
+            "id": 491,
+            "wordQ": "popularity",
+            "wordA": "Popülerlik",
+            "options": ["ünlü", "tanınmış", "ilgi"]
+        },
+        {
+            "id": 492,
+            "wordQ": "pose",
+            "wordA": "Poz vermek",
+            "options": ["durum", "model", "tavır"]
+        },
+        {
+            "id": 493,
+            "wordQ": "position",
+            "wordA": "Konumlandırmak",
+            "options": ["yerleştirme", "dizilim", "düzenleme"]
+        },
+        {
+            "id": 494,
+            "wordQ": "positive",
+            "wordA": "Pozitif, Olumlu",
+            "options": ["iyimser", "iyi", "olumlu"]
+        },
+        {
+            "id": 495,
+            "wordQ": "possess",
+            "wordA": "Sahip olmak",
+            "options": ["içermek", "bulundurmak", "kapsamak"]
+        },
+        {
+            "id": 496,
+            "wordQ": "potential",
+            "wordA": "Potansiyel, Olanak; Potansiyel olarak",
+            "options": ["mümkün", "olası", "gelecekteki"]
+        },
+        {
+            "id": 497,
+            "wordQ": "power",
+            "wordA": "Güç, Yetki",
+            "options": ["kuvvet", "otorite", "kontrol"]
+        },
+        {
+            "id": 498,
+            "wordQ": "praise",
+            "wordA": "Övgü, Övmek",
+            "options": ["takdir", "tebrik", "beğenme"]
+        },
+        {
+            "id": 499,
+            "wordQ": "pregnant",
+            "wordA": "Hamile",
+            "options": ["gebe", "bekleyen", "gebelik"]
+        },
+        {
+            "id": 500,
+            "wordQ": "preparation",
+            "wordA": "Hazırlık",
+            "options": ["planlama", "düzenleme", "yapılandırma"]
+        },
+        {
+            "id": 501,
+            "wordQ": "presence",
+            "wordA": "Varlık, Mevcudiyet",
+            "options": ["bulunma", "var olma", "hazır bulunma"]
+        },
+        {
+            "id": 502,
+            "wordQ": "preserve",
+            "wordA": "Korumak, Muhafaza etmek",
+            "options": ["saklamak", "kaydetmek", "sürdürmek"]
+        },
+        {
+            "id": 503,
+            "wordQ": "price",
+            "wordA": "Fiyatlandırmak",
+            "options": ["değer biçmek", "belirlemek", "etiketlemek"]
+        },
+        {
+            "id": 504,
+            "wordQ": "prime",
+            "wordA": "Birinci, En önemli",
+            "options": ["ana", "temel", "öncelikli"]
+        },
+        {
+            "id": 505,
+            "wordQ": "principle",
+            "wordA": "Prensip, İlke",
+            "options": ["kural", "standart", "temel"]
+        },
+        {
+            "id": 506,
+            "wordQ": "print",
+            "wordA": "Baskı",
+            "options": ["yazdırma", "basım", "yayınlama"]
+        },
+        {
+            "id": 507,
+            "wordQ": "priority",
+            "wordA": "Öncelik, Önceliği olan şey",
+            "options": ["öncelikli", "başlıca", "ilk sıra"]
+        },
+        {
+            "id": 508,
+            "wordQ": "privacy",
+            "wordA": "Mahremiyet, Gizlilik",
+            "options": ["gizlilik", "özel alan", "kişisel alan"]
+        },
+        {
+            "id": 509,
+            "wordQ": "procedure",
+            "wordA": "Prosedür, İşlem",
+            "options": ["yöntem", "süreç", "yol"]
+        },
+        {
+            "id": 510,
+            "wordQ": "process",
+            "wordA": "İşlemek, Süreç",
+            "options": ["gelişmek", "yürütmek", "ilerlemek"]
+        },
+        {
+            "id": 511,
+            "wordQ": "produce",
+            "wordA": "Ürün",
+            "options": ["mahsul", "ürünler", "hasat"]
+        },
+        {
+            "id": 512,
+            "wordQ": "professional",
+            "wordA": "Profesyonel",
+            "options": ["uzman", "kariyer", "mesleki"]
+        },
+        {
+            "id": 513,
+            "wordQ": "progress",
+            "wordA": "İlerlemek, Gelişmek",
+            "options": ["gelişme", "yükselme", "ilerleme"]
+        },
+        {
+            "id": 514,
+            "wordQ": "project",
+            "wordA": "Proje yapmak",
+            "options": ["tasarlamak", "planlamak", "yürütmek"]
+        },
+        {
+            "id": 515,
+            "wordQ": "proof",
+            "wordA": "Kanıt",
+            "options": ["delil", "ispat", "doğrulama"]
+        },
+        {
+            "id": 516,
+            "wordQ": "proposal",
+            "wordA": "Teklif, Öneri",
+            "options": ["önerme", "sunum", "plan"]
+        },
+        {
+            "id": 517,
+            "wordQ": "propose",
+            "wordA": "Teklif etmek, Önermek",
+            "options": ["sunmak", "başlatmak", "girişmek"]
+        },
+        {
+            "id": 518,
+            "wordQ": "prospect",
+            "wordA": "Olasılık, Görünüm",
+            "options": ["beklenti", "fırsat", "imkan"]
+        },
+        {
+            "id": 519,
+            "wordQ": "protection",
+            "wordA": "Koruma, Korunma",
+            "options": ["güvenlik", "savunma", "tedbir"]
+        },
+        {
+            "id": 520,
+            "wordQ": "psychologist",
+            "wordA": "Psikolog",
+            "options": ["danışman", "terapist", "uzman"]
+        },
+        {
+            "id": 521,
+            "wordQ": "psychology",
+            "wordA": "Psikoloji",
+            "options": ["ruh bilimi", "zihin", "davranış bilimi"]
+        },
+        {
+            "id": 522,
+            "wordQ": "publication",
+            "wordA": "Yayın",
+            "options": ["basım", "yayımlama", "duyuru"]
+        },
+        {
+            "id": 523,
+            "wordQ": "pupil",
+            "wordA": "Öğrenci, Göz bebeği",
+            "options": ["talebe", "öğrenen", "izleyici"]
+        },
+        {
+            "id": 524,
+            "wordQ": "purchase",
+            "wordA": "Satın alma, Satın almak",
+            "options": ["edinme", "alım", "kazanım"]
+        },
+        {
+            "id": 525,
+            "wordQ": "pure",
+            "wordA": "Saf, Temiz",
+            "options": ["katıksız", "doğal", "berrak"]
+        },
+        {
+            "id": 526,
+            "wordQ": "pursue",
+            "wordA": "Takip etmek, Sürdürmek",
+            "options": ["izlemek", "devam etmek", "araştırmak"]
+        },
+        {
+            "id": 527,
+            "wordQ": "range",
+            "wordA": "Sıralamak, Aralık",
+            "options": ["çeşitlilik", "seri", "dağılım"]
+        },
+        {
+            "id": 528,
+            "wordQ": "rank",
+            "wordA": "Rütbe, Derece; Sıralamak, Derecelemek",
+            "options": ["statü", "kategorize etmek", "sınıflandırmak"]
+        },
+        {
+            "id": 529,
+            "wordQ": "rapid",
+            "wordA": "Hızlı",
+            "options": ["acele", "çabuk", "seri"]
+        },
+        {
+            "id": 530,
+            "wordQ": "rapidly",
+            "wordA": "Hızlı bir şekilde",
+            "options": ["çabucak", "hızla", "aniden"]
+        },
+        {
+            "id": 531,
+            "wordQ": "rate",
+            "wordA": "Oranlamak",
+            "options": ["değerlendirmek", "ölçmek", "sınıflandırmak"]
+        },
+        {
+            "id": 532,
+            "wordQ": "raw",
+            "wordA": "Ham, İşlenmemiş",
+            "options": ["doğal", "katıksız", "temel"]
+        },
+        {
+            "id": 533,
+            "wordQ": "reach",
+            "wordA": "Ulaşmak, Erişmek",
+            "options": ["varmak", "erişme", "yaklaşmak"]
+        },
+        {
+            "id": 534,
+            "wordQ": "realistic",
+            "wordA": "Gerçekçi",
+            "options": ["mantıklı", "akla uygun", "doğru"]
+        },
+        {
+            "id": 535,
+            "wordQ": "reasonable",
+            "wordA": "Makul, Mantıklı",
+            "options": ["anlaşılır", "akılcı", "mantıklı"]
+        },
+        {
+            "id": 536,
+            "wordQ": "recall",
+            "wordA": "Hatırlamak, Geri çağırmak",
+            "options": ["anımsamak", "geri almak", "yeniden düşünmek"]
+        },
+        {
+            "id": 537,
+            "wordQ": "recover",
+            "wordA": "İyileşmek, Kurtulmak",
+            "options": ["düzelme", "geri kazanım", "toparlanma"]
+        },
+        {
+            "id": 538,
+            "wordQ": "reduction",
+            "wordA": "Azaltma, İndirme",
+            "options": ["küçültme", "düşüş", "kesinti"]
+        },
+        {
+            "id": 539,
+            "wordQ": "regard",
+            "wordA": "Saymak, Dikkate almak; Saygı",
+            "options": ["hesaplamak", "kabul etmek", "özen"]
+        },
+        {
+            "id": 540,
+            "wordQ": "regional",
+            "wordA": "Bölgesel",
+            "options": ["yerel", "çevresel", "alan"]
+        },
+        {
+            "id": 541,
+            "wordQ": "register",
+            "wordA": "Kaydetmek, Sicile geçirmek; Kayıt, Sicil",
+            "options": ["kayıt oluşturmak", "listelemek", "tutmak"]
+        },
+        {
+            "id": 542,
+            "wordQ": "regret",
+            "wordA": "Pişman olmak; Pişmanlık",
+            "options": ["üzülmek", "tövbe etmek", "yazık bulmak"]
+        },
+        {
+            "id": 543,
+            "wordQ": "regulation",
+            "wordA": "Düzenleme, Yönetmelik",
+            "options": ["kural", "standart", "yönerge"]
+        },
+        {
+            "id": 544,
+            "wordQ": "relatively",
+            "wordA": "Nispeten, Göreceli olarak",
+            "options": ["orantılı olarak", "kısmen", "karşılaştırmalı"]
+        },
+        {
+            "id": 545,
+            "wordQ": "relevant",
+            "wordA": "İlgili, Alakalı",
+            "options": ["uygun", "bağlantılı", "ilintili"]
+        },
+        {
+            "id": 546,
+            "wordQ": "relief",
+            "wordA": "Rahatlama, Ferahlama",
+            "options": ["huzur", "teselli", "rahatlık"]
+        },
+        {
+            "id": 547,
+            "wordQ": "rely",
+            "wordA": "Güvenmek, Bağlı olmak",
+            "options": ["dayanmak", "bağlanmak", "itarat etmek"]
+        },
+        {
+            "id": 548,
+            "wordQ": "remark",
+            "wordA": "Söylemek, Belirtmek; Düşünce, Yorum",
+            "options": ["görüş bildirmek", "ifade etmek", "değerlendirmek"]
+        },
+        {
+            "id": 549,
+            "wordQ": "representative",
+            "wordA": "Temsilci; Temsil eden, Temsilci olan",
+            "options": ["delege", "vekil", "sözcü"]
+        },
+        {
+            "id": 550,
+            "wordQ": "reputation",
+            "wordA": "Ün, Şöhret",
+            "options": ["nam", "şan", "itibar"]
+        },
+        {
+            "id": 551,
+            "wordQ": "requirement",
+            "wordA": "Gereklilik, Şart",
+            "options": ["ihtiyaç", "zorunluluk", "koşul"]
+        },
+        {
+            "id": 552,
+            "wordQ": "rescue",
+            "wordA": "Kurtarmak, Kurtuluş",
+            "options": ["kurtuluş", "kurtarma", "iyileştirme"]
+        },
+        {
+            "id": 553,
+            "wordQ": "reserve",
+            "wordA": "Rezerv, Kaynak; Ayırmak, Rezerve etmek",
+            "options": ["stok", "saklama", "yalıtma"]
+        },
+        {
+            "id": 554,
+            "wordQ": "resident",
+            "wordA": "Yerli, Sakin; Sakin",
+            "options": ["ikamet eden", "oturan", "yaşayan"]
+        },
+        {
+            "id": 555,
+            "wordQ": "resist",
+            "wordA": "Direnme, Karşı koymak",
+            "options": ["karşı durmak", "mücadele etmek", "reddetmek"]
+        },
+        {
+            "id": 556,
+            "wordQ": "resolve",
+            "wordA": "Çözmek, Halletmek",
+            "options": ["ayrıştırmak", "sonuçlandırmak", "gidermek"]
+        },
+        {
+            "id": 557,
+            "wordQ": "resort",
+            "wordA": "Tatil yeri, Tatil beldesi",
+            "options": ["dinlenme yeri", "kaçış", "sığınak"]
+        },
+        {
+            "id": 558,
+            "wordQ": "retain",
+            "wordA": "Korumak, Muhafaza etmek",
+            "options": ["saklamak", "tutmak", "koruma altına almak"]
+        },
+        {
+            "id": 559,
+            "wordQ": "reveal",
+            "wordA": "Açığa çıkarmak, Ortaya çıkarmak",
+            "options": ["ifşa etmek", "göstermek", "belirtmek"]
+        },
+        {
+            "id": 560,
+            "wordQ": "revolution",
+            "wordA": "Devrim",
+            "options": ["dönüşüm", "değişim", "yenilik"]
+        },
+        {
+            "id": 561,
+            "wordQ": "reward",
+            "wordA": "Ödül, Mükafat; Ödüllendirmek",
+            "options": ["takdir", "teşvik", "hediye"]
+        },
+        {
+            "id": 562,
+            "wordQ": "rhythm",
+            "wordA": "Ritim, Tempo",
+            "options": ["akış", "melodi", "beat"]
+        },
+        {
+            "id": 563,
+            "wordQ": "rid",
+            "wordA": "Kurtulmak",
+            "options": ["arındırmak", "başından atmak", "temizlemek"]
+        },
+        {
+            "id": 564,
+            "wordQ": "root",
+            "wordA": "Kök",
+            "options": ["temel", "kaynak", "esas"]
+        },
+        {
+            "id": 565,
+            "wordQ": "round",
+            "wordA": "Tur, Raunt",
+            "options": ["döngü", "devre", "dolaşım"]
+        },
+        {
+            "id": 566,
+            "wordQ": "routine",
+            "wordA": "Rutin",
+            "options": ["alışkanlık", "düzen", "standart işlem"]
+        },
+        {
+            "id": 567,
+            "wordQ": "rub",
+            "wordA": "Ovuşturmak",
+            "options": ["masaj yapmak", "sürtmek", "fırçalamak"]
+        },
+        {
+            "id": 568,
+            "wordQ": "rubber",
+            "wordA": "Kauçuk; Lastik",
+            "options": ["esnek", "silgi", "yumuşak"]
+        },
+        {
+            "id": 569,
+            "wordQ": "rural",
+            "wordA": "Kırsal",
+            "options": ["köy", "tarım", "doğa"]
+        },
+        {
+            "id": 570,
+            "wordQ": "rush",
+            "wordA": "Acele etmek, Koşmak; Acele, Telaş",
+            "options": ["hızlanmak", "telaşlanmak", "ivedi"]
+        },
+        {
+            "id": 571,
+            "wordQ": "sample",
+            "wordA": "Örneklemek",
+            "options": ["örnek almak", "denemek", "test etmek"]
+        },
+        {
+            "id": 572,
+            "wordQ": "satellite",
+            "wordA": "Uydu",
+            "options": ["çevre", "yörünge", "izleme"]
+        },
+        {
+            "id": 573,
+            "wordQ": "satisfied",
+            "wordA": "Memnun, Tatmin olmuş",
+            "options": ["rahat", "hoşnut", "mutlu"]
+        },
+        {
+            "id": 574,
+            "wordQ": "satisfy",
+            "wordA": "Tatmin etmek",
+            "options": ["karşılamak", "doyurmak", "yerine getirmek"]
+        },
+        {
+            "id": 575,
+            "wordQ": "saving",
+            "wordA": "Tasarruf",
+            "options": ["biriktirme", "koruma", "kısıtlama"]
+        },
+        {
+            "id": 575,
+            "wordQ": "scale",
+            "wordA": "Ölçek, Ölçüm",
+            "options": ["ölçü", "derecelendirme", "boyutlandırma"]
+        },
+        {
+            "id": 576,
+            "wordQ": "schedule",
+            "wordA": "Programlamak",
+            "options": ["planlama", "zamanlama", "düzenleme"]
+        },
+        {
+            "id": 577,
+            "wordQ": "scheme",
+            "wordA": "Plan, Proje",
+            "options": ["tasarım", "strateji", "program"]
+        },
+        {
+            "id": 578,
+            "wordQ": "scream",
+            "wordA": "Çığlık atmak, Çığlık",
+            "options": ["bağırış", "haykırış", "avaz"]
+        },
+        {
+            "id": 579,
+            "wordQ": "screen",
+            "wordA": "Ekran, Perde",
+            "options": ["gösterim", "display", "vizyon"]
+        },
+        {
+            "id": 580,
+            "wordQ": "seat",
+            "wordA": "Yerleştirmek",
+            "options": ["oturtmak", "konumlandırmak", "yerleşim"]
+        },
+        {
+            "id": 581,
+            "wordQ": "sector",
+            "wordA": "Sektör, Alan",
+            "options": ["bölüm", "kısım", "kategori"]
+        },
+        {
+            "id": 582,
+            "wordQ": "secure",
+            "wordA": "Güvenceye almak; Güvenli",
+            "options": ["sağlamlaştırmak", "koruma", "emin"]
+        },
+        {
+            "id": 583,
+            "wordQ": "seek",
+            "wordA": "Aramak, Talep etmek",
+            "options": ["arama", "isteme", "peşinde olmak"]
+        },
+        {
+            "id": 584,
+            "wordQ": "select",
+            "wordA": "Seçmek",
+            "options": ["ayırmak", "tercih etmek", "belirlemek"]
+        },
+        {
+            "id": 585,
+            "wordQ": "selection",
+            "wordA": "Seçim, Seçme",
+            "options": ["tercih", "seçki", "ayıklama"]
+        },
+        {
+            "id": 586,
+            "wordQ": "self",
+            "wordA": "Kendisi",
+            "options": ["kişilik", "öz", "benlik"]
+        },
+        {
+            "id": 587,
+            "wordQ": "senior",
+            "wordA": "Üst, Kıdemli",
+            "options": ["deneyimli", "yaşlı", "üst düzey"]
+        },
+        {
+            "id": 588,
+            "wordQ": "sense",
+            "wordA": "Hissetmek",
+            "options": ["algılamak", "sezmek", "anlamak"]
+        },
+        {
+            "id": 589,
+            "wordQ": "sensitive",
+            "wordA": "Hassas",
+            "options": ["duyarlı", "narin", "alıngan"]
+        },
+        {
+            "id": 590,
+            "wordQ": "sentence",
+            "wordA": "Cümle kurmak",
+            "options": ["ifade etmek", "dizmek", "oluşturmak"]
+        },
+        {
+            "id": 591,
+            "wordQ": "sequence",
+            "wordA": "Sıra, Dizi",
+            "options": ["seri", "akış", "dizilim"]
+        },
+        {
+            "id": 592,
+            "wordQ": "session",
+            "wordA": "Oturum, Toplantı",
+            "options": ["seans", "buluşma", "toplantı"]
+        },
+        {
+            "id": 593,
+            "wordQ": "settle",
+            "wordA": "Yerleşmek",
+            "options": ["oturmak", "halletmek", "düzenlemek"]
+        },
+        {
+            "id": 594,
+            "wordQ": "severe",
+            "wordA": "Ciddi, Şiddetli",
+            "options": ["ağır", "katı", "sert"]
+        },
+        {
+            "id": 595,
+            "wordQ": "shade",
+            "wordA": "Gölge",
+            "options": ["karanlık", "serinlik", "örtü"]
+        },
+        {
+            "id": 596,
+            "wordQ": "shadow",
+            "wordA": "Gölge, İz",
+            "options": ["iz", "silüet", "kopya"]
+        },
+        {
+            "id": 597,
+            "wordQ": "shallow",
+            "wordA": "Sığ",
+            "options": ["derin olmayan", "yüzeysel", "ince"]
+        },
+        {
+            "id": 598,
+            "wordQ": "shame",
+            "wordA": "Utanc, Utanma",
+            "options": ["rezillik", "pişmanlık", "mahcubiyet"]
+        },
+        {
+            "id": 599,
+            "wordQ": "shape",
+            "wordA": "Şekil vermek",
+            "options": ["biçimlendirmek", "oluşturmak", "dizayn etmek"]
+        },
+        {
+            "id": 600,
+            "wordQ": "shelter",
+            "wordA": "Barınak, Sığınak; Barındırmak, Sığınmak",
+            "options": ["korunma", "saklanma", "kurtarma"]
+        },
+        {
+            "id": 601,
+            "wordQ": "shift",
+            "wordA": "Değiştirmek",
+            "options": ["değişim", "dönüşüm", "yer değiştirme"]
+        },
+        {
+            "id": 602,
+            "wordQ": "ship",
+            "wordA": "Gemi, Gemiyle taşımak",
+            "options": ["nakliye", "yükleme", "sevkiyat"]
+        },
+        {
+            "id": 603,
+            "wordQ": "shock",
+            "wordA": "Şok; Şok etmek, Sarsmak",
+            "options": ["sarsıntı", "şaşırtma", "travma"]
+        },
+        {
+            "id": 604,
+            "wordQ": "shocked",
+            "wordA": "Şok olmuş",
+            "options": ["şaşkın", "sersemlemiş", "şaşırma"]
+        },
+        {
+            "id": 605,
+            "wordQ": "shooting",
+            "wordA": "Ateş etme, Atış",
+            "options": ["nişan alma", "vuruş", "ateşleme"]
+        },
+        {
+            "id": 606,
+            "wordQ": "shot",
+            "wordA": "Atış, Kurşun",
+            "options": ["vuruş", "mermi", "nişan"]
+        },
+        {
+            "id": 607,
+            "wordQ": "significant",
+            "wordA": "Önemli, Anlamlı",
+            "options": ["belirgin", "değerli", "etkili"]
+        },
+        {
+            "id": 608,
+            "wordQ": "significantly",
+            "wordA": "Önemli bir şekilde",
+            "options": ["belirgin olarak", "dikkate değer biçimde", "kayda değer"]
+        },
+        {
+            "id": 609,
+            "wordQ": "silence",
+            "wordA": "Sessizlik",
+            "options": ["sükunet", "huzur", "durgunluk"]
+        },
+        {
+            "id": 610,
+            "wordQ": "silk",
+            "wordA": "İpek",
+            "options": ["yumuşaklık", "zarafet", "pürüzsüzlük"]
+        },
+        {
+            "id": 611,
+            "wordQ": "sincere",
+            "wordA": "Samimi",
+            "options": ["içten", "dürüst", "doğal"]
+        },
+        {
+            "id": 612,
+            "wordQ": "slave",
+            "wordA": "Köle",
+            "options": ["esir", "hizmetkar", "bağlı"]
+        },
+        {
+            "id": 613,
+            "wordQ": "slide",
+            "wordA": "Kaymak; Slayt",
+            "options": ["kaydırma", "sürüklenme", "geçiş"]
+        },
+        {
+            "id": 614,
+            "wordQ": "slight",
+            "wordA": "Hafif, Küçük",
+            "options": ["ince", "ufak", "önemsiz"]
+        },
+        {
+            "id": 615,
+            "wordQ": "slip",
+            "wordA": "Kaymak",
+            "options": ["kayma", "sürçme", "kaydırma"]
+        },
+        {
+            "id": 616,
+            "wordQ": "slope",
+            "wordA": "Eğim, Yamaç; Eğilmek",
+            "options": ["meyletmek", "yokuş", "iniş"]
+        },
+        {
+            "id": 617,
+            "wordQ": "solar",
+            "wordA": "Güneşle ilgili",
+            "options": ["güneşsel", "ışınsal", "enerji"]
+        },
+        {
+            "id": 618,
+            "wordQ": "somewhat",
+            "wordA": "Biraz, Bir miktar",
+            "options": ["kısmen", "hafifçe", "azıcık"]
+        },
+        {
+            "id": 619,
+            "wordQ": "soul",
+            "wordA": "Ruh",
+            "options": ["esans", "öz", "maneviyat"]
+        },
+        {
+            "id": 620,
+            "wordQ": "specialist",
+            "wordA": "Uzman; Uzmanlıkla ilgili",
+            "options": ["profesyonel", "bilirkişi", "danışman"]
+        },
+        {
+            "id": 621,
+            "wordQ": "species",
+            "wordA": "Tür",
+            "options": ["cins", "ırk", "grup"]
+        },
+        {
+            "id": 622,
+            "wordQ": "speed",
+            "wordA": "Hız yapmak",
+            "options": ["ivme", "sürat", "hızlanma"]
+        },
+        {
+            "id": 623,
+            "wordQ": "spiritual",
+            "wordA": "Manevi, Ruhsal",
+            "options": ["ruhani", "içsel", "metafiziksel"]
+        },
+        {
+            "id": 624,
+            "wordQ": "split",
+            "wordA": "Bölmek, Ayırmak; Bölünme",
+            "options": ["ayrıştırma", "parçalama", "kırılma"]
+        },
+        {
+            "id": 625,
+            "wordQ": "sponsor",
+            "wordA": "Sponsor olmak, Desteklemek; Sponsor",
+            "options": ["destekçi", "finansör", "himaye"]
+        },
+        {
+            "id": 626,
+            "wordQ": "spot",
+            "wordA": "Görmek, Fark etmek",
+            "options": ["tespit etmek", "ayırt etmek", "belirlemek"]
+        },
+        {
+            "id": 627,
+            "wordQ": "spread",
+            "wordA": "Yayılma",
+            "options": ["genişleme", "dağılma", "yaygınlaşma"]
+        },
+        {
+            "id": 628,
+            "wordQ": "stable",
+            "wordA": "İstikrarlı, Sabit",
+            "options": ["sağlam", "değişmez", "dengeli"]
+        },
+        {
+            "id": 629,
+            "wordQ": "stage",
+            "wordA": "Aşama",
+            "options": ["seviye", "dönem", "evre"]
+        },
+        {
+            "id": 630,
+            "wordQ": "stand",
+            "wordA": "Ayakta durmak",
+            "options": ["durmak", "beklemek", "karşı durmak"]
+        },
+        {
+            "id": 631,
+            "wordQ": "stare",
+            "wordA": "Dik dik bakmak",
+            "options": ["gözlemek", "bakış", "izlemek"]
+        },
+        {
+            "id": 632,
+            "wordQ": "status",
+            "wordA": "Durum, Statü",
+            "options": ["konum", "pozisyon", "mevki"]
+        },
+        {
+            "id": 633,
+            "wordQ": "steady",
+            "wordA": "İstikrarlı",
+            "options": ["sabit", "dengeli", "devamlı"]
+        },
+        {
+            "id": 634,
+            "wordQ": "steel",
+            "wordA": "Çelik",
+            "options": ["metal", "demir", "sağlam"]
+        },
+        {
+            "id": 635,
+            "wordQ": "steep",
+            "wordA": "Dik",
+            "options": ["sarp", "keskin", "yokuşlu"]
+        },
+        {
+            "id": 636,
+            "wordQ": "step",
+            "wordA": "Adım atmak",
+            "options": ["yürüyüş", "hareket", "ilgili"]
+        },
+        {
+            "id": 637,
+            "wordQ": "sticky",
+            "wordA": "Yapışkan",
+            "options": ["yapış yapış", "tutkal", "adhezif"]
+        },
+        {
+            "id": 638,
+            "wordQ": "stiff",
+            "wordA": "Sert, Katı",
+            "options": ["sertleşmiş", "katılaşmış", "esnek olmayan"]
+        },
+        {
+            "id": 639,
+            "wordQ": "stock",
+            "wordA": "Stok, Depo",
+            "options": ["envanter", "depo", "birikim"]
+        },
+        {
+            "id": 640,
+            "wordQ": "stream",
+            "wordA": "Akarsu, Dere",
+            "options": ["nehir", "akıntı", "su yolu"]
+        },
+        {
+            "id": 641,
+            "wordQ": "stretch",
+            "wordA": "Uzatmak; Germe, Esneme",
+            "options": ["genişletmek", "esnetmek", "uzam"]
+        },
+        {
+            "id": 642,
+            "wordQ": "strict",
+            "wordA": "Katı, Sıkı",
+            "options": ["sert", "disiplinli", "kesin"]
+        },
+        {
+            "id": 643,
+            "wordQ": "strike",
+            "wordA": "Vurmak, Grev",
+            "options": ["saldırı", "darbe", "eylem"]
+        },
+        {
+            "id": 644,
+            "wordQ": "structure",
+            "wordA": "Yapılandırmak",
+            "options": ["kurmak", "inşa etmek", "düzenlemek"]
+        },
+        {
+            "id": 645,
+            "wordQ": "struggle",
+            "wordA": "Mücadele etmek, Çaba göstermek; Mücadele",
+            "options": ["çatışma", "savaş", "gayret"]
+        },
+        {
+            "id": 646,
+            "wordQ": "stuff",
+            "wordA": "Doldurmak",
+            "options": ["dolgu", "içerik", "malzeme"]
+        },
+        {
+            "id": 647,
+            "wordQ": "subject",
+            "wordA": "Konu",
+            "options": ["tema", "alan", "mevzu"]
+        },
+        {
+            "id": 648,
+            "wordQ": "submit",
+            "wordA": "Sunmak, Teslim etmek",
+            "options": ["göndermek", "başvurmak", "iletme"]
+        },
+        {
+            "id": 649,
+            "wordQ": "sum",
+            "wordA": "Toplam, Tutar; Toplamak, Toplama işlemi yapmak",
+            "options": ["miktar", "hesaplama", "yekün"]
+        },
+        {
+            "id": 650,
+            "wordQ": "surgery",
+            "wordA": "Cerrahi",
+            "options": ["ameliyat", "operasyon", "tıbbi müdahale"]
+        },
+        {
+            "id": 651,
+            "wordQ": "surround",
+            "wordA": "Çevrelemek",
+            "options": ["kuşatmak", "sarmak", "etrafını almak"]
+        },
+        {
+            "id": 652,
+            "wordQ": "surrounding",
+            "wordA": "Çevresel",
+            "options": ["etraf", "çevre", "yakın çevre"]
+        },
+        {
+            "id": 653,
+            "wordQ": "survey",
+            "wordA": "Anket yapmak",
+            "options": ["inceleme", "araştırma", "değerlendirme"]
+        },
+        {
+            "id": 654,
+            "wordQ": "suspect",
+            "wordA": "Şüphelenmek; Şüpheli",
+            "options": ["kuşkulanmak", "şüphe", "şüpheci"]
+        },
+        {
+            "id": 655,
+            "wordQ": "swear",
+            "wordA": "Yemin etmek",
+            "options": ["ant içmek", "söz vermek", "bağlılık"]
+        },
+        {
+            "id": 656,
+            "wordQ": "sweep",
+            "wordA": "Süpürmek",
+            "options": ["temizlemek", "fırçalamak", "silme"]
+        },
+        {
+            "id": 657,
+            "wordQ": "switch",
+            "wordA": "Anahtar, Değiştirme",
+            "options": ["değişiklik", "dönüşüm", "aktarım"]
+        },
+        {
+            "id": 658,
+            "wordQ": "sympathy",
+            "wordA": "Sempati, Duygu paylaşma",
+            "options": ["empati", "anlayış", "destek"]
+        },
+        {
+            "id": 659,
+            "wordQ": "tale",
+            "wordA": "Masal, Hikaye",
+            "options": ["öykü", "kurgu", "anlatı"]
+        },
+        {
+            "id": 660,
+            "wordQ": "tank",
+            "wordA": "Tank, Depo",
+            "options": ["konteyner", "havuz", "saklama"]
+        },
+        {
+            "id": 661,
+            "wordQ": "target",
+            "wordA": "Hedeflemek",
+            "options": ["amaç", "odaklanmak", "nişan almak"]
+        },
+        {
+            "id": 662,
+            "wordQ": "tear",
+            "wordA": "Yırtmak, Gözyaşı",
+            "options": ["koparmak", "ağlamak", "delmek"]
+        },
+        {
+            "id": 663,
+            "wordQ": "temporary",
+            "wordA": "Geçici",
+            "options": ["anlık", "kısa süreli", "ara"]
+        },
+        {
+            "id": 664,
+            "wordQ": "term",
+            "wordA": "Terim",
+            "options": ["kavram", "ifade", "süre"]
+        },
+        {
+            "id": 665,
+            "wordQ": "therapy",
+            "wordA": "Terapi, Tedavi",
+            "options": ["tedavi yöntemi", "rehabilitasyon", "bakım"]
+        },
+        {
+            "id": 666,
+            "wordQ": "threat",
+            "wordA": "Tehdit",
+            "options": ["korkutma", "uyarı", "risk"]
+        },
+        {
+            "id": 667,
+            "wordQ": "threaten",
+            "wordA": "Tehdit etmek",
+            "options": ["korkutmak", "uyarmak", "baskı yapmak"]
+        },
+        {
+            "id": 668,
+            "wordQ": "thus",
+            "wordA": "Böylece, Bu yüzden",
+            "options": ["sonuç olarak", "dolayısıyla", "bu şekilde"]
+        },
+        {
+            "id": 669,
+            "wordQ": "time",
+            "wordA": "Zaman",
+            "options": ["zamanlamak", "süre", "an"]
+        },
+        {
+            "id": 670,
+            "wordQ": "title",
+            "wordA": "Başlık vermek",
+            "options": ["isimlendirmek", "adlandırmak", "unvan"]
+        },
+        {
+            "id": 671,
+            "wordQ": "tone",
+            "wordA": "Ton, Ses tonu",
+            "options": ["ses", "melodi", "ahenk"]
+        },
+        {
+            "id": 672,
+            "wordQ": "tough",
+            "wordA": "Zorlu, Güç",
+            "options": ["zor", "sert", "dayanıklı"]
+        },
+        {
+            "id": 673,
+            "wordQ": "track",
+            "wordA": "İzlemek",
+            "options": ["takip etmek", "iz sürmek", "kayıt tutmak"]
+        },
+        {
+            "id": 674,
+            "wordQ": "transfer",
+            "wordA": "Transfer etmek, Aktarmak; Transfer",
+            "options": ["taşımak", "değiştirmek", "nakletmek"]
+        },
+        {
+            "id": 675,
+            "wordQ": "transform",
+            "wordA": "Dönüştürmek",
+            "options": ["değiştirmek", "evirmek", "yenilemek"]
+        },
+        {
+            "id": 676,
+            "wordQ": "transition",
+            "wordA": "Geçiş",
+            "options": ["dönüşüm", "evre", "değişim"]
+        },
+        {
+            "id": 677,
+            "wordQ": "trial",
+            "wordA": "Deneme, Sınav",
+            "options": ["test", "mahkeme", "değerlendirme"]
+        },
+        {
+            "id": 678,
+            "wordQ": "trip",
+            "wordA": "Gezi yapmak",
+            "options": ["seyahat", "yolculuk", "tur"]
+        },
+        {
+            "id": 679,
+            "wordQ": "tropical",
+            "wordA": "Tropikal",
+            "options": ["sıcak iklim", "ekvator", "nemli"]
+        },
+        {
+            "id": 680,
+            "wordQ": "trouble (v.)",
+            "wordA": "sorun, problem",
+            "options": ["zorluk", "rahat", "engel"]
+        },
+        {
+            "id": 681,
+            "wordQ": "truly (adv.)",
+            "wordA": "gerçekten, tamamen",
+            "options": ["kusursuz", "kısmen", "doğru"]
+        },
+        {
+            "id": 682,
+            "wordQ": "trust (n., v.)",
+            "wordA": "güven, güvenmek",
+            "options": ["şüphe", "emin olmak", "itimat"]
+        },
+        {
+            "id": 683,
+            "wordQ": "try (n.)",
+            "wordA": "deneme",
+            "options": ["hata", "test", "teşebbüs"]
+        },
+        {
+            "id": 684,
+            "wordQ": "tune (n.)",
+            "wordA": "melodi, ezgi",
+            "options": ["ritim", "gürültü", "harmoni"]
+        },
+        {
+            "id": 685,
+            "wordQ": "tunnel (n.)",
+            "wordA": "tünel",
+            "options": ["köprü", "geçit", "yol"]
+        },
+        {
+            "id": 686,
+            "wordQ": "ultimately (adv.)",
+            "wordA": "sonunda, nihayetinde",
+            "options": ["başlangıçta", "daima", "son olarak"]
+        },
+        {
+            "id": 687,
+            "wordQ": "unconscious (adj.)",
+            "wordA": "bilinçsiz, baygın",
+            "options": ["uyanık", "farkında", "bilinçli"]
+        },
+        {
+            "id": 688,
+            "wordQ": "unexpected (adj.)",
+            "wordA": "beklenmeyen, sürpriz",
+            "options": ["olası", "tahmin edilen", "ani"]
+        },
+        {
+            "id": 689,
+            "wordQ": "unique (adj.)",
+            "wordA": "eşsiz, benzersiz",
+            "options": ["nadide", "sıradan", "özgün"]
+        },
+        {
+            "id": 690,
+            "wordQ": "universe (n.)",
+            "wordA": "evren, kozmos",
+            "options": ["galaksi", "boşluk", "dünya"]
+        },
+        {
+            "id": 691,
+            "wordQ": "unknown (adj.)",
+            "wordA": "bilinmeyen",
+            "options": ["tanınmış", "gizemli", "açık"]
+        },
+        {
+            "id": 692,
+            "wordQ": "upper (adj.)",
+            "wordA": "üst, yukarıdaki",
+            "options": ["alt", "orta", "dış"]
+        },
+        {
+            "id": 693,
+            "wordQ": "upwards (adv.)",
+            "wordA": "yukarı doğru",
+            "options": ["aşağı", "içe", "yatay"]
+        },
+        {
+            "id": 694,
+            "wordQ": "urban (adj.)",
+            "wordA": "kentsel",
+            "options": ["kırsal", "doğal", "şehirsel"]
+        },
+        {
+            "id": 695,
+            "wordQ": "urge (v.)",
+            "wordA": "zorlamak, dürtmek",
+            "options": ["engellemek", "cesaretlendirmek", "tavsiye etmek"]
+        },
+        {
+            "id": 696,
+            "wordQ": "value (v.)",
+            "wordA": "değer vermek",
+            "options": ["küçümsemek", "takdir etmek", "göz ardı etmek"]
+        },
+        {
+            "id": 697,
+            "wordQ": "vary (v.)",
+            "wordA": "değişmek, farklılık göstermek",
+            "options": ["sabit kalmak", "dalgalanmak", "uyum sağlamak"]
+        },
+        {
+            "id": 698,
+            "wordQ": "vast (adj.)",
+            "wordA": "geniş, büyük",
+            "options": ["dar", "ufak", "muazzam"]
+        },
+        {
+            "id": 699,
+            "wordQ": "venue (n.)",
+            "wordA": "mekan, yer",
+            "options": ["etkinlik", "adres", "alan"]
+        },
+        {
+            "id": 700,
+            "wordQ": "very (adj.)",
+            "wordA": "çok",
+            "options": ["az", "biraz", "tam"]
+        },
+        {
+            "id": 701,
+            "wordQ": "via (prep.)",
+            "wordA": "üzerinden, aracılığıyla",
+            "options": ["karşısında", "yanında", "doğrudan"]
+        },
+        {
+            "id": 702,
+            "wordQ": "victory (n.)",
+            "wordA": "zafer",
+            "options": ["yenilgi", "başarı", "kazanç"]
+        },
+        {
+            "id": 703,
+            "wordQ": "violence (n.)",
+            "wordA": "şiddet",
+            "options": ["barış", "uyuşmazlık", "kavga"]
+        },
+        {
+            "id": 704,
+            "wordQ": "virtual (adj.)",
+            "wordA": "sanal, gerçek olmayan",
+            "options": ["fiziksel", "somut", "gerçek"]
+        },
+        {
+            "id": 705,
+            "wordQ": "vision (n.)",
+            "wordA": "görüş, vizyon",
+            "options": ["kör", "bakış", "hedef"]
+        },
+        {
+            "id": 706,
+            "wordQ": "visual (adj.)",
+            "wordA": "görsel",
+            "options": ["işitsel", "yazılı", "duyusal"]
+        },
+        {
+            "id": 707,
+            "wordQ": "vital (adj.)",
+            "wordA": "hayati, önemli",
+            "options": ["önemsiz", "ek", "temel"]
+        },
+        {
+            "id": 708,
+            "wordQ": "vitamin (n.)",
+            "wordA": "vitamin",
+            "options": ["mineral", "ilaç", "protein"]
+        },
+        {
+            "id": 709,
+            "wordQ": "volume (n.)",
+            "wordA": "hacim, ses şiddeti",
+            "options": ["sessizlik", "alan", "yoğunluk"]
+        },
+        {
+            "id": 710,
+            "wordQ": "wage (n.)",
+            "wordA": "ücret, maaş",
+            "options": ["kazanç", "harcama", "borç"]
+        },
+        {
+            "id": 711,
+            "wordQ": "way (adv.)",
+            "wordA": "yol, şekil",
+            "options": ["hedef", "yöntem", "engel"]
+        },
+        {
+            "id": 712,
+            "wordQ": "weakness (n.)",
+            "wordA": "zayıflık",
+            "options": ["güç", "eksiklik", "kuvvetsizlik"]
+        },
+        {
+            "id": 713,
+            "wordQ": "wealth (n.)",
+            "wordA": "servet, zenginlik",
+            "options": ["fakirlik", "varlık", "bolluk"]
+        },
+        {
+            "id": 714,
+            "wordQ": "wealthy (adj.)",
+            "wordA": "zengin",
+            "options": ["fakir", "varlıklı", "yoksul"]
+        },
+        {
+            "id": 715,
+            "wordQ": "whereas (conj.)",
+            "wordA": "oysa, halbuki",
+            "options": ["çünkü", "buna karşın", "ve"]
+        },
+        {
+            "id": 716,
+            "wordQ": "wherever (conj.)",
+            "wordA": "nerede olursa olsun",
+            "options": ["her zaman", "ne zaman", "nerede"]
+        },
+        {
+            "id": 717,
+            "wordQ": "whisper (v., n.)",
+            "wordA": "fısıldamak, fısıltı",
+            "options": ["bağırmak", "konuşmak", "ses"]
+        },
+        {
+            "id": 718,
+            "wordQ": "whom (pron.)",
+            "wordA": "kim",
+            "options": ["ne", "nereye", "hangi"]
+        },
+        {
+            "id": 719,
+            "wordQ": "widely (adv.)",
+            "wordA": "geniş ölçüde, yaygın olarak",
+            "options": ["dar bir şekilde", "kısıtlı", "sınırlı olarak"]
+        },
+        {
+            "id": 720,
+            "wordQ": "wildlife (n.)",
+            "wordA": "vahşi yaşam",
+            "options": ["evcil hayat", "şehir yaşamı", "doğal ortam"]
+        },
+        {
+            "id": 721,
+            "wordQ": "willing (adj.)",
+            "wordA": "istekli, gönüllü",
+            "options": ["isteksiz", "zoraki", "hevesli"]
+        },
+        {
+            "id": 722,
+            "wordQ": "wind (v.)",
+            "wordA": "rüzgarını sarmak, sarmak",
+            "options": ["açmak", "yaymak", "germek"]
+        },
+        {
+            "id": 723,
+            "wordQ": "wire (n.)",
+            "wordA": "tel",
+            "options": ["iplik", "zincir", "kablo"]
+        },
+        {
+            "id": 724,
+            "wordQ": "wise (adj.)",
+            "wordA": "bilge, akıllı",
+            "options": ["cahil", "kurnaz", "akılsız"]
+        },
+        {
+            "id": 725,
+            "wordQ": "witness (n., v.)",
+            "wordA": "tanık, şahit; tanıklık etmek, şahitlik yapmak",
+            "options": ["göz ardı etmek", "izlemek", "duymak"]
+        },
+        {
+            "id": 726,
+            "wordQ": "worse (n.)",
+            "wordA": "daha kötü",
+            "options": ["daha iyi", "kötü", "en kötü"]
+        },
+        {
+            "id": 727,
+            "wordQ": "worst (n.)",
+            "wordA": "en kötü",
+            "options": ["en iyi", "kötü", "ortalama"]
+        },
+        {
+            "id": 728,
+            "wordQ": "worth (n.)",
+            "wordA": "değer",
+            "options": ["değersiz", "paha", "maliyet"]
+        },
+        {
+            "id": 729,
+            "wordQ": "wound (n., v.)",
+            "wordA": "yara, yaralamak",
+            "options": ["tedavi etmek", "korunmak", "kesik"]
+        },
+        {
+            "id": 730,
+            "wordQ": "wrap (v.)",
+            "wordA": "sarmak, paketlemek",
+            "options": ["açmak", "katlamak", "bağlamak"]
+        },
+        {
+            "id": 731,
+            "wordQ": "wrong (n.)",
+            "wordA": "yanlış",
+            "options": ["doğru", "hata", "eksik"]
+        },
+        {
+            "id": 732,
+            "wordQ": "yet (conj.)",
+            "wordA": "hala, henüz",
+            "options": ["zaten", "şimdi", "daha önce"]
+        },
+        {
+            "id": 733,
+            "wordQ": "zone (n.)",
+            "wordA": "bölge, kuşak",
+            "options": ["nokta", "alan", "sınır"]
+        },
+
+    ]
+}

@@ -10,9 +10,38 @@ import SwiftUI
 import FirebaseAuth
 import FirebaseFirestore
 
+
 struct WrongGuess {
+    var id: String // Firestore belge ID'si
     var englishWord: String
     var correctTurkishWord: String
+    
+    init(id: String = UUID().uuidString, englishWord: String, correctTurkishWord: String) {
+        self.id = id
+        self.englishWord = englishWord
+        self.correctTurkishWord = correctTurkishWord
+    }
+
+}
+
+func saveScoreToFirestore(isCorrectGuess: Bool) {
+    guard let userId = Auth.auth().currentUser?.uid else {
+        print("Kullanıcı oturumu açık değil.")
+        return
+    }
+
+    let scoreChange = isCorrectGuess ? 1 : -1
+
+    let userScoresCollection = Firestore.firestore().collection("user_scores")
+    let userScoreDocument = userScoresCollection.document(userId)
+
+    userScoreDocument.setData(["score": FieldValue.increment(Int64(scoreChange))], merge: true) { error in
+        if let error = error {
+            print("Firestore Hata: \(error.localizedDescription)")
+        } else {
+            print("Puan başarıyla kaydedildi!")
+        }
+    }
 }
 
 struct RandomWordView: View {
@@ -29,10 +58,10 @@ struct RandomWordView: View {
             randomWord = words.randomElement()
         }
     }
+    
     var body: some View {
         ZStack {
-            LinearGradient(gradient: Gradient(colors: [.white, .blue.opacity(0.2)]), startPoint: .top, endPoint: .bottom)
-                .edgesIgnoringSafeArea(.all)
+            Color(red: 0.95, green: 0.95, blue: 0.95)
             VStack {
                 Spacer()
                 Text(randomWord?.englishWord.first ?? "")
@@ -56,7 +85,7 @@ struct RandomWordView: View {
                     CustomButton(text: "Tahmin Et", action: {
                         checkGuess()
                         isTextFieldFocused = false
-                    }, color: .blue)
+                    }, color: .orange)
                     
                     CustomButton(text: "Kelime Getir", action: {
                         getRandomWord()
@@ -66,6 +95,7 @@ struct RandomWordView: View {
                 Spacer()
             }
         }
+        .environment(\.colorScheme, .light)
         .animation(.easeInOut(duration: 0.3), value: isTextFieldFocused)
         .alert(isPresented: Binding<Bool>(
             get: { successAlert || falseAlert },
@@ -86,6 +116,9 @@ struct RandomWordView: View {
                     }
                 }
             )
+        }
+        .onAppear{
+            getRandomWord()
         }
     }
     
@@ -118,40 +151,19 @@ struct RandomWordView: View {
             print("Kullanıcı oturumu açık değil.")
             return
         }
-        
-        let documentId = UUID().uuidString // Her tahmin için benzersiz bir ID
+
         let data = [
             "englishWord": guess.englishWord,
             "correctTurkishWord": guess.correctTurkishWord
         ]
-        checkWordAndAdd(word: guess.englishWord) { result in
-            if result{
-                db.collection("users").document(userId).collection("wrongGuesses").document(documentId).setData(data) { error in
-                    if let error = error {
-                        print("Wrong guess kaydedilirken hata: \(error.localizedDescription)")
-                    } else {
-                        print("Wrong guess başarıyla kaydedildi.")
-                    }
-                }
+        
+        // Firestore'da kaydetmek için belge ID'si olarak guess.id'yi kullan
+        db.collection("users").document(userId).collection("wrongGuesses").document(guess.id).setData(data) { error in
+            if let error = error {
+                print("Wrong guess kaydedilirken hata: \(error.localizedDescription)")
+            } else {
+                print("Wrong guess başarıyla kaydedildi.")
             }
-        }
-    }
-    func saveScoreToFirestore(isCorrectGuess: Bool) {
-        if let userId = Auth.auth().currentUser?.uid {
-            let scoreChange = isCorrectGuess ? 1 : -1 // Doğru tahmin için +1, yanlış tahmin için -1
-
-            let userScoresCollection = db.collection("user_scores")
-            let userScoreDocument = userScoresCollection.document(userId)
-
-            userScoreDocument.setData(["score": FieldValue.increment(Int64(scoreChange))], merge: true) { error in
-                if let error = error {
-                    print("Firestore Hata: \(error.localizedDescription)")
-                } else {
-                    print("Puan başarıyla kaydedildi!")
-                }
-            }
-        } else {
-            print("Kullanıcı oturumu açık değil.")
         }
     }
     func checkWordAndAdd(word: String, completion: @escaping (Bool) -> Void) {
@@ -172,5 +184,11 @@ struct RandomWordView: View {
                 completion(false)
             }
         }
+    }
+}
+
+struct ContenttView_Previews: PreviewProvider {
+    static var previews: some View {
+        RandomWordView()
     }
 }

@@ -9,8 +9,8 @@ import SwiftUI
 
 struct CardView: View {
     //MARK: Variables
-    @State var backDegree = 0.0
-    @State var frontDegree = -90.0
+    @State var backDegree = -90.0
+    @State var frontDegree = 0.0
     @State var isFlipped = true
     @State var randomWord = Word(targetWord: "", englishWord: ["","","",""])
     
@@ -45,7 +45,7 @@ struct CardView: View {
     //MARK: View Body
     var body: some View {
         ZStack {
-            Color.green
+            Color.white//(red: 0.7, green: 0, blue: 0)
             CardFront(width: width, height: height, degree: $frontDegree, randomWord: $randomWord)
             CardBack(width: width, height: height, degree: $backDegree, randomWord: $randomWord)
             VStack {
@@ -54,10 +54,10 @@ struct CardView: View {
                     getRandomWord()
                 }) {
                     Text("Kelime Getir")
-                        .fontWeight(.bold)
+                        .font(.system(size: 20))
                         .padding()
                         .frame(maxWidth: .infinity)
-                        .background(Color.blue)
+                        .background(Color.orange)
                         .foregroundColor(.white)
                         .cornerRadius(10)
                         .padding([.top, .bottom], 20)

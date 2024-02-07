@@ -134,6 +134,12 @@ struct LoginSignUpView: View {
         }
     func signUpUser() {
         isEmailTaken(email: self.email) { isEmailTaken in
+            if username.isEmpty {
+                    self.alertMessage = "Kullanıcı adı boş bırakılamaz."
+                    self.showAlert = true
+                    return
+                }
+
             if isEmailTaken {
                 self.alertMessage = "Bu email zaten kullanılıyor."
                 self.showAlert = true
